@@ -168,7 +168,7 @@ class NoLog {
 }
 
 function calculateDps(char, enemy, raidBuff) {
-  let log = new Log();
+  let log = new NoLog();
   checkChar(char);
   enemy = enemy || {
     def: 0,
