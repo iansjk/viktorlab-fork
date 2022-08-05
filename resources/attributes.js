@@ -1,9 +1,9 @@
-import dpsAnim from "./customdata/dps_anim.json";
-import dpsSpecialTags from "./customdata/dps_specialtags.json";
-import characterTable from "./gamedata/excel/character_table.json";
-import skillTable from "./gamedata/excel/skill_table.json";
-import uniequipTable from "./gamedata/excel/uniequip_table.json";
-import battleEquipTable from "./gamedata/excel/battle_equip_table.json";
+import dpsAnim from "./customdata/dps_anim.json" assert { type: 'json' };
+import dpsSpecialTags from "./customdata/dps_specialtags.json" assert { type: 'json' };
+import characterTable from "./gamedata/excel/character_table.json" assert { type: 'json' };
+import skillTable from "./gamedata/excel/skill_table.json" assert { type: 'json' };
+import uniequipTable from "./gamedata/excel/uniequip_table.json" assert { type: 'json' };
+import battleEquipTable from "./gamedata/excel/battle_equip_table.json" assert { type: 'json' };
 
 // 获取技能特判标记，存放在dps_specialtags.json中
 function checkSpecs(tag, spec) {
