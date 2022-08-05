@@ -174,12 +174,13 @@ class NoLog {
  * @typedef {{ charId: string, skillId: string, phase: any, level: number, favor: number, skillLevel: number, potentialRank: number, options: { [setting: string]: boolean }, equipId: string, equipLevel: number }} CharacterConfig
  * @typedef {{ def: number, magicResistance: number, count: number }} EnemyConfig
  * @typedef {{ atk: number, atkpct: number, ats: number, cdr: number, base_atk: number, damage_scale: number }} BuffConfig
+ * @typedef {{ atk: number, attackCount: number, attackTime: number, critDamage: number, dps: number, hps: number }} AttackCalcs
  */
 /** 
  * @param {CharacterConfig} char 
  * @param {EnemyConfig} [enemy]
  * @param {BuffConfig} [raidBuff]
- * @type {(char, enemy, raidBuff) => { globalDps: number, globalHps: number }}
+ * @returns {{ globalDps: number, globalHps: number, killTime: number, normal: AttackCalcs, skill: AttackCalcs, skillName: string, log: string, note: string }}
 */
 function calculateDps(char, enemy, raidBuff) {
   let log = new NoLog();
