@@ -162,6 +162,9 @@ class Log {
 }
 
 class NoLog {
+  constructor() {
+    this.note = ''
+  }
   write(line) { /* console.log(line); */}
   writeNote(line) {}
   toString() { return ""; }
