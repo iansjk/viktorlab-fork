@@ -260,7 +260,6 @@ function calculateDps(char, enemy, raidBuff) {
     log.write(`【技能】`);
     log.write("----------");
     skillAttack = calculateAttack(attr, enemy, raidBlackboard, true, charData, levelData, log);
-    if (!skillAttack) return;
     _note = `${log.note}`;
     
     log.write("----");
@@ -272,7 +271,6 @@ function calculateDps(char, enemy, raidBuff) {
     log.write(`【普攻】`);
     log.write("----------"); 
     normalAttack = calculateAttack(attr, enemy, raidBlackboard, false, charData, levelData, log);
-    if (!normalAttack) return;
   } else {
     // 22.4.15 过载模式计算
     log.write(`- **技能前半**\n`);
@@ -310,7 +308,6 @@ function calculateDps(char, enemy, raidBuff) {
     attr.basic = Object.assign({}, _backup.basic);
     attr.char.options.overdrive_mode = false;
     normalAttack = calculateAttack(attr, enemy, raidBlackboard, false, charData, levelData, log);
-    if (!normalAttack) return;
   }
  
   var globalDps = Math.round((normalAttack.totalDamage + skillAttack.totalDamage) / 
