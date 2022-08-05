@@ -1,8 +1,14 @@
+import dpsAnim from "./customdata/dps_anim.json";
+import dpsSpecialTags from "./customdata/dps_specialtags.json";
+import characterTable from "./gamedata/excel/character_table.json";
+import skillTable from "./gamedata/excel/skill_table.json";
+import uniequipTable from "./gamedata/excel/uniequip_table.json";
+import battleEquipTable from "./gamedata/excel/battle_equip_table.json";
+
 // 获取技能特判标记，存放在dps_specialtags.json中
 function checkSpecs(tag, spec) {
-  let specs = AKDATA.Data.dps_specialtags;
-  if ((tag in specs) && (spec in specs[tag]))
-    return specs[tag][spec];
+  if ((tag in dpsSpecialTags) && (spec in dpsSpecialTags[tag]))
+    return dpsSpecialTags[tag][spec];
   else return false;
 }
 
@@ -18,7 +24,7 @@ function getCharAttributes(char) {
 
 function getTokenAtkHp(charAttr, tokenId, log) {
   var id = charAttr.char.charId;
-  let tokenName = AKDATA.Data.character_table[tokenId].name;
+  let tokenName = characterTable[tokenId].name;
   charAttr.char.charId = tokenId;
   var token = getAttributes(charAttr.char, log);
   charAttr.basic.atk = token.basic.atk;
@@ -62,8 +68,8 @@ function getTokenAtkHp(charAttr, tokenId, log) {
 }
 
 function checkChar(char) {
-  let charData = AKDATA.Data.character_table[char.charId];
-  let skillData = char.skillId ? AKDATA.Data.skill_table[char.skillId] : null;
+  let charData = characterTable[char.charId];
+  let skillData = char.skillId ? skillTable[char.skillId] : null;
   // 默认最大属性
   let attr = {  
     phase: charData.phases.length - 1,
@@ -74,7 +80,7 @@ function checkChar(char) {
     potentialRank: charData.potentialRanks.length
   };
   // 默认模组
-  let elist = AKDATA.Data.uniequip_table["charEquip"][char.charId];
+  let elist = uniequipTable["charEquip"][char.charId];
   if (elist) {
     attr.equipId = elist[elist.length-1];
     attr.equipLevel = 3;
@@ -141,11 +147,11 @@ function calculateDps(char, enemy, raidBuff) {
   displayNames["raidBuff"] = "团辅";
 
   let charId = char.charId;
-  let charData = AKDATA.Data.character_table[charId];
-  let skillData = AKDATA.Data.skill_table[char.skillId];
+  let charData = characterTable[charId];
+  let skillData = skillTable[char.skillId];
   let equipData = {};
   if (char.equipId && char.equipId.length > 0) {
-    equipData = AKDATA.Data.uniequip_table["equipDict"][char.equipId];
+    equipData = uniequipTable["equipDict"][char.equipId];
     displayNames[char.equipId] = equipData.uniEquipName;
   }
   if (char.skillLevel == -1) char.skillLevel = skillData.levels.length - 1;
@@ -291,8 +297,8 @@ function calculateDpsSeries(char, enemy, raidBuff, key, series) {
   displayNames["raidBuff"] = "";
 
   let charId = char.charId;
-  let charData = AKDATA.Data.character_table[charId];
-  let skillData = AKDATA.Data.skill_table[char.skillId];
+  let charData = characterTable[charId];
+  let skillData = skillTable[char.skillId];
   if (char.skillLevel == -1) char.skillLevel = skillData.levels.length - 1;
 
   let levelData = skillData.levels[char.skillLevel];
@@ -2161,7 +2167,7 @@ function calcDurations(isSkill, attackTime, attackSpeed, levelData, buffList, bu
         // 施法时间-基于动画
         if (checkSpecs(skillId, "anim_key") && checkSpecs(skillId, "anim_cast")) {
           let animKey = checkSpecs(skillId, "anim_key");
-          let animData = AKDATA.Data.dps_anim[charId][animKey];
+          let animData = dpsAnim[charId][animKey];
           let ct = animData.duration || animData;
 
           log.write(`技能动画：${animKey}, 释放时间 ${ct} 帧`);
@@ -2683,7 +2689,7 @@ function calculateAttack(charAttr, enemy, raidBlackboard, isSkill, charData, lev
     let scale = 0.85, s = 1; tot = 1, sks = [1];
     if (isSkill && blackboard.id == "skchr_leizi_2")
       scale = 1;
-    else if (charAttr.char.equipId && AKDATA.Data.battle_equip_table[charAttr.char.equipId])
+    else if (charAttr.char.equipId && battleEquipTable[charAttr.char.equipId])
       scale = basicFrame.equip_blackboard.trait["attack@chain.atk_scale"];
     
     for (var i=0; i<ecount-1; ++i) {
@@ -3946,7 +3952,7 @@ function initBuffFrame() {
 }
 
 function getAttributes(char, log) { //charId, phase = -1, level = -1
-  let charData = AKDATA.Data.character_table[char.charId];
+  let charData = characterTable[char.charId];
   let phaseData = charData.phases[char.phase];
   let attributesKeyFrames = {};
   let buffs = initBuffFrame();
@@ -4101,14 +4107,13 @@ function applyPotential(charId, charData, rank, basic, log) {
 
 function applyEquip(char, basic, log) {
   var equipId = char.equipId;
-  var bedb = AKDATA.Data.battle_equip_table;
   var phase = char.equipLevel - 1;
   var cand = 0;
   var blackboard = {};
   var attr = {};
   //console.log(phase);
-  if (equipId && bedb[equipId]) {
-    var item = bedb[equipId].phases[phase];
+  if (equipId && battleEquipTable[equipId]) {
+    var item = battleEquipTable[equipId].phases[phase];
     attr = getBlackboard(item.attributeBlackboard);
     blackboard.attr = attr;
 
@@ -4169,8 +4174,8 @@ function applyEquip(char, basic, log) {
 
 function calculateAnimation(charId, skillId, isSkill, attackTime, attackSpeed, log) {
   var _fps = 30;
-  var charData = AKDATA.Data.character_table[charId];
-  var animData = AKDATA.Data.dps_anim[charId] || {};
+  var charData = characterTable[charId];
+  var animData = dpsAnim[charId] || {};
   var animKey = "Attack";
   var attackKey = checkSpecs(charId, "anim_key");
   if (!attackKey) {
@@ -4326,7 +4331,7 @@ function simNormalDuration(args) {
   }
 }
 
-AKDATA.attributes = {
+export {
   getCharAttributes,
   calculateDps,
   calculateDpsSeries,
