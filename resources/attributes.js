@@ -126,6 +126,18 @@ class NoLog {
 // 天赋/技能名字cache
 var displayNames = {};
 
+
+/**
+ * @typedef {{ charId: string, skillId: string, phase: any, level: number, favor: number, skillLevel: number, potentialRank: number, options: { [setting: string]: boolean }, equipId: string, equipLevel: number }} CharacterConfig
+ * @typedef {{ def: number, magicResistance: number, count: number }} EnemyConfig
+ * @typedef {{ atk: number, atkpct: number, ats: number, cdr: number, base_atk: number, damage_scale: number }} BuffConfig
+ */
+/** 
+ * @param {CharacterConfig} char 
+ * @param {EnemyConfig} [enemy]
+ * @param {BuffConfig} [raidBuff]
+ * @type {(char, enemy, raidBuff) => { globalDps: number, globalHps: number }}
+*/
 function calculateDps(char, enemy, raidBuff) {
   let log = new NoLog();
   checkChar(char);
