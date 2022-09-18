@@ -550,6 +550,7 @@ function updateOptions(charId, index) {
     for (var t of opts.char[charId]) {
       let u = (t.startsWith("cond") ? "cond" : t);  // wildcard cond
       let checked = opts.tags[u].off ? "" : "checked";
+      let disabled = (u == "crit" ? "disabled" : "");
       let text = opts.tags[u].displaytext;
       let tooltip = opts.tags[u].explain;
 
@@ -584,7 +585,7 @@ function updateOptions(charId, index) {
       let html_bool = `
       <div class="form-check">
         <label class="form-check-label" data-toggle="tooltip" data-placement="right" title="${tooltip}">
-          <input class="form-check-input dps__${t}" type="checkbox" value="" data-index="${index}" ${checked}>
+          <input class="form-check-input dps__${t}" type="checkbox" value="" data-index="${index}" ${checked} ${disabled}>
             ${text}
         </label> </div>`;
       html += html_bool;
@@ -648,15 +649,9 @@ function chooseLevel() {
   let level = ~~$this.val();
   let pot_elem = getElement('potentialrank', index);
 
-  // 暴行
-  if (Characters[index].charId == "char_230_savage" && ~~(pot_elem.val()) > 2) {
-    pot_elem.val(2);
-  }
-
-  // 九色鹿
-  if (Characters[index].charId == "char_4019_ncdeer" && ~~(pot_elem.val()) > 0) {
-    pot_elem.val(0);
-  }
+  let max_pot = AKDATA.Data.character_table[Characters[index].charId].maxPotentialLevel;
+  if (pot_elem.val() > max_pot)
+    pot_elem.val(max_pot);
 
   Characters[index].level = level;
   Characters[index].potentialRank = ~~(pot_elem.val());
@@ -798,7 +793,7 @@ function calculate(index) {
 
  // console.log(s.dur.tags);
   if (s.dur.tags.includes("infinity"))
-    getElement('period', index).html(`${Math.round(dps.normal.dur.duration*100)/100}s + 持续时间无限(记为${dps.skill.dur.duration.toFixed(1)}s)`);
+    getElement('period', index).html(`${Math.round(dps.normal.dur.duration*100)/100}s + 持续时间无限(记为${Math.floor(dps.skill.dur.duration)}s)`);
   if (s.dur.tags.includes("instant"))
     getElement('s_dps', index).append(" / 瞬发");
   if (s.dur.tags.includes("passive")) {
@@ -850,7 +845,13 @@ function chooseSkill() {
   let index = ~~$(this).data('index');
   Characters[index].skillId = getElement('skill', index).val();
   Characters[index].skillLevel = ~~(getElement('skilllevel', index).val());
-  Characters[index].potentialRank = ~~(getElement('potentialrank', index).val());
+
+  let pot_elem = getElement('potentialrank', index);
+  let max_pot = AKDATA.Data.character_table[Characters[index].charId].maxPotentialLevel;
+  if (pot_elem.val() > max_pot)
+    pot_elem.val(max_pot);
+  Characters[index].potentialRank = pot_elem.val();
+
   Characters[index].favor = ~~(getElement('favor', index).val());
   if (index == 0) calculateAll();
   else calculate(index);
