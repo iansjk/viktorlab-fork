@@ -185,6 +185,10 @@
         {
           "stageId": "camp_r_12",
           "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "camp_r_13",
+          "occPer": "ALWAYS"
         }
       ],
       "buildingProductList": []
@@ -269,7 +273,15 @@
           "occPer": "ALWAYS"
         },
         {
+          "stageId": "main_11-08",
+          "occPer": "ALWAYS"
+        },
+        {
           "stageId": "tough_10-07",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "tough_11-08",
           "occPer": "ALWAYS"
         },
         {
@@ -517,6 +529,22 @@
       "stageDropList": [],
       "buildingProductList": []
     },
+    "LMTGS_COIN_3301": {
+      "itemId": "LMTGS_COIN_3301",
+      "name": "寻访数据契约",
+      "description": "与猎头公司长久且稳定的合作关系带来的回报，可有效控制支出。不过，但愿不是每次都需要用到这个手段。",
+      "rarity": 4,
+      "iconId": "LMTGS_COIN_3301",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 10019,
+      "usage": "新型招聘合约所约定的一种时限货币，累积一定数量后可在指定时期内招聘指定干员。",
+      "obtainApproach": "干员入职的馈赠",
+      "classifyType": "NORMAL",
+      "itemType": "LMTGS_COIN",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
     "EPGS_COIN": {
       "itemId": "EPGS_COIN",
       "name": "寻访参数模型",
@@ -695,6 +723,38 @@
     },
     "renamingCard_30_027": {
       "itemId": "renamingCard_30_027",
+      "name": "ID信息更新卡",
+      "description": "请不要挥霍系统宝贵的升级机会，切记切记。",
+      "rarity": 4,
+      "iconId": "renamingCard",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 20016,
+      "usage": "罗德岛舰桥系统升级时使用的ID信息更新卡，这一张是特地为博士您准备的。",
+      "obtainApproach": "采购中心、赠送",
+      "classifyType": "CONSUME",
+      "itemType": "RENAMING_CARD",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "renamingCard_0_033": {
+      "itemId": "renamingCard_0_033",
+      "name": "ID信息更新卡",
+      "description": "请不要挥霍系统宝贵的升级机会，切记切记。",
+      "rarity": 4,
+      "iconId": "renamingCard",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 20015,
+      "usage": "罗德岛舰桥系统升级时使用的ID信息更新卡，这一张是特地为博士您准备的。",
+      "obtainApproach": "采购中心、赠送",
+      "classifyType": "CONSUME",
+      "itemType": "RENAMING_CARD",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "renamingCard_30_033": {
+      "itemId": "renamingCard_30_033",
       "name": "ID信息更新卡",
       "description": "请不要挥霍系统宝贵的升级机会，切记切记。",
       "rarity": 4,
@@ -1125,6 +1185,22 @@
       "stageDropList": [],
       "buildingProductList": []
     },
+    "LIMITED_TKT_GACHA_10_3301": {
+      "itemId": "LIMITED_TKT_GACHA_10_3301",
+      "name": "归狼踏影寻访凭证",
+      "description": "为了确保人才扩展而应博士要求准备的应急手段，该批寻访条目具有一定的针对性与时效性，以及，小小的风险。",
+      "rarity": 4,
+      "iconId": "LIMITED_TKT_GACHA_10_3301",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 40003,
+      "usage": "罗德岛人事部特别批发的许可书，在特殊的时间点上招揽特殊的人才，一次可招聘十位干员。",
+      "obtainApproach": "赠送",
+      "classifyType": "NORMAL",
+      "itemType": "LIMITED_TKT_GACHA_10",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
     "7003": {
       "itemId": "7003",
       "name": "寻访凭证",
@@ -1333,6 +1409,54 @@
       "stageDropList": [],
       "buildingProductList": []
     },
+    "voucher_item_pick3301": {
+      "itemId": "voucher_item_pick3301",
+      "name": "感谢庆典干员凭证",
+      "description": "可在一定范围内自选一位六星干员，范围包含『奔崖怒号』及过去的干员寻访池。",
+      "rarity": 4,
+      "iconId": "voucher_recruitR6_g",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 50011,
+      "usage": "由罗德岛人事部批发的高级资深干员调用凭证，做了很多案前工作，想要百分百获得帮助并不轻松。",
+      "obtainApproach": "采购中心",
+      "classifyType": "CONSUME",
+      "itemType": "VOUCHER_PICK",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "voucher_levelmax_6": {
+      "itemId": "voucher_levelmax_6",
+      "name": "高级资深干员特训装置",
+      "description": "持有此装置的高级资深干员可以向教官团申请短期高强度训练，教官们会按照干员情况量身定制课程，帮助其快速突破自我，发掘全部潜力，达到极高标准。",
+      "rarity": 4,
+      "iconId": "voucher_levelmax_6",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 50019,
+      "usage": "只限高级资深干员使用的高强度训练装置，能够快速提升至满级。",
+      "obtainApproach": "采购中心",
+      "classifyType": "CONSUME",
+      "itemType": "VOUCHER_LEVELMAX_6",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "voucher_levelmax_5": {
+      "itemId": "voucher_levelmax_5",
+      "name": "资深干员特训装置",
+      "description": "持有此装置的资深干员可以向教官团申请短期高强度训练，教官们会按照干员情况量身定制课程，帮助其快速突破自我，发掘全部潜力，达到极高标准。",
+      "rarity": 4,
+      "iconId": "voucher_levelmax_5",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 50020,
+      "usage": "只限资深干员使用的高强度训练装置，能够快速提升至满级。",
+      "obtainApproach": "采购中心",
+      "classifyType": "CONSUME",
+      "itemType": "VOUCHER_LEVELMAX_5",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
     "voucher_elite_II_5": {
       "itemId": "voucher_elite_II_5",
       "name": "资深干员特训邀请函",
@@ -1517,7 +1641,7 @@
       "iconId": "voucher_recruitR4_1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 50103,
+      "sortId": 50105,
       "usage": "用于兑换一名干员。",
       "obtainApproach": "采购中心",
       "classifyType": "CONSUME",
@@ -1533,7 +1657,7 @@
       "iconId": "voucher_recruitR3_1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 50104,
+      "sortId": 50106,
       "usage": "用于兑换一名干员。",
       "obtainApproach": "采购中心",
       "classifyType": "CONSUME",
@@ -1749,6 +1873,22 @@
       "stageDropList": [],
       "buildingProductList": []
     },
+    "randomMaterialRune_11": {
+      "itemId": "randomMaterialRune_11",
+      "name": "赝波行动物资补给",
+      "description": "来自危机合约的材料补给箱。给予努力治疗着这片大地的人们的微小回报。----危机合约",
+      "rarity": 4,
+      "iconId": "randomMaterialRune_11",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 60022,
+      "usage": "装有各种物资补给，包含多种随机材料。",
+      "obtainApproach": "危机合约奖励",
+      "classifyType": "CONSUME",
+      "itemType": "VOUCHER_MGACHA",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
     "randomMaterial_1": {
       "itemId": "randomMaterial_1",
       "name": "罗德岛物资补给",
@@ -1845,6 +1985,22 @@
       "stageDropList": [],
       "buildingProductList": []
     },
+    "randomMaterial_7": {
+      "itemId": "randomMaterial_7",
+      "name": "罗德岛物资补给IV",
+      "description": "罗德岛从各地采购、储备的材料补给箱。不过因为缺乏系统性的整理收纳，每一个箱子里都装着截然不同的材料。",
+      "rarity": 4,
+      "iconId": "randomMaterial_1",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 60107,
+      "usage": "装有各种物资补给，包含多种随机材料。",
+      "obtainApproach": "活动期间关卡限时掉落",
+      "classifyType": "CONSUME",
+      "itemType": "VOUCHER_MGACHA",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
     "randomDiamondShd_1": {
       "itemId": "randomDiamondShd_1",
       "name": "罗德岛迎春红包",
@@ -1853,7 +2009,7 @@
       "iconId": "randomDiamondShd_1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 60107,
+      "sortId": 60108,
       "usage": "分发给罗德岛全员的红包，数额随机，饱含着对新年的祝福。",
       "obtainApproach": "赠送",
       "classifyType": "CONSUME",
@@ -1869,7 +2025,7 @@
       "iconId": "randomDiamondShd_2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 60108,
+      "sortId": 60109,
       "usage": "分发给罗德岛全员的礼盒，数额随机，饱含着庆典到来的喜悦。",
       "obtainApproach": "赠送",
       "classifyType": "CONSUME",
@@ -1988,7 +2144,15 @@
           "occPer": "ALWAYS"
         },
         {
+          "stageId": "main_11-01",
+          "occPer": "ALWAYS"
+        },
+        {
           "stageId": "tough_10-01",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "tough_11-01",
           "occPer": "ALWAYS"
         },
         {
@@ -2140,67 +2304,7 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "lt_03_06",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "lt_03_05",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "lt_03_04",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "lt_03_03",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "lt_03_02",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "lt_03_01",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "lt_02_08",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "lt_02_07",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "lt_02_06",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "lt_02_05",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "lt_02_04",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "lt_03_07",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "lt_02_03",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "lt_02_01",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "lt_01_08",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "lt_01_07",
+          "stageId": "lt_01_05",
           "occPer": "ALWAYS"
         },
         {
@@ -2208,31 +2312,15 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "lt_01_05",
+          "stageId": "lt_01_07",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "lt_01_04",
+          "stageId": "lt_01_08",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "lt_01_03",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "lt_01_02",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "lt_01_01",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "lt_tr_03",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "lt_tr_02",
+          "stageId": "lt_02_01",
           "occPer": "ALWAYS"
         },
         {
@@ -2240,7 +2328,211 @@
           "occPer": "ALWAYS"
         },
         {
+          "stageId": "lt_02_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_02_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_02_05",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_02_06",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_02_07",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_02_08",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_01_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_03_01",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_03_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_03_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_03_05",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_03_06",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_03_07",
+          "occPer": "ALWAYS"
+        },
+        {
           "stageId": "lt_03_08",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_04_01",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_04_02",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_04_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_04_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_04_05",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_04_06",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_03_02",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_04_07",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_01_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_01_01",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_tr_02",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_tr_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_05_01",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_05_02",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_05_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_05_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_05_05",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_05_06",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_05_01_ex",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_05_02_ex",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_05_03_ex",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_05_04_ex",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_01_02",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_05_05_ex",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_06_01",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_06_02",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_06_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_06_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_06_05",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_06_06",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_06_01_ex",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_06_02_ex",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_06_03_ex",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_06_04_ex",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_06_05_ex",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_06_06_ex",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_05_06_ex",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_04_08",
           "occPer": "ALWAYS"
         }
       ],
@@ -2265,67 +2557,7 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "lt_03_06",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "lt_03_05",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "lt_03_04",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "lt_03_03",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "lt_03_02",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "lt_03_01",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "lt_02_08",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "lt_02_07",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "lt_02_06",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "lt_02_05",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "lt_02_04",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "lt_03_07",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "lt_02_03",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "lt_02_01",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "lt_01_08",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "lt_01_07",
+          "stageId": "lt_01_05",
           "occPer": "ALWAYS"
         },
         {
@@ -2333,31 +2565,15 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "lt_01_05",
+          "stageId": "lt_01_07",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "lt_01_04",
+          "stageId": "lt_01_08",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "lt_01_03",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "lt_01_02",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "lt_01_01",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "lt_tr_03",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "lt_tr_02",
+          "stageId": "lt_02_01",
           "occPer": "ALWAYS"
         },
         {
@@ -2365,88 +2581,755 @@
           "occPer": "ALWAYS"
         },
         {
+          "stageId": "lt_02_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_02_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_02_05",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_02_06",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_02_07",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_02_08",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_01_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_03_01",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_03_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_03_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_03_05",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_03_06",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_03_07",
+          "occPer": "ALWAYS"
+        },
+        {
           "stageId": "lt_03_08",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_04_01",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_04_02",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_04_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_04_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_04_05",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_04_06",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_03_02",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_04_07",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_01_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_01_01",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_tr_02",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_tr_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_05_01",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_05_02",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_05_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_05_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_05_05",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_05_06",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_05_01_ex",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_05_02_ex",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_05_03_ex",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_05_04_ex",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_01_02",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_05_05_ex",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_06_01",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_06_02",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_06_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_06_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_06_05",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_06_06",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_06_01_ex",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_06_02_ex",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_06_03_ex",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_06_04_ex",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_06_05_ex",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_06_06_ex",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_05_06_ex",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "lt_04_08",
           "occPer": "ALWAYS"
         }
       ],
       "buildingProductList": []
     },
-    "30011": {
-      "itemId": "30011",
-      "name": "源岩",
-      "description": "富含有机物，常见于源石挥发殆尽后的地区。相对源石来说是较为容易采集的材料。",
+    "30051": {
+      "itemId": "30051",
+      "name": "双酮",
+      "description": "极少量的非单酮制剂，通过再处理后，工程干员将藉由其发生的化合反应转变过程中的固化现象，来粘结其它稳定结构。",
       "rarity": 0,
-      "iconId": "MTL_SL_G1",
+      "iconId": "MTL_SL_KETONE1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100015,
-      "usage": "从地表开采出的岩石，可用于多种强化场合，也常作为制造站合成项目的原料。",
+      "sortId": 100049,
+      "usage": "极少量的工业用有机化合物。可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
         {
+          "stageId": "act10mini_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act10mini_04",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act15side_01",
+          "occPer": "OFTEN"
+        },
+        {
           "stageId": "act15side_02",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act14side_01",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act14side_02",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act14side_03",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act13side_01",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act13side_02",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act13side_03",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act9mini_01",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act18d3_01",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "act18d3_02",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "act18d3_03",
-          "occPer": "ALWAYS"
+          "occPer": "OFTEN"
         },
         {
           "stageId": "act15side_03",
-          "occPer": "USUAL"
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act14side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act14side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act14side_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act13side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act13side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act10mini_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act13side_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act18d3_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act18d0_02",
+          "occPer": "OFTEN"
         },
         {
           "stageId": "act17d0_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act17d0_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act16d5_02",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act16d5_06",
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act17d0_03",
+          "stageId": "act15d0_02",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act12d0_03",
           "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act11d0_02",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act18d3_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act9d0_03",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act7d5_02",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act16side_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act22side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act22side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act13mini_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act13mini_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act13mini_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act13mini_04",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act12mini_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act12mini_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act10mini_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act12mini_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act20side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act20side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act11mini_02",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act19side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act19side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act18side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act18side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act16side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act16side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act12mini_04",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "sub_02-09",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "main_01-06",
+          "occPer": "ALMOST"
+        }
+      ],
+      "buildingProductList": []
+    },
+    "30052": {
+      "itemId": "30052",
+      "name": "酮凝集",
+      "description": "经过特殊处理后产出的少量多态酮制剂，易于闭合的分子构造能将原本繁杂的处理工艺简化为单纯的化学反应，当然，也需要一定的技术支持。",
+      "rarity": 1,
+      "iconId": "MTL_SL_KETONE2",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 100048,
+      "usage": "少量的工业用有机化合物。可用于多种强化场合，也常作为制造站合成项目的原料。",
+      "obtainApproach": null,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [
+        {
+          "stageId": "act19side_05",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act10d5_03",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act11d0_05",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act13d5_03",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act15d0_05",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act16d5_05",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act17d0_04",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act18d0_03",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act18d3_04",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act13side_05",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act14side_04",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act15side_04",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act10mini_06",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "a001_04",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act20side_05",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act13mini_05",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act22side_04",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act4d0_03",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "sub_07-1-2",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "sub_06-2-1",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "main_08-08",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "main_07-16",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "main_07-10",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "main_06-14",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "main_03-07",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "sub_02-01",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "main_10-08",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "tough_10-08",
+          "occPer": "ALWAYS"
+        }
+      ],
+      "buildingProductList": [
+        {
+          "roomType": "WORKSHOP",
+          "formulaId": "22"
+        }
+      ]
+    },
+    "30053": {
+      "itemId": "30053",
+      "name": "酮凝集组",
+      "description": "进一步脱烃处理后得到的中等量酮制剂。制剂接触空气后易与空气中的一些非氧分子发生反应。所以在处理过程中，工程干员理当精准操作，以免浪费材料。",
+      "rarity": 2,
+      "iconId": "MTL_SL_KETONE3",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 100047,
+      "usage": "中等量的工业用有机化合物。可用于多种强化场合，也常作为制造站合成项目的原料。",
+      "obtainApproach": null,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [
+        {
+          "stageId": "act20side_07",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act11mini_07",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act18d0_07",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act15d0_07",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act13d0_07",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act11d0_07",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act6d5_06",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_03-01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_04-05",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_05-08",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_06-07",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_07-12",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_08-17",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_10-03",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "tough_10-03",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "sub_09-1-1",
+          "occPer": "OFTEN"
+        }
+      ],
+      "buildingProductList": [
+        {
+          "roomType": "WORKSHOP",
+          "formulaId": "23"
+        }
+      ]
+    },
+    "30054": {
+      "itemId": "30054",
+      "name": "酮阵列",
+      "description": "由工程干员严格监控的大量不稳定实验性酮制剂。是高级的工业材料之一，运用时也请多加小心。",
+      "rarity": 3,
+      "iconId": "MTL_SL_KETONE4",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 100046,
+      "usage": "大量的工业用有机化合物。可用于多种强化场合，也常作为制作聚合剂的原料之一。",
+      "obtainApproach": null,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [
+        {
+          "stageId": "main_04-05",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_05-08",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "sub_09-1-1",
+          "occPer": "SOMETIMES"
+        }
+      ],
+      "buildingProductList": [
+        {
+          "roomType": "WORKSHOP",
+          "formulaId": "24"
+        }
+      ]
+    },
+    "30041": {
+      "itemId": "30041",
+      "name": "异铁碎片",
+      "description": "大规模金属原料加工的副产物，因其可塑性强、难以被氧化的特性，常被用于材料金属熔炼与阶段性再处理。",
+      "rarity": 0,
+      "iconId": "MTL_SL_IRON1",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 100045,
+      "usage": "普普通通的工业材料。可用于多种强化场合，也常作为制造站合成项目的原料。",
+      "obtainApproach": null,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [
+        {
+          "stageId": "act10mini_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act10mini_04",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act15side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act15side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act15side_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act14side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act14side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act14side_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act13side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act13side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act10mini_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act13side_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act18d3_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act18d0_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act17d0_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act17d0_02",
+          "occPer": "OFTEN"
         },
         {
           "stageId": "act16d5_03",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act15d5_02",
           "occPer": "ALWAYS"
         },
         {
@@ -2454,11 +3337,7 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act13d5_02",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act13d0_02",
+          "stageId": "act13d5_01",
           "occPer": "ALWAYS"
         },
         {
@@ -2470,176 +3349,156 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act10d5_02",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act9d0_01",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act17d0_02",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "act4d0_02",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "a001_01",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act10mini_04",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "act13mini_01",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act13mini_02",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act13mini_03",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "act13mini_04",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "act12mini_01",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act12mini_02",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act12mini_03",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "act12mini_04",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "act20side_01",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act15side_01",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act20side_02",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act19side_01",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act19side_02",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act18side_01",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act18side_02",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act16side_01",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act16side_02",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act16side_03",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act10mini_01",
-          "occPer": "USUAL"
+          "stageId": "act18d3_01",
+          "occPer": "OFTEN"
         },
         {
           "stageId": "act10mini_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act6d5_02",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act16side_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act22side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act22side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act13mini_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act13mini_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act13mini_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act13mini_04",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act12mini_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act12mini_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act12mini_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act9d0_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act12mini_04",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act20side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act11mini_02",
           "occPer": "USUAL"
         },
         {
-          "stageId": "act10mini_03",
+          "stageId": "act11mini_04",
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act11mini_04",
+          "stageId": "act19side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act19side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act18side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act18side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act16side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act16side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act20side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "sub_02-08",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "sub_02-05",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "main_00-09",
-          "occPer": "ALWAYS"
+          "stageId": "main_01-03",
+          "occPer": "ALMOST"
         }
       ],
       "buildingProductList": []
     },
-    "30012": {
-      "itemId": "30012",
-      "name": "固源岩",
-      "description": "内含有密集的微孔，常作为源石气体分解物的吸附剂。多用于防护夹层。",
+    "30042": {
+      "itemId": "30042",
+      "name": "异铁",
+      "description": "在少数惰化流程中，异铁碎片偶尔会产生相变，聚合为异铁。一般认为达到此量级的异铁产物才是异铁较为稳定的形态。",
       "rarity": 1,
-      "iconId": "MTL_SL_G2",
+      "iconId": "MTL_SL_IRON2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100014,
-      "usage": "从地表开采出的岩石固块，可用于多种强化场合，也常作为制造站合成项目的原料。",
+      "sortId": 100044,
+      "usage": "罕见的工业材料。可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "act13side_04",
+          "stageId": "act18side_04",
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act11d0_04",
-          "occPer": "ALMOST"
+          "stageId": "act7d5_04",
+          "occPer": "ALWAYS"
         },
         {
-          "stageId": "act12d0_04",
-          "occPer": "ALMOST"
+          "stageId": "act9d0_04",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act10d5_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act12d0_05",
+          "occPer": "ALWAYS"
         },
         {
           "stageId": "act13d5_05",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act15d0_04",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "act16d5_06",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act16d5_04",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "act17d0_06",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "act17d0_04",
+          "stageId": "act16d5_07",
           "occPer": "ALMOST"
         },
         {
@@ -2651,206 +3510,1184 @@
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act18d3_04",
-          "occPer": "ALMOST"
+          "stageId": "act13side_07",
+          "occPer": "USUAL"
         },
         {
           "stageId": "act13side_06",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act9d0_04",
+          "stageId": "act10mini_05",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act6d5_03",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act15side_04",
+          "stageId": "act16side_05",
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act16side_04",
+          "stageId": "a001_03",
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act18side_03",
-          "occPer": "ALMOST"
+          "stageId": "act19side_04",
+          "occPer": "OFTEN"
         },
         {
-          "stageId": "act11mini_06",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act20side_05",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act20side_03",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act14side_04",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "sub_06-1-2",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "main_07-14",
+          "stageId": "act20side_06",
           "occPer": "USUAL"
         },
         {
-          "stageId": "main_05-10",
+          "stageId": "act12mini_06",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act22side_04",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act4d0_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "main_08-12",
           "occPer": "USUAL"
         },
         {
-          "stageId": "sub_02-12",
-          "occPer": "ALWAYS"
+          "stageId": "main_07-09",
+          "occPer": "ALMOST"
         },
         {
-          "stageId": "main_01-07",
-          "occPer": "ALWAYS"
+          "stageId": "main_06-01",
+          "occPer": "ALMOST"
         },
         {
-          "stageId": "sub_05-1-1",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "sub_03-3-2",
+          "stageId": "main_05-07",
           "occPer": "USUAL"
+        },
+        {
+          "stageId": "main_02-01",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "main_11-05",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "main_09-14",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_11-05",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "sub_03-2-1",
+          "occPer": "ALWAYS"
         }
       ],
       "buildingProductList": [
         {
           "roomType": "WORKSHOP",
-          "formulaId": "34"
+          "formulaId": "25"
         }
       ]
     },
-    "30013": {
-      "itemId": "30013",
-      "name": "固源岩组",
-      "description": "固源岩的压缩定型产物，可自然形成。易碎，随着工业实力的提升，采集到更加完整的固源岩组已不成问题。只是在分类存放时容易和其它用途的石料搞混。",
+    "30043": {
+      "itemId": "30043",
+      "name": "异铁组",
+      "description": "加工过程中，多块异铁在极少数非人为因素影响下，偶然产生的异铁组合，硬度下降，纯度进一步上升。",
       "rarity": 2,
-      "iconId": "MTL_SL_G3",
+      "iconId": "MTL_SL_IRON3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100013,
-      "usage": "从地表开采出的岩石固块组，可用于多种强化场合，也常作为制造站合成项目的原料。",
+      "sortId": 100043,
+      "usage": "珍贵的工业材料。可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "act15side_07",
+          "stageId": "act22side_06",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act9mini_06",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act15d0_08",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act13d0_08",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act10d5_06",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act9d0_08",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "main_02-08",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_05-05",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_06-09",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_07-16",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_09-15",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_10-10",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_11-09",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_10-10",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_11-09",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "sub_04-1-1",
+          "occPer": "OFTEN"
+        }
+      ],
+      "buildingProductList": [
+        {
+          "roomType": "WORKSHOP",
+          "formulaId": "26"
+        }
+      ]
+    },
+    "30044": {
+      "itemId": "30044",
+      "name": "异铁块",
+      "description": "在极为苛刻的条件下，由多套异铁组熔铸成型的异铁块。已知异铁材料中最为稳定也最为稀少的形式，作为原材料，足以打破现有制品运用领域的疆界。",
+      "rarity": 3,
+      "iconId": "MTL_SL_IRON4",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 100042,
+      "usage": "价值高昂的工业材料。可用于多种强化场合，也常作为制作聚合剂的原料之一。",
+      "obtainApproach": null,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [
+        {
+          "stageId": "main_05-05",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_09-15",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_10-10",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_11-09",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_10-10",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_11-09",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "sub_04-1-1",
+          "occPer": "SOMETIMES"
+        }
+      ],
+      "buildingProductList": [
+        {
+          "roomType": "WORKSHOP",
+          "formulaId": "27"
+        }
+      ]
+    },
+    "30021": {
+      "itemId": "30021",
+      "name": "代糖",
+      "description": "有着微弱的甜味，也许可以吃。同时其溶液也常用于化工用途。",
+      "rarity": 0,
+      "iconId": "MTL_SL_STRG1",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 100041,
+      "usage": "机械化制作的廉价天然糖替代产物，可用于多种强化场合，也常作为制造站合成项目的原料。",
+      "obtainApproach": null,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [
+        {
+          "stageId": "act10mini_04",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act15side_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act14side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act14side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act14side_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act13side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act13side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act13side_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act9mini_02",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act8mini_05",
+          "stageId": "act8mini_02",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act18d3_01",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act15side_02",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act7mini_04",
+          "stageId": "act18d3_02",
           "occPer": "USUAL"
         },
         {
-          "stageId": "act18d3_07",
+          "stageId": "act17d0_02",
           "occPer": "USUAL"
         },
         {
-          "stageId": "act16d5_10",
+          "stageId": "act16d5_01",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act15d5_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act15d0_01",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act13d5_01",
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act12d0_06",
+          "stageId": "act13d0_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act12d0_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act11d0_01",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act10d5_01",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act9d0_01",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act17d0_01",
           "occPer": "USUAL"
         },
         {
-          "stageId": "main_02-04",
+          "stageId": "act15side_01",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "main_04-06",
-          "occPer": "OFTEN"
+          "stageId": "a001_02",
+          "occPer": "ALWAYS"
         },
         {
-          "stageId": "main_05-01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "main_06-05",
+          "stageId": "act10mini_03",
           "occPer": "USUAL"
         },
         {
-          "stageId": "main_07-01",
+          "stageId": "act22side_01",
           "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act22side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act13mini_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act13mini_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act13mini_03",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act13mini_04",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act12mini_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act12mini_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act12mini_03",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act12mini_04",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act4d0_01",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act20side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act11mini_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act19side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act19side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act18side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act18side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act16side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act16side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act16side_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act10mini_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act10mini_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act20side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "sub_02-06",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "main_00-07",
+          "occPer": "ALWAYS"
+        }
+      ],
+      "buildingProductList": []
+    },
+    "30022": {
+      "itemId": "30022",
+      "name": "糖",
+      "description": "使用自然原材制作的稍显贵重的糖料。啊啊，这个味道......会带来不错的好心情。不是用来当零食吃的。",
+      "rarity": 1,
+      "iconId": "MTL_SL_STRG2",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 100040,
+      "usage": "机械化制作的少量糖块，可用于多种强化场合，也常作为制造站合成项目的原料。",
+      "obtainApproach": null,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [
+        {
+          "stageId": "act15side_05",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act9d0_05",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act13d5_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act16d5_07",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act17d0_05",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act17d0_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act18d0_05",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act18d0_03",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act18d3_05",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act18d3_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act7mini_02",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act8mini_04",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act9mini_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act13side_05",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act14side_05",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "a001_03",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act16side_05",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act18side_04",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act19side_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act20side_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act13mini_06",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act22side_03",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act6d5_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "main_08-05",
+          "occPer": "ALWAYS"
         },
         {
           "stageId": "main_07-05",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "main_08-03",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "main_09-11",
-          "occPer": "OFTEN"
+          "stageId": "main_07-02",
+          "occPer": "ALWAYS"
         },
         {
-          "stageId": "main_10-05",
+          "stageId": "main_05-03",
           "occPer": "USUAL"
         },
         {
-          "stageId": "tough_10-05",
+          "stageId": "main_02-02",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "main_11-02",
           "occPer": "USUAL"
+        },
+        {
+          "stageId": "tough_11-02",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "sub_05-2-2",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "sub_03-1-1",
+          "occPer": "ALWAYS"
         }
       ],
       "buildingProductList": [
         {
           "roomType": "WORKSHOP",
-          "formulaId": "35"
+          "formulaId": "31"
         }
       ]
     },
-    "30014": {
-      "itemId": "30014",
-      "name": "提纯源岩",
-      "description": "高度提纯后的源岩展现出了不同于原料的型态，其工艺消耗与提纯成本也急剧上升。无论是谁，看着规则的切割面都会不禁发出感慨吧。这就是工业与自然结合的魅力。",
-      "rarity": 3,
-      "iconId": "MTL_SL_G4",
+    "30023": {
+      "itemId": "30023",
+      "name": "糖组",
+      "description": "饱含能量、广受欢迎的糖块组合包。在被加工成化工材料之前，份量就总是有所减少。流水线上的员工们似乎脱不了干系。",
+      "rarity": 2,
+      "iconId": "MTL_SL_STRG3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100012,
-      "usage": "从地表开采出的岩石固块组提纯出的物质，可用于多种强化场合，也常作为制作聚合剂的原料之一。",
+      "sortId": 100039,
+      "usage": "机械化制作的中等量糖块，可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "main_04-06",
+          "stageId": "act9d0_06",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act15d0_06",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act13side_08",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act16side_06",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act18side_05",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act22side_05",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act12d0_07",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "main_02-05",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_08-12",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "main_07-10",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_06-03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_05-02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_04-02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_09-04",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_11-05",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "main_10-09",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_11-05",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "tough_10-09",
+          "occPer": "OFTEN"
+        }
+      ],
+      "buildingProductList": [
+        {
+          "roomType": "WORKSHOP",
+          "formulaId": "32"
+        }
+      ]
+    },
+    "30024": {
+      "itemId": "30024",
+      "name": "糖聚块",
+      "description": "充满诱惑力的精加工糖块堆，通常用于制备药剂。严禁在加工前偷吃！这不是一般的食品，也不会作为食品售卖！不会！",
+      "rarity": 3,
+      "iconId": "MTL_SL_STRG4",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 100038,
+      "usage": "机械化制作的大量糖块，可用于多种强化场合，也常作为制造站合成项目的原料。",
+      "obtainApproach": null,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [
+        {
+          "stageId": "main_04-02",
           "occPer": "SOMETIMES"
         },
         {
-          "stageId": "main_07-01",
+          "stageId": "main_05-02",
           "occPer": "SOMETIMES"
         },
         {
-          "stageId": "main_08-03",
+          "stageId": "main_09-04",
           "occPer": "SOMETIMES"
         },
         {
-          "stageId": "main_09-11",
+          "stageId": "main_10-09",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_10-09",
           "occPer": "SOMETIMES"
         }
       ],
       "buildingProductList": [
         {
           "roomType": "WORKSHOP",
-          "formulaId": "36"
+          "formulaId": "33"
+        }
+      ]
+    },
+    "30031": {
+      "itemId": "30031",
+      "name": "酯原料",
+      "description": "近代工业中至关重要的材料之一，许多现代产品的诞生都归功于它的出现。当然了，这只是原料，几乎派不上什么大用场。",
+      "rarity": 0,
+      "iconId": "MTL_SL_RUSH1",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 100037,
+      "usage": "工业制造所需的酯原料，可用于多种强化场合，也常作为制造站合成项目的原料。",
+      "obtainApproach": null,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [
+        {
+          "stageId": "act10mini_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act10mini_04",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act15side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act15side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act15side_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act14side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act14side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act14side_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act13side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act13side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act13side_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act18d3_01",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act18d3_02",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act18d0_01",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act17d0_01",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act17d0_02",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act16d5_02",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act15d0_02",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act13d5_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act12d0_02",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act11d0_02",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act9d0_02",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act10mini_03",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act6d5_01",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "a001_01",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act16side_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act22side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act22side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act13mini_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act13mini_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act13mini_03",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act13mini_04",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act12mini_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act12mini_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act12mini_03",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act10mini_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act12mini_04",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act20side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act11mini_01",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act11mini_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act19side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act19side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act18side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act18side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act16side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act16side_02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act20side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "sub_02-07",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "main_00-11",
+          "occPer": "ALWAYS"
+        }
+      ],
+      "buildingProductList": []
+    },
+    "30032": {
+      "itemId": "30032",
+      "name": "聚酸酯",
+      "description": "虽然强度上还略有不足，但已经可以用来制作我们所需要的部分基础物件。同时是一些缓释药物中的常用成分。",
+      "rarity": 1,
+      "iconId": "MTL_SL_RUSH2",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 100036,
+      "usage": "工业制造所需的零散聚酸酯，可用于多种强化场合，也常作为制造站合成项目的原料。",
+      "obtainApproach": null,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [
+        {
+          "stageId": "act15side_05",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act11d0_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act12d0_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act13d0_04",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act15d0_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act15d5_04",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act16d5_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act17d0_05",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act18d3_05",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act13side_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act14side_05",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "a001_04",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act19side_03",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act20side_03",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act22side_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act7d5_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "main_08-04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "main_06-08",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "main_06-05",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_01-08",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "main_10-14",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_10-14",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "sub_05-2-1",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "sub_03-1-2",
+          "occPer": "ALWAYS"
+        }
+      ],
+      "buildingProductList": [
+        {
+          "roomType": "WORKSHOP",
+          "formulaId": "28"
+        }
+      ]
+    },
+    "30033": {
+      "itemId": "30033",
+      "name": "聚酸酯组",
+      "description": "进一步加工后的材料，符合通用标准，能够满足市面上绝大多数的需求。可以用于加工一些特殊材料。",
+      "rarity": 2,
+      "iconId": "MTL_SL_RUSH3",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 100035,
+      "usage": "工业制造所需的一组聚酸酯，可用于多种强化场合，也常作为制造站合成项目的原料。",
+      "obtainApproach": null,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [
+        {
+          "stageId": "act13mini_07",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act19side_06",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act10mini_07",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act14side_07",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act18d0_06",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act16d5_09",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act15d5_07",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act13d5_07",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act10d5_05",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act4d0_05",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "main_02-06",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_03-08",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_05-03",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "main_06-04",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_07-03",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "main_09-06",
+          "occPer": "OFTEN"
+        }
+      ],
+      "buildingProductList": [
+        {
+          "roomType": "WORKSHOP",
+          "formulaId": "29"
+        }
+      ]
+    },
+    "30034": {
+      "itemId": "30034",
+      "name": "聚酸酯块",
+      "description": "精炼提纯后的材料。作为商品，主要面向的客户是对原材料有极高要求的组织和科研机构。也许会成为新一代材料的试金石也说不定哦。",
+      "rarity": 3,
+      "iconId": "MTL_SL_RUSH4",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 100034,
+      "usage": "工业制造所需的成块聚酸酯，可用于多种强化场合，也常作为制造站合成项目的原料。",
+      "obtainApproach": null,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [
+        {
+          "stageId": "main_03-08",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_06-04",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_09-06",
+          "occPer": "SOMETIMES"
+        }
+      ],
+      "buildingProductList": [
+        {
+          "roomType": "WORKSHOP",
+          "formulaId": "30"
         }
       ]
     },
@@ -2862,14 +4699,18 @@
       "iconId": "MTL_SL_BOSS1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100019,
+      "sortId": 100033,
       "usage": "收缴来的破损机械装置，可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "act15side_01",
+          "stageId": "act10mini_04",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act15side_03",
           "occPer": "OFTEN"
         },
         {
@@ -2909,11 +4750,11 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act18d3_02",
+          "stageId": "act15side_02",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act18d0_01",
+          "stageId": "act18d3_02",
           "occPer": "OFTEN"
         },
         {
@@ -2957,11 +4798,11 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act15side_03",
+          "stageId": "act18d0_01",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act15side_02",
+          "stageId": "act15side_01",
           "occPer": "OFTEN"
         },
         {
@@ -2969,7 +4810,15 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act10mini_04",
+          "stageId": "act10mini_03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act22side_01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act22side_02",
           "occPer": "OFTEN"
         },
         {
@@ -3005,16 +4854,16 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act20side_01",
-          "occPer": "OFTEN"
-        },
-        {
           "stageId": "act7d5_01",
           "occPer": "USUAL"
         },
         {
-          "stageId": "act20side_02",
+          "stageId": "act20side_01",
           "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act11mini_01",
+          "occPer": "USUAL"
         },
         {
           "stageId": "act19side_01",
@@ -3053,12 +4902,8 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act10mini_03",
+          "stageId": "act20side_02",
           "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act11mini_01",
-          "occPer": "USUAL"
         },
         {
           "stageId": "main_02-03",
@@ -3074,12 +4919,12 @@
     "30062": {
       "itemId": "30062",
       "name": "装置",
-      "description": "一套相对完整的装置，含有大量密集的可用电子元件。为了迎合轻便实用的设计，主板寸土寸金的空间被塞的满满当当。",
+      "description": "一套相对完整的装置，含有大量密集的可用电子元件。为了迎合轻便实用的设计，主板寸土寸金的空间被塞得满满当当。",
       "rarity": 1,
       "iconId": "MTL_SL_BOSS2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100018,
+      "sortId": 100032,
       "usage": "收缴来的常规机械装置，可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -3225,7 +5070,7 @@
       "iconId": "MTL_SL_BOSS3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100017,
+      "sortId": 100031,
       "usage": "收缴来的全新机械装置，可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -3274,6 +5119,22 @@
         {
           "stageId": "main_09-08",
           "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_11-06",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_11-18",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_11-06",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_11-18",
+          "occPer": "OFTEN"
         }
       ],
       "buildingProductList": [
@@ -3291,7 +5152,7 @@
       "iconId": "MTL_SL_BOSS4",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100016,
+      "sortId": 100030,
       "usage": "收缴来的高等机械装置，可用于多种强化场合，也常作为制作双极纳米片的原料之一。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -3304,6 +5165,14 @@
         {
           "stageId": "main_07-07",
           "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_11-18",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_11-18",
+          "occPer": "SOMETIMES"
         }
       ],
       "buildingProductList": [
@@ -3313,1000 +5182,86 @@
         }
       ]
     },
-    "30031": {
-      "itemId": "30031",
-      "name": "酯原料",
-      "description": "近代工业中至关重要的材料之一，许多现代产品的诞生都归功于它的出现。当然了，这只是原料，几乎派不上什么大用场。",
+    "30011": {
+      "itemId": "30011",
+      "name": "源岩",
+      "description": "富含有机物，常见于源石挥发殆尽后的地区。相对源石来说是较为容易采集的材料。",
       "rarity": 0,
-      "iconId": "MTL_SL_RUSH1",
+      "iconId": "MTL_SL_G1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100023,
-      "usage": "工业制造所需的酯原料，可用于多种强化场合，也常作为制造站合成项目的原料。",
-      "obtainApproach": null,
-      "classifyType": "MATERIAL",
-      "itemType": "MATERIAL",
-      "stageDropList": [
-        {
-          "stageId": "act10mini_03",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act15side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act15side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act15side_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act14side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act14side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act14side_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act13side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act13side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act13side_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act10mini_04",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act18d3_01",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act18d0_01",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act17d0_01",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act17d0_02",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act16d5_02",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act15d0_02",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act13d5_03",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act12d0_02",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "act11d0_02",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act9d0_02",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act18d3_02",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act6d5_01",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "a001_01",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act10mini_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act13mini_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act13mini_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act13mini_03",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act13mini_04",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act12mini_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act12mini_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act12mini_03",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act12mini_04",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act10mini_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act20side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act11mini_01",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "act11mini_03",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act19side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act19side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act18side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act18side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act16side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act16side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act16side_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act20side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "sub_02-07",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "main_00-11",
-          "occPer": "ALWAYS"
-        }
-      ],
-      "buildingProductList": []
-    },
-    "30032": {
-      "itemId": "30032",
-      "name": "聚酸酯",
-      "description": "虽然强度上还略有不足，但已经可以用来制作我们所需要的部分基础物件。同时是一些缓释药物中的常用成分。",
-      "rarity": 1,
-      "iconId": "MTL_SL_RUSH2",
-      "overrideBkg": null,
-      "stackIconId": null,
-      "sortId": 100022,
-      "usage": "工业制造所需的零散聚酸酯，可用于多种强化场合，也常作为制造站合成项目的原料。",
-      "obtainApproach": null,
-      "classifyType": "MATERIAL",
-      "itemType": "MATERIAL",
-      "stageDropList": [
-        {
-          "stageId": "act14side_05",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act11d0_04",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act12d0_04",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act13d0_04",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "act15d0_04",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act15d5_04",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "act16d5_04",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act17d0_05",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act18d3_05",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act13side_04",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act7d5_03",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "a001_04",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act19side_03",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act20side_03",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act15side_05",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "main_08-04",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "main_06-08",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "main_06-05",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "main_01-08",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "main_10-14",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "tough_10-14",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "sub_05-2-1",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "sub_03-1-2",
-          "occPer": "ALWAYS"
-        }
-      ],
-      "buildingProductList": [
-        {
-          "roomType": "WORKSHOP",
-          "formulaId": "28"
-        }
-      ]
-    },
-    "30033": {
-      "itemId": "30033",
-      "name": "聚酸酯组",
-      "description": "进一步加工后的材料，符合通用标准，能够满足市面上绝大多数的需求。可以用于加工一些特殊材料。",
-      "rarity": 2,
-      "iconId": "MTL_SL_RUSH3",
-      "overrideBkg": null,
-      "stackIconId": null,
-      "sortId": 100021,
-      "usage": "工业制造所需的一组聚酸酯，可用于多种强化场合，也常作为制造站合成项目的原料。",
-      "obtainApproach": null,
-      "classifyType": "MATERIAL",
-      "itemType": "MATERIAL",
-      "stageDropList": [
-        {
-          "stageId": "act13mini_07",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act19side_06",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "act10mini_07",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act14side_07",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "act18d0_06",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act16d5_09",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "act15d5_07",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act13d5_07",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "act10d5_05",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act4d0_05",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "main_02-06",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "main_03-08",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "main_05-03",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "main_06-04",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "main_07-03",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "main_09-06",
-          "occPer": "OFTEN"
-        }
-      ],
-      "buildingProductList": [
-        {
-          "roomType": "WORKSHOP",
-          "formulaId": "29"
-        }
-      ]
-    },
-    "30034": {
-      "itemId": "30034",
-      "name": "聚酸酯块",
-      "description": "精炼提纯后的材料。作为商品，主要面向的客户是对原材料有极高要求的组织和科研机构。也许会成为新一代材料的试金石也说不定哦。",
-      "rarity": 3,
-      "iconId": "MTL_SL_RUSH4",
-      "overrideBkg": null,
-      "stackIconId": null,
-      "sortId": 100020,
-      "usage": "工业制造所需的成块聚酸酯，可用于多种强化场合，也常作为制造站合成项目的原料。",
-      "obtainApproach": null,
-      "classifyType": "MATERIAL",
-      "itemType": "MATERIAL",
-      "stageDropList": [
-        {
-          "stageId": "main_03-08",
-          "occPer": "SOMETIMES"
-        },
-        {
-          "stageId": "main_06-04",
-          "occPer": "SOMETIMES"
-        },
-        {
-          "stageId": "main_09-06",
-          "occPer": "SOMETIMES"
-        }
-      ],
-      "buildingProductList": [
-        {
-          "roomType": "WORKSHOP",
-          "formulaId": "30"
-        }
-      ]
-    },
-    "30021": {
-      "itemId": "30021",
-      "name": "代糖",
-      "description": "有着微弱的甜味，也许可以吃。同时其溶液也常用于化工用途。",
-      "rarity": 0,
-      "iconId": "MTL_SL_STRG1",
-      "overrideBkg": null,
-      "stackIconId": null,
-      "sortId": 100027,
-      "usage": "机械化制作的廉价天然糖替代产物，可用于多种强化场合，也常作为制造站合成项目的原料。",
+      "sortId": 100029,
+      "usage": "从地表开采出的岩石，可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
         {
           "stageId": "act15side_01",
-          "occPer": "OFTEN"
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act15side_03",
+          "occPer": "USUAL"
         },
         {
           "stageId": "act14side_01",
-          "occPer": "OFTEN"
+          "occPer": "USUAL"
         },
         {
           "stageId": "act14side_02",
-          "occPer": "OFTEN"
+          "occPer": "USUAL"
         },
         {
           "stageId": "act14side_03",
-          "occPer": "OFTEN"
+          "occPer": "USUAL"
         },
         {
           "stageId": "act13side_01",
-          "occPer": "OFTEN"
+          "occPer": "USUAL"
         },
         {
           "stageId": "act13side_02",
-          "occPer": "OFTEN"
+          "occPer": "USUAL"
         },
         {
           "stageId": "act13side_03",
-          "occPer": "OFTEN"
+          "occPer": "USUAL"
         },
         {
-          "stageId": "act9mini_02",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act8mini_02",
+          "stageId": "act9mini_01",
           "occPer": "ALWAYS"
         },
         {
           "stageId": "act18d3_01",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act18d3_02",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act17d0_01",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act17d0_02",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act16d5_01",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act15d5_03",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act15d0_01",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act13d5_01",
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act13d0_03",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act12d0_03",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act11d0_01",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act10d5_01",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act9d0_01",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act15side_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act15side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "a001_02",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act10mini_04",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act13mini_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act13mini_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act13mini_03",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act13mini_04",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act12mini_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act12mini_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act12mini_03",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act12mini_04",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act20side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act4d0_01",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act20side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act19side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act19side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act18side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act18side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act16side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act16side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act16side_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act10mini_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act10mini_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act10mini_03",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act11mini_03",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "sub_02-06",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "main_00-07",
-          "occPer": "ALWAYS"
-        }
-      ],
-      "buildingProductList": []
-    },
-    "30022": {
-      "itemId": "30022",
-      "name": "糖",
-      "description": "使用自然原材制作的稍显贵重的糖料。啊啊，这个味道......会带来不错的好心情。不是用来当零食吃的。",
-      "rarity": 1,
-      "iconId": "MTL_SL_STRG2",
-      "overrideBkg": null,
-      "stackIconId": null,
-      "sortId": 100026,
-      "usage": "机械化制作的少量糖块，可用于多种强化场合，也常作为制造站合成项目的原料。",
-      "obtainApproach": null,
-      "classifyType": "MATERIAL",
-      "itemType": "MATERIAL",
-      "stageDropList": [
-        {
-          "stageId": "act13side_05",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act9d0_05",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act13d5_04",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act16d5_07",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act17d0_05",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act17d0_03",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act18d0_05",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act18d0_03",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act18d3_05",
-          "occPer": "USUAL"
+          "stageId": "act18d3_02",
+          "occPer": "ALMOST"
         },
         {
           "stageId": "act18d3_03",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act7mini_02",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "act8mini_04",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "act9mini_04",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act6d5_04",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "a001_03",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act15side_05",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act16side_05",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act18side_04",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act19side_04",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act20side_04",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act13mini_06",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act14side_05",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "main_08-05",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "main_07-05",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "main_07-02",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "main_05-03",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "main_02-02",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "sub_05-2-2",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "sub_03-1-1",
-          "occPer": "ALWAYS"
-        }
-      ],
-      "buildingProductList": [
-        {
-          "roomType": "WORKSHOP",
-          "formulaId": "31"
-        }
-      ]
-    },
-    "30023": {
-      "itemId": "30023",
-      "name": "糖组",
-      "description": "饱含能量、广受欢迎的糖块组合包。在被加工成化工材料之前，份量就总是有所减少。流水线上的员工们似乎脱不了干系。",
-      "rarity": 2,
-      "iconId": "MTL_SL_STRG3",
-      "overrideBkg": null,
-      "stackIconId": null,
-      "sortId": 100025,
-      "usage": "机械化制作的中等量糖块，可用于多种强化场合，也常作为制造站合成项目的原料。",
-      "obtainApproach": null,
-      "classifyType": "MATERIAL",
-      "itemType": "MATERIAL",
-      "stageDropList": [
-        {
-          "stageId": "act18side_05",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "act16side_06",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "act13side_08",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "act15d0_06",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act12d0_07",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "act9d0_06",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "main_02-05",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "main_04-02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "main_05-02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "main_06-03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "main_07-10",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "main_08-12",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "main_09-04",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "main_10-09",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "tough_10-09",
-          "occPer": "OFTEN"
-        }
-      ],
-      "buildingProductList": [
-        {
-          "roomType": "WORKSHOP",
-          "formulaId": "32"
-        }
-      ]
-    },
-    "30024": {
-      "itemId": "30024",
-      "name": "糖聚块",
-      "description": "充满诱惑力的精加工糖块堆，通常用于制备药剂。严禁在加工前偷吃！这不是一般的食品，也不会作为食品售卖！不会！",
-      "rarity": 3,
-      "iconId": "MTL_SL_STRG4",
-      "overrideBkg": null,
-      "stackIconId": null,
-      "sortId": 100024,
-      "usage": "机械化制作的大量糖块，可用于多种强化场合，也常作为制造站合成项目的原料。",
-      "obtainApproach": null,
-      "classifyType": "MATERIAL",
-      "itemType": "MATERIAL",
-      "stageDropList": [
-        {
-          "stageId": "main_04-02",
-          "occPer": "SOMETIMES"
-        },
-        {
-          "stageId": "main_05-02",
-          "occPer": "SOMETIMES"
-        },
-        {
-          "stageId": "main_09-04",
-          "occPer": "SOMETIMES"
-        },
-        {
-          "stageId": "main_10-09",
-          "occPer": "SOMETIMES"
-        },
-        {
-          "stageId": "tough_10-09",
-          "occPer": "SOMETIMES"
-        }
-      ],
-      "buildingProductList": [
-        {
-          "roomType": "WORKSHOP",
-          "formulaId": "33"
-        }
-      ]
-    },
-    "30041": {
-      "itemId": "30041",
-      "name": "异铁碎片",
-      "description": "大规模金属原料加工的副产物，因其可塑性强、难以被氧化的特性，常被用于材料金属熔炼与阶段性再处理。",
-      "rarity": 0,
-      "iconId": "MTL_SL_IRON1",
-      "overrideBkg": null,
-      "stackIconId": null,
-      "sortId": 100031,
-      "usage": "普普通通的工业材料。可用于多种强化场合，也常作为制造站合成项目的原料。",
-      "obtainApproach": null,
-      "classifyType": "MATERIAL",
-      "itemType": "MATERIAL",
-      "stageDropList": [
-        {
-          "stageId": "act10mini_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act15side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act15side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act15side_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act14side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act14side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act14side_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act13side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act13side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act13side_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act18d3_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act18d3_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act18d0_02",
-          "occPer": "OFTEN"
-        },
-        {
           "stageId": "act17d0_01",
-          "occPer": "OFTEN"
+          "occPer": "ALMOST"
         },
         {
           "stageId": "act17d0_02",
-          "occPer": "OFTEN"
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act17d0_03",
+          "occPer": "ALWAYS"
         },
         {
           "stageId": "act16d5_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act15d5_02",
           "occPer": "ALWAYS"
         },
         {
@@ -4314,7 +5269,11 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act13d5_01",
+          "stageId": "act13d5_02",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act13d0_02",
           "occPer": "ALWAYS"
         },
         {
@@ -4326,152 +5285,180 @@
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act10mini_04",
-          "occPer": "OFTEN"
+          "stageId": "act10d5_02",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act9d0_01",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act15side_02",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act4d0_02",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "a001_01",
+          "occPer": "ALWAYS"
         },
         {
           "stageId": "act10mini_03",
-          "occPer": "OFTEN"
+          "occPer": "ALMOST"
         },
         {
-          "stageId": "act6d5_02",
-          "occPer": "ALWAYS"
+          "stageId": "act22side_01",
+          "occPer": "USUAL"
         },
         {
-          "stageId": "act10mini_01",
-          "occPer": "OFTEN"
+          "stageId": "act22side_02",
+          "occPer": "USUAL"
         },
         {
           "stageId": "act13mini_01",
-          "occPer": "OFTEN"
+          "occPer": "USUAL"
         },
         {
           "stageId": "act13mini_02",
-          "occPer": "OFTEN"
+          "occPer": "USUAL"
         },
         {
           "stageId": "act13mini_03",
-          "occPer": "OFTEN"
+          "occPer": "ALMOST"
         },
         {
           "stageId": "act13mini_04",
-          "occPer": "OFTEN"
+          "occPer": "ALMOST"
         },
         {
           "stageId": "act12mini_01",
-          "occPer": "OFTEN"
+          "occPer": "USUAL"
         },
         {
           "stageId": "act12mini_02",
-          "occPer": "OFTEN"
+          "occPer": "USUAL"
         },
         {
           "stageId": "act12mini_03",
-          "occPer": "OFTEN"
+          "occPer": "ALMOST"
         },
         {
           "stageId": "act12mini_04",
-          "occPer": "OFTEN"
+          "occPer": "ALMOST"
         },
         {
-          "stageId": "act9d0_03",
-          "occPer": "ALWAYS"
+          "stageId": "act10mini_04",
+          "occPer": "ALMOST"
         },
         {
           "stageId": "act20side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act11mini_02",
           "occPer": "USUAL"
         },
         {
           "stageId": "act11mini_04",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "act19side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act19side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act18side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act18side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act16side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act16side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act16side_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act20side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "sub_02-08",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "main_01-03",
-          "occPer": "ALMOST"
+          "stageId": "act19side_01",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act19side_02",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act18side_01",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act18side_02",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act16side_01",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act16side_02",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act16side_03",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act10mini_01",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act10mini_02",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act20side_02",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "sub_02-05",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "main_00-09",
+          "occPer": "ALWAYS"
         }
       ],
       "buildingProductList": []
     },
-    "30042": {
-      "itemId": "30042",
-      "name": "异铁",
-      "description": "在少数惰化流程中，异铁碎片偶尔会产生相变，聚合为异铁。一般认为达到此量级的异铁产物才是异铁较为稳定的形态。",
+    "30012": {
+      "itemId": "30012",
+      "name": "固源岩",
+      "description": "内含有密集的微孔，常作为源石气体分解物的吸附剂。多用于防护夹层。",
       "rarity": 1,
-      "iconId": "MTL_SL_IRON2",
+      "iconId": "MTL_SL_G2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100030,
-      "usage": "罕见的工业材料。可用于多种强化场合，也常作为制造站合成项目的原料。",
+      "sortId": 100028,
+      "usage": "从地表开采出的岩石固块，可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "act10mini_05",
-          "occPer": "ALWAYS"
+          "stageId": "act13side_04",
+          "occPer": "ALMOST"
         },
         {
-          "stageId": "act7d5_04",
-          "occPer": "ALWAYS"
+          "stageId": "act11d0_04",
+          "occPer": "ALMOST"
         },
         {
-          "stageId": "act9d0_04",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act10d5_04",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act12d0_05",
-          "occPer": "ALWAYS"
+          "stageId": "act12d0_04",
+          "occPer": "ALMOST"
         },
         {
           "stageId": "act13d5_05",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act16d5_07",
+          "stageId": "act15d0_04",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act16d5_06",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act16d5_04",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act17d0_06",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act17d0_04",
           "occPer": "ALMOST"
         },
         {
@@ -4483,891 +5470,357 @@
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act13side_07",
-          "occPer": "USUAL"
+          "stageId": "act18d3_04",
+          "occPer": "ALMOST"
         },
         {
           "stageId": "act13side_06",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act4d0_04",
+          "stageId": "act9d0_04",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "a001_03",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "act18side_04",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "act19side_04",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act20side_06",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act12mini_06",
+          "stageId": "act6d5_03",
           "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act16side_05",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "main_08-12",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "main_07-09",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "main_06-01",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "main_05-07",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "main_02-01",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "main_09-14",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "sub_03-2-1",
-          "occPer": "ALWAYS"
-        }
-      ],
-      "buildingProductList": [
-        {
-          "roomType": "WORKSHOP",
-          "formulaId": "25"
-        }
-      ]
-    },
-    "30043": {
-      "itemId": "30043",
-      "name": "异铁组",
-      "description": "加工过程中，多块异铁在极少数非人为因素影响下，偶然产生的异铁组合，硬度下降，纯度进一步上升。",
-      "rarity": 2,
-      "iconId": "MTL_SL_IRON3",
-      "overrideBkg": null,
-      "stackIconId": null,
-      "sortId": 100029,
-      "usage": "珍贵的工业材料。可用于多种强化场合，也常作为制造站合成项目的原料。",
-      "obtainApproach": null,
-      "classifyType": "MATERIAL",
-      "itemType": "MATERIAL",
-      "stageDropList": [
-        {
-          "stageId": "act9mini_06",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act15d0_08",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act13d0_08",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act10d5_06",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act9d0_08",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "main_02-08",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "main_05-05",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "main_06-09",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "main_07-16",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "main_09-15",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "main_10-10",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "tough_10-10",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "sub_04-1-1",
-          "occPer": "OFTEN"
-        }
-      ],
-      "buildingProductList": [
-        {
-          "roomType": "WORKSHOP",
-          "formulaId": "26"
-        }
-      ]
-    },
-    "30044": {
-      "itemId": "30044",
-      "name": "异铁块",
-      "description": "在极为苛刻的条件下，由多套异铁组熔铸成型的异铁块。已知异铁材料中最为稳定也最为稀少的形式，作为原材料，足以打破现有制品运用领域的疆界。",
-      "rarity": 3,
-      "iconId": "MTL_SL_IRON4",
-      "overrideBkg": null,
-      "stackIconId": null,
-      "sortId": 100028,
-      "usage": "价值高昂的工业材料。可用于多种强化场合，也常作为制作聚合剂的原料之一。",
-      "obtainApproach": null,
-      "classifyType": "MATERIAL",
-      "itemType": "MATERIAL",
-      "stageDropList": [
-        {
-          "stageId": "main_05-05",
-          "occPer": "SOMETIMES"
-        },
-        {
-          "stageId": "main_09-15",
-          "occPer": "SOMETIMES"
-        },
-        {
-          "stageId": "main_10-10",
-          "occPer": "SOMETIMES"
-        },
-        {
-          "stageId": "tough_10-10",
-          "occPer": "SOMETIMES"
-        },
-        {
-          "stageId": "sub_04-1-1",
-          "occPer": "SOMETIMES"
-        }
-      ],
-      "buildingProductList": [
-        {
-          "roomType": "WORKSHOP",
-          "formulaId": "27"
-        }
-      ]
-    },
-    "30051": {
-      "itemId": "30051",
-      "name": "双酮",
-      "description": "极少量的非单酮制剂，通过再处理后，工程干员将藉由其发生的化合反应转变过程中的固化现象，来粘结其它稳定结构。",
-      "rarity": 0,
-      "iconId": "MTL_SL_KETONE1",
-      "overrideBkg": null,
-      "stackIconId": null,
-      "sortId": 100035,
-      "usage": "极少量的工业用有机化合物。可用于多种强化场合，也常作为制造站合成项目的原料。",
-      "obtainApproach": null,
-      "classifyType": "MATERIAL",
-      "itemType": "MATERIAL",
-      "stageDropList": [
-        {
-          "stageId": "act10mini_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act15side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act15side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act15side_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act14side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act14side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act14side_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act13side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act13side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act13side_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act18d3_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act18d3_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act18d0_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act17d0_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act17d0_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act16d5_02",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act16d5_06",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "act15d0_02",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act12d0_03",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act11d0_02",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act10mini_04",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act9d0_03",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "act7d5_02",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act10mini_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act13mini_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act13mini_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act13mini_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act13mini_04",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act12mini_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act12mini_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act12mini_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act12mini_04",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act10mini_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act20side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act11mini_02",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act19side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act19side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act18side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act18side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act16side_01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act16side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act16side_03",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act20side_02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "sub_02-09",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "main_01-06",
-          "occPer": "ALMOST"
-        }
-      ],
-      "buildingProductList": []
-    },
-    "30052": {
-      "itemId": "30052",
-      "name": "酮凝集",
-      "description": "经过特殊处理后产出的少量多态酮制剂，易于闭合的分子构造能将原本繁杂的处理工艺简化为单纯的化学反应，当然，也需要一定的技术支持。",
-      "rarity": 1,
-      "iconId": "MTL_SL_KETONE2",
-      "overrideBkg": null,
-      "stackIconId": null,
-      "sortId": 100034,
-      "usage": "少量的工业用有机化合物。可用于多种强化场合，也常作为制造站合成项目的原料。",
-      "obtainApproach": null,
-      "classifyType": "MATERIAL",
-      "itemType": "MATERIAL",
-      "stageDropList": [
-        {
-          "stageId": "act10mini_06",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act10d5_03",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "act11d0_05",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act13d5_03",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "act15d0_05",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "act16d5_05",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "act17d0_04",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "act18d0_03",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "act18d3_04",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "act13side_05",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "act14side_04",
-          "occPer": "ALMOST"
         },
         {
           "stageId": "act15side_04",
           "occPer": "ALMOST"
         },
         {
-          "stageId": "act4d0_03",
+          "stageId": "act16side_04",
           "occPer": "ALMOST"
         },
         {
-          "stageId": "a001_04",
+          "stageId": "act18side_03",
           "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act11mini_06",
+          "occPer": "ALWAYS"
         },
         {
           "stageId": "act20side_05",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act13mini_05",
+          "stageId": "act20side_03",
           "occPer": "ALWAYS"
         },
         {
-          "stageId": "act19side_05",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "sub_07-1-2",
+          "stageId": "act14side_04",
           "occPer": "ALMOST"
         },
         {
-          "stageId": "sub_06-2-1",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "main_08-08",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "main_07-16",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "main_07-10",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "main_06-14",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "main_03-07",
+          "stageId": "sub_06-1-2",
           "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "sub_02-01",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "main_10-08",
-          "occPer": "ALWAYS"
-        },
-        {
-          "stageId": "tough_10-08",
-          "occPer": "ALWAYS"
-        }
-      ],
-      "buildingProductList": [
-        {
-          "roomType": "WORKSHOP",
-          "formulaId": "22"
-        }
-      ]
-    },
-    "30053": {
-      "itemId": "30053",
-      "name": "酮凝集组",
-      "description": "进一步脱烃处理后得到的中等量酮制剂。制剂接触空气后易与空气中的一些非氧分子发生反应。所以在处理过程中，工程干员理当精准操作，以免浪费材料。",
-      "rarity": 2,
-      "iconId": "MTL_SL_KETONE3",
-      "overrideBkg": null,
-      "stackIconId": null,
-      "sortId": 100033,
-      "usage": "中等量的工业用有机化合物。可用于多种强化场合，也常作为制造站合成项目的原料。",
-      "obtainApproach": null,
-      "classifyType": "MATERIAL",
-      "itemType": "MATERIAL",
-      "stageDropList": [
-        {
-          "stageId": "act20side_07",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act11mini_07",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act18d0_07",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act15d0_07",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act13d0_07",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act11d0_07",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act6d5_06",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "main_03-01",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "main_04-05",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "main_05-08",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "main_06-07",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "main_07-12",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "main_08-17",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "main_10-03",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "tough_10-03",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "sub_09-1-1",
-          "occPer": "OFTEN"
-        }
-      ],
-      "buildingProductList": [
-        {
-          "roomType": "WORKSHOP",
-          "formulaId": "23"
-        }
-      ]
-    },
-    "30054": {
-      "itemId": "30054",
-      "name": "酮阵列",
-      "description": "由工程干员严格监控的大量不稳定实验性酮制剂。是高级的工业材料之一，运用时也请多加小心。",
-      "rarity": 3,
-      "iconId": "MTL_SL_KETONE4",
-      "overrideBkg": null,
-      "stackIconId": null,
-      "sortId": 100032,
-      "usage": "大量的工业用有机化合物。可用于多种强化场合，也常作为制作聚合剂的原料之一。",
-      "obtainApproach": null,
-      "classifyType": "MATERIAL",
-      "itemType": "MATERIAL",
-      "stageDropList": [
-        {
-          "stageId": "main_04-05",
-          "occPer": "SOMETIMES"
-        },
-        {
-          "stageId": "main_05-08",
-          "occPer": "SOMETIMES"
-        },
-        {
-          "stageId": "sub_09-1-1",
-          "occPer": "SOMETIMES"
-        }
-      ],
-      "buildingProductList": [
-        {
-          "roomType": "WORKSHOP",
-          "formulaId": "24"
-        }
-      ]
-    },
-    "30073": {
-      "itemId": "30073",
-      "name": "扭转醇",
-      "description": "优秀的化工中介体，常在两种形状间转换以储存和放出传导物质。液化后与酒精在某些性质上十分相似，时常导致整个工作间醉醺醺的。",
-      "rarity": 2,
-      "iconId": "MTL_SL_ALCOHOL1",
-      "overrideBkg": null,
-      "stackIconId": null,
-      "sortId": 100005,
-      "usage": "片状有机化合物。可用于多种强化场合，也常作为制造站合成项目的原料。",
-      "obtainApproach": null,
-      "classifyType": "MATERIAL",
-      "itemType": "MATERIAL",
-      "stageDropList": [
-        {
-          "stageId": "act19side_07",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "act7d5_05",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act9d0_07",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act13d0_06",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act15d5_06",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act8mini_07",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act13side_10",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act16side_07",
-          "occPer": "ALMOST"
-        },
-        {
-          "stageId": "act6d5_07",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "a001_05",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "main_08-02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "main_07-04",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "main_06-10",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "main_05-04",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "main_04-04",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "main_02-09",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "main_10-13",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "main_09-07",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "tough_10-13",
-          "occPer": "USUAL"
-        }
-      ],
-      "buildingProductList": []
-    },
-    "30074": {
-      "itemId": "30074",
-      "name": "白马醇",
-      "description": "扭转醇精加工后的产物，名字来自发现其产出方式的厂家。实验结果表明，拥有在非常态环境中向更高级结构转化的趋势。",
-      "rarity": 3,
-      "iconId": "MTL_SL_ALCOHOL2",
-      "overrideBkg": null,
-      "stackIconId": null,
-      "sortId": 100004,
-      "usage": "片状有机化合物。可用于多种强化场合，也常作为制作双极纳米片的原料之一。",
-      "obtainApproach": null,
-      "classifyType": "MATERIAL",
-      "itemType": "MATERIAL",
-      "stageDropList": [
-        {
-          "stageId": "main_04-04",
-          "occPer": "SOMETIMES"
-        },
-        {
-          "stageId": "main_07-04",
-          "occPer": "SOMETIMES"
-        },
-        {
-          "stageId": "main_08-02",
-          "occPer": "SOMETIMES"
-        },
-        {
-          "stageId": "main_09-07",
-          "occPer": "SOMETIMES"
-        },
-        {
-          "stageId": "main_10-13",
-          "occPer": "SOMETIMES"
-        },
-        {
-          "stageId": "tough_10-13",
-          "occPer": "SOMETIMES"
-        }
-      ],
-      "buildingProductList": [
-        {
-          "roomType": "WORKSHOP",
-          "formulaId": "18"
-        }
-      ]
-    },
-    "30083": {
-      "itemId": "30083",
-      "name": "轻锰矿",
-      "description": "用以产出极为泛用的工业催化剂的金属矿物。再加工过程十分复杂，因不规范操作而导致事故的例子比比皆是。",
-      "rarity": 2,
-      "iconId": "MTL_SL_MANGANESE1",
-      "overrideBkg": null,
-      "stackIconId": null,
-      "sortId": 100007,
-      "usage": "用于提炼冶炼用的金属矿物。可用于多种强化场合，也常作为制造站合成项目的原料。",
-      "obtainApproach": null,
-      "classifyType": "MATERIAL",
-      "itemType": "MATERIAL",
-      "stageDropList": [
-        {
-          "stageId": "act17d0_07",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act13d5_08",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "main_03-02",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "main_04-07",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "main_05-06",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "main_06-02",
-          "occPer": "OFTEN"
         },
         {
           "stageId": "main_07-14",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "main_08-11",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "main_09-13",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "main_10-06",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "main_10-14",
           "occPer": "USUAL"
         },
         {
-          "stageId": "tough_10-06",
-          "occPer": "OFTEN"
+          "stageId": "main_05-10",
+          "occPer": "USUAL"
         },
         {
-          "stageId": "tough_10-14",
+          "stageId": "sub_02-12",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "main_01-07",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "sub_05-1-1",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "sub_03-3-2",
           "occPer": "USUAL"
         }
       ],
-      "buildingProductList": []
+      "buildingProductList": [
+        {
+          "roomType": "WORKSHOP",
+          "formulaId": "34"
+        }
+      ]
     },
-    "30084": {
-      "itemId": "30084",
-      "name": "三水锰矿",
-      "description": "少有厂家愿意用于生产工业催化剂的珍贵金属矿物。所制催化剂寿命极长，能够多次反复利用并汽提再生，然而复杂的加工工序令多数厂商望而却步。",
-      "rarity": 3,
-      "iconId": "MTL_SL_MANGANESE2",
+    "30013": {
+      "itemId": "30013",
+      "name": "固源岩组",
+      "description": "固源岩的压缩定型产物，可自然形成。易碎，随着工业实力的提升，采集到更加完整的固源岩组已不成问题。只是在分类存放时容易和其它用途的石料搞混。",
+      "rarity": 2,
+      "iconId": "MTL_SL_G3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100006,
-      "usage": "用于提炼冶炼用的金属矿物。可用于多种强化场合，也常作为制作D32钢的原料之一。",
+      "sortId": 100027,
+      "usage": "从地表开采出的岩石固块组，可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "main_04-07",
+          "stageId": "act12d0_06",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act18d3_07",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act7mini_04",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act8mini_05",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act15side_07",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act16d5_10",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "main_02-04",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_07-05",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "main_07-01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_06-05",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "main_05-01",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_04-06",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_08-03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_09-11",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_11-16",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "main_10-05",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "tough_10-05",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "tough_11-16",
+          "occPer": "USUAL"
+        }
+      ],
+      "buildingProductList": [
+        {
+          "roomType": "WORKSHOP",
+          "formulaId": "35"
+        }
+      ]
+    },
+    "30014": {
+      "itemId": "30014",
+      "name": "提纯源岩",
+      "description": "高度提纯后的源岩展现出了不同于原料的型态，其工艺消耗与提纯成本也急剧上升。无论是谁，看着规则的切割面都会不禁发出感慨吧。这就是工业与自然结合的魅力。",
+      "rarity": 3,
+      "iconId": "MTL_SL_G4",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 100026,
+      "usage": "从地表开采出的岩石固块组提纯出的物质，可用于多种强化场合，也常作为制作聚合剂的原料之一。",
+      "obtainApproach": null,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [
+        {
+          "stageId": "main_04-06",
           "occPer": "SOMETIMES"
         },
         {
-          "stageId": "main_06-02",
+          "stageId": "main_07-01",
           "occPer": "SOMETIMES"
         },
         {
-          "stageId": "main_08-11",
+          "stageId": "main_08-03",
           "occPer": "SOMETIMES"
         },
         {
-          "stageId": "main_09-13",
+          "stageId": "main_09-11",
           "occPer": "SOMETIMES"
         },
         {
-          "stageId": "main_10-06",
+          "stageId": "main_11-16",
           "occPer": "SOMETIMES"
         },
         {
-          "stageId": "tough_10-06",
+          "stageId": "tough_11-16",
           "occPer": "SOMETIMES"
         }
       ],
       "buildingProductList": [
         {
           "roomType": "WORKSHOP",
-          "formulaId": "17"
+          "formulaId": "36"
+        }
+      ]
+    },
+    "30103": {
+      "itemId": "30103",
+      "name": "RMA70-12",
+      "description": "自然态呈复杂多面体的矿物。在被发现其现代工业价值之前，就已经被发现了其在源石技艺施展中的价值。",
+      "rarity": 2,
+      "iconId": "MTL_SL_RMA7012",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 100025,
+      "usage": "一种敏感且有良好传导效果的矿物。可用于多种强化场合，也常作为制造站合成项目的原料。",
+      "obtainApproach": null,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [
+        {
+          "stageId": "act12d0_08",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act18d0_08",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act7mini_05",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act15side_08",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act11mini_08",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act20side_09",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act15d5_08",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_02-10",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_08-10",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_07-08",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_06-13",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_05-09",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_04-09",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_09-17",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_11-04",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_10-04",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_11-04",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_10-04",
+          "occPer": "OFTEN"
+        }
+      ],
+      "buildingProductList": []
+    },
+    "30104": {
+      "itemId": "30104",
+      "name": "RMA70-24",
+      "description": "自然态呈复杂多面体的矿物。于1024年被发现，在庞大的工业体系中，展现出了在源石技艺体系内其他矿物不曾具备的巨大价值。",
+      "rarity": 3,
+      "iconId": "MTL_SL_RMA7024",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 100024,
+      "usage": "一种十分敏感且有优秀传导效果的矿物。可用于多种强化场合，也常作为制作D32钢的原料之一。",
+      "obtainApproach": null,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [
+        {
+          "stageId": "main_04-09",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_06-13",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_10-04",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_11-04",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_10-04",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_11-04",
+          "occPer": "SOMETIMES"
+        }
+      ],
+      "buildingProductList": [
+        {
+          "roomType": "WORKSHOP",
+          "formulaId": "15"
         }
       ]
     },
@@ -5379,7 +5832,7 @@
       "iconId": "MTL_SL_PG1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100009,
+      "sortId": 100023,
       "usage": "用于加工武器零件的研磨石。可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -5456,7 +5909,7 @@
       "iconId": "MTL_SL_PG2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100008,
+      "sortId": 100022,
       "usage": "用于精加工武器零件的高级研磨石。可用于多种强化场合，也常作为制作D32钢的原料之一。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -5478,185 +5931,273 @@
         }
       ]
     },
-    "30103": {
-      "itemId": "30103",
-      "name": "RMA70-12",
-      "description": "自然态呈复杂多面体的矿物。在被发现其现代工业价值之前，就已经被发现了其在源石技艺施展中的价值。",
+    "30083": {
+      "itemId": "30083",
+      "name": "轻锰矿",
+      "description": "用以产出极为泛用的工业催化剂的金属矿物。再加工过程十分复杂，因不规范操作而导致事故的例子比比皆是。",
       "rarity": 2,
-      "iconId": "MTL_SL_RMA7012",
+      "iconId": "MTL_SL_MANGANESE1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100011,
-      "usage": "一种敏感且有良好传导效果的矿物。可用于多种强化场合，也常作为制造站合成项目的原料。",
+      "sortId": 100021,
+      "usage": "用于提炼冶炼用的金属矿物。可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "act20side_09",
+          "stageId": "act17d0_07",
           "occPer": "USUAL"
         },
         {
-          "stageId": "act11mini_08",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act15side_08",
+          "stageId": "act13d5_08",
           "occPer": "USUAL"
         },
         {
-          "stageId": "act7mini_05",
+          "stageId": "main_03-02",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act18d0_08",
+          "stageId": "main_04-07",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_05-06",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_06-02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_07-14",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_08-11",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_09-13",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_10-06",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_10-14",
           "occPer": "USUAL"
         },
         {
-          "stageId": "act15d5_08",
+          "stageId": "tough_10-06",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act12d0_08",
+          "stageId": "tough_10-14",
+          "occPer": "USUAL"
+        }
+      ],
+      "buildingProductList": []
+    },
+    "30084": {
+      "itemId": "30084",
+      "name": "三水锰矿",
+      "description": "少有厂家愿意用于生产工业催化剂的珍贵金属矿物。所制催化剂寿命极长，能够多次反复利用并汽提再生，然而复杂的加工工序令多数厂商望而却步。",
+      "rarity": 3,
+      "iconId": "MTL_SL_MANGANESE2",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 100020,
+      "usage": "用于提炼冶炼用的金属矿物。可用于多种强化场合，也常作为制作D32钢的原料之一。",
+      "obtainApproach": null,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [
+        {
+          "stageId": "main_04-07",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_06-02",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_08-11",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_09-13",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_10-06",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_10-06",
+          "occPer": "SOMETIMES"
+        }
+      ],
+      "buildingProductList": [
+        {
+          "roomType": "WORKSHOP",
+          "formulaId": "17"
+        }
+      ]
+    },
+    "30073": {
+      "itemId": "30073",
+      "name": "扭转醇",
+      "description": "优秀的化工中介体，常在两种形状间转换以储存和放出传导物质。液化后与酒精在某些性质上十分相似，时常导致整个工作间醉醺醺的。",
+      "rarity": 2,
+      "iconId": "MTL_SL_ALCOHOL1",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 100019,
+      "usage": "片状有机化合物。可用于多种强化场合，也常作为制造站合成项目的原料。",
+      "obtainApproach": null,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [
+        {
+          "stageId": "a001_05",
           "occPer": "USUAL"
         },
         {
-          "stageId": "main_02-10",
+          "stageId": "act7d5_05",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act9d0_07",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act13d0_06",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "main_04-09",
+          "stageId": "act15d5_06",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "main_05-09",
+          "stageId": "act8mini_07",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act13side_10",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act16side_07",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act19side_07",
+          "occPer": "ALMOST"
+        },
+        {
+          "stageId": "act6d5_07",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "main_06-13",
+          "stageId": "main_02-09",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "main_07-08",
+          "stageId": "main_08-02",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "main_08-10",
+          "stageId": "main_07-04",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "main_09-17",
+          "stageId": "main_06-10",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "main_05-04",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "main_10-04",
+          "stageId": "main_04-04",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "tough_10-04",
+          "stageId": "main_10-13",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "main_09-07",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_11-11",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_10-13",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "tough_11-11",
           "occPer": "OFTEN"
         }
       ],
       "buildingProductList": []
     },
-    "30104": {
-      "itemId": "30104",
-      "name": "RMA70-24",
-      "description": "自然态呈复杂多面体的矿物。于1024年被发现，在庞大的工业体系中，展现出了在源石技艺体系内其他矿物不曾具备的巨大价值。",
+    "30074": {
+      "itemId": "30074",
+      "name": "白马醇",
+      "description": "扭转醇精加工后的产物，名字来自发现其产出方式的厂家。实验结果表明，拥有在非常态环境中向更高级结构转化的趋势。",
       "rarity": 3,
-      "iconId": "MTL_SL_RMA7024",
+      "iconId": "MTL_SL_ALCOHOL2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100010,
-      "usage": "一种十分敏感且有优秀传导效果的矿物。可用于多种强化场合，也常作为制作D32钢的原料之一。",
+      "sortId": 100018,
+      "usage": "片状有机化合物。可用于多种强化场合，也常作为制作双极纳米片的原料之一。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "main_04-09",
+          "stageId": "main_04-04",
           "occPer": "SOMETIMES"
         },
         {
-          "stageId": "main_06-13",
+          "stageId": "main_07-04",
           "occPer": "SOMETIMES"
         },
         {
-          "stageId": "main_10-04",
+          "stageId": "main_08-02",
           "occPer": "SOMETIMES"
         },
         {
-          "stageId": "tough_10-04",
+          "stageId": "main_09-07",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_10-13",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_11-11",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_10-13",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_11-11",
           "occPer": "SOMETIMES"
         }
       ],
       "buildingProductList": [
         {
           "roomType": "WORKSHOP",
-          "formulaId": "15"
-        }
-      ]
-    },
-    "30115": {
-      "itemId": "30115",
-      "name": "聚合剂",
-      "description": "精密穿戴着装中常用的材料。多作为隔绝涂层使用。强大的聚合粘接效果足以阻断源石的挥发。",
-      "rarity": 4,
-      "iconId": "MTL_SL_PP",
-      "overrideBkg": null,
-      "stackIconId": null,
-      "sortId": 100003,
-      "usage": "复杂的液态工业产物。用于高级强化场合。",
-      "obtainApproach": null,
-      "classifyType": "MATERIAL",
-      "itemType": "MATERIAL",
-      "stageDropList": [],
-      "buildingProductList": [
-        {
-          "roomType": "WORKSHOP",
-          "formulaId": "14"
-        }
-      ]
-    },
-    "30125": {
-      "itemId": "30125",
-      "name": "双极纳米片",
-      "description": "对范围内源石敏感的装置。能有效提升源石附近范围内作战武器和设备对源石的敏感性，使源石技艺的存储几近可能。",
-      "rarity": 4,
-      "iconId": "MTL_SL_BN",
-      "overrideBkg": null,
-      "stackIconId": null,
-      "sortId": 100002,
-      "usage": "现代工业的创造力结晶。用于高级强化场合。",
-      "obtainApproach": null,
-      "classifyType": "MATERIAL",
-      "itemType": "MATERIAL",
-      "stageDropList": [],
-      "buildingProductList": [
-        {
-          "roomType": "WORKSHOP",
-          "formulaId": "13"
-        }
-      ]
-    },
-    "30135": {
-      "itemId": "30135",
-      "name": "D32钢",
-      "description": "强度超群，无法击穿，顺畅传导源石技艺，将重新订立武器材料的标准。",
-      "rarity": 4,
-      "iconId": "MTL_SL_DS",
-      "overrideBkg": null,
-      "stackIconId": null,
-      "sortId": 100001,
-      "usage": "自然界中不应存在的人造金属材料，呈固态。用于高级强化场合。",
-      "obtainApproach": null,
-      "classifyType": "MATERIAL",
-      "itemType": "MATERIAL",
-      "stageDropList": [],
-      "buildingProductList": [
-        {
-          "roomType": "WORKSHOP",
-          "formulaId": "12"
+          "formulaId": "18"
         }
       ]
     },
@@ -5668,7 +6209,7 @@
       "iconId": "MTL_SL_PGEL3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100037,
+      "sortId": 100017,
       "usage": "一种高强度的可塑性材料。可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -5707,7 +6248,15 @@
           "occPer": "OFTEN"
         },
         {
+          "stageId": "main_11-10",
+          "occPer": "OFTEN"
+        },
+        {
           "stageId": "tough_10-02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_11-10",
           "occPer": "OFTEN"
         },
         {
@@ -5729,7 +6278,7 @@
       "iconId": "MTL_SL_PGEL4",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100036,
+      "sortId": 100016,
       "usage": "一种具备极高强度的可塑性材料。可用于多种强化场合。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -5748,7 +6297,15 @@
           "occPer": "SOMETIMES"
         },
         {
+          "stageId": "main_11-10",
+          "occPer": "SOMETIMES"
+        },
+        {
           "stageId": "tough_10-02",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_11-10",
           "occPer": "SOMETIMES"
         },
         {
@@ -5771,7 +6328,7 @@
       "iconId": "MTL_SL_IAM3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100039,
+      "sortId": 100015,
       "usage": "电子工业用特殊高熔点合金。可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -5814,7 +6371,23 @@
           "occPer": "OFTEN"
         },
         {
+          "stageId": "main_11-02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_11-12",
+          "occPer": "OFTEN"
+        },
+        {
           "stageId": "tough_10-12",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_11-02",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_11-12",
           "occPer": "OFTEN"
         },
         {
@@ -5836,7 +6409,7 @@
       "iconId": "MTL_SL_IAM4",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100038,
+      "sortId": 100014,
       "usage": "产量稀少的电子工业用特殊高熔点合金。可用于多种强化场合。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -5859,7 +6432,15 @@
           "occPer": "SOMETIMES"
         },
         {
+          "stageId": "main_11-12",
+          "occPer": "SOMETIMES"
+        },
+        {
           "stageId": "tough_10-12",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_11-12",
           "occPer": "SOMETIMES"
         },
         {
@@ -5882,7 +6463,7 @@
       "iconId": "MTL_SL_OC3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100042,
+      "sortId": 100013,
       "usage": "重要的源石工业材料，可用于多种强化场合，可以制作与合成更高级的源石电子元件。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -5939,7 +6520,7 @@
       "iconId": "MTL_SL_OC4",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100041,
+      "sortId": 100012,
       "usage": "重要的源石工业材料，可用于多种强化场合，是制作源石晶体单元的基础元件。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -5961,27 +6542,6 @@
         }
       ]
     },
-    "30145": {
-      "itemId": "30145",
-      "name": "晶体电子单元",
-      "description": "泰拉源石科技的结晶，泰拉工业现代化的代表。源石施术单元与城际网络服务器的制造都离不开这种科技产品。",
-      "rarity": 4,
-      "iconId": "MTL_SL_OEU",
-      "overrideBkg": null,
-      "stackIconId": null,
-      "sortId": 100040,
-      "usage": "昂贵的源石工业产品，用于重要的强化场合。",
-      "obtainApproach": null,
-      "classifyType": "MATERIAL",
-      "itemType": "MATERIAL",
-      "stageDropList": [],
-      "buildingProductList": [
-        {
-          "roomType": "WORKSHOP",
-          "formulaId": "57"
-        }
-      ]
-    },
     "31043": {
       "itemId": "31043",
       "name": "半自然溶剂",
@@ -5990,22 +6550,34 @@
       "iconId": "MTL_SL_SS",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100044,
+      "sortId": 100011,
       "usage": "一种物理性能优异，耐酸碱性良好的活性溶剂。可用于多种强化场合。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
         {
+          "stageId": "act22side_07",
+          "occPer": "USUAL"
+        },
+        {
           "stageId": "act18side_07",
           "occPer": "USUAL"
+        },
+        {
+          "stageId": "main_09-03",
+          "occPer": "OFTEN"
         },
         {
           "stageId": "main_09-16",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "main_09-03",
+          "stageId": "main_11-07",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_11-07",
           "occPer": "OFTEN"
         }
       ],
@@ -6019,7 +6591,7 @@
       "iconId": "MTL_SL_RS",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100043,
+      "sortId": 100010,
       "usage": "经特殊工艺制作而成特殊涂料。用于高级强化场合。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -6031,6 +6603,14 @@
         },
         {
           "stageId": "main_09-16",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_11-07",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_11-07",
           "occPer": "SOMETIMES"
         }
       ],
@@ -6049,7 +6629,7 @@
       "iconId": "MTL_SL_CCF",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100046,
+      "sortId": 100009,
       "usage": "一种金属加工时必备的工业试剂。可用于多种强化场合。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -6064,8 +6644,16 @@
           "occPer": "USUAL"
         },
         {
+          "stageId": "main_11-14",
+          "occPer": "OFTEN"
+        },
+        {
           "stageId": "tough_10-15",
           "occPer": "USUAL"
+        },
+        {
+          "stageId": "tough_11-14",
+          "occPer": "OFTEN"
         }
       ],
       "buildingProductList": []
@@ -6078,7 +6666,7 @@
       "iconId": "MTL_SL_PLCF",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100045,
+      "sortId": 100008,
       "usage": "由多种活性溶剂配置而成的原液。用于高级强化场合。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -6087,12 +6675,200 @@
         {
           "stageId": "main_09-05",
           "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_11-14",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_11-14",
+          "occPer": "SOMETIMES"
         }
       ],
       "buildingProductList": [
         {
           "roomType": "WORKSHOP",
           "formulaId": "60"
+        }
+      ]
+    },
+    "31063": {
+      "itemId": "31063",
+      "name": "转质盐组",
+      "description": "可改变材料表面的性质，实现原本难以获得的效果。注意为工业用盐，绝对不可以食用。",
+      "rarity": 2,
+      "iconId": "MTL_SL_ZY",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 100007,
+      "usage": "经过粗炼处理的化合物结晶。可用于多种强化场合。",
+      "obtainApproach": null,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [
+        {
+          "stageId": "main_11-03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_11-13",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_11-03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_11-13",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "sub_09-1-2",
+          "occPer": "OFTEN"
+        }
+      ],
+      "buildingProductList": []
+    },
+    "31064": {
+      "itemId": "31064",
+      "name": "转质盐聚块",
+      "description": "稳定的结晶体，混合饱和溶液并结晶而制成，可为材料提供多种功能。",
+      "rarity": 3,
+      "iconId": "MTL_SL_ZYK",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 100006,
+      "usage": "经过精炼处理的化合物结晶块。用于多种强化场合，也常作为制造站合成项目的原料。",
+      "obtainApproach": null,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [
+        {
+          "stageId": "main_11-03",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_11-13",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_11-03",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_11-13",
+          "occPer": "SOMETIMES"
+        }
+      ],
+      "buildingProductList": [
+        {
+          "roomType": "WORKSHOP",
+          "formulaId": "61"
+        }
+      ]
+    },
+    "30115": {
+      "itemId": "30115",
+      "name": "聚合剂",
+      "description": "精密穿戴着装中常用的材料。多作为隔绝涂层使用。强大的聚合粘接效果足以阻断源石的挥发。",
+      "rarity": 4,
+      "iconId": "MTL_SL_PP",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 100005,
+      "usage": "复杂的液态工业产物。用于高级强化场合。",
+      "obtainApproach": null,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": [
+        {
+          "roomType": "WORKSHOP",
+          "formulaId": "14"
+        }
+      ]
+    },
+    "30125": {
+      "itemId": "30125",
+      "name": "双极纳米片",
+      "description": "对范围内源石敏感的装置。能有效提升源石附近范围内作战武器和设备对源石的敏感性，使源石技艺的存储几近可能。",
+      "rarity": 4,
+      "iconId": "MTL_SL_BN",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 100004,
+      "usage": "现代工业的创造力结晶。用于高级强化场合。",
+      "obtainApproach": null,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": [
+        {
+          "roomType": "WORKSHOP",
+          "formulaId": "13"
+        }
+      ]
+    },
+    "30135": {
+      "itemId": "30135",
+      "name": "D32钢",
+      "description": "强度超群，无法击穿，顺畅传导源石技艺，将重新订立武器材料的标准。",
+      "rarity": 4,
+      "iconId": "MTL_SL_DS",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 100003,
+      "usage": "自然界中不应存在的人造金属材料，呈固态。用于高级强化场合。",
+      "obtainApproach": null,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": [
+        {
+          "roomType": "WORKSHOP",
+          "formulaId": "12"
+        }
+      ]
+    },
+    "30145": {
+      "itemId": "30145",
+      "name": "晶体电子单元",
+      "description": "泰拉源石科技的结晶，泰拉工业现代化的代表。源石施术单元与城际网络服务器的制造都离不开这种科技产品。",
+      "rarity": 4,
+      "iconId": "MTL_SL_OEU",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 100002,
+      "usage": "昂贵的源石工业产品，用于重要的强化场合。",
+      "obtainApproach": null,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": [
+        {
+          "roomType": "WORKSHOP",
+          "formulaId": "57"
+        }
+      ]
+    },
+    "30155": {
+      "itemId": "30155",
+      "name": "烧结核凝晶",
+      "description": "特定高温环境下具有分子识别能力的材料。作为助剂能选择性地吸附源石，为精密加工源石材料、降低源石器件耗能提供新可能。",
+      "rarity": 4,
+      "iconId": "MTL_SL_SHJ",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 100001,
+      "usage": "对工艺要求极高的现代科技产物。用于高级强化场合。",
+      "obtainApproach": null,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": [
+        {
+          "roomType": "WORKSHOP",
+          "formulaId": "62"
         }
       ]
     },
@@ -7591,7 +8367,7 @@
       "overrideBkg": null,
       "stackIconId": null,
       "sortId": 450005,
-      "usage": "用于提升★6术士干员的潜能",
+      "usage": "用于提升★6术师干员的潜能",
       "obtainApproach": "采购中心",
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
@@ -7990,7 +8766,7 @@
       "iconId": "p_char_278_orchid",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 800013,
+      "sortId": 900013,
       "usage": "用于提升梓兰的潜能。",
       "obtainApproach": "干员入职的馈赠",
       "classifyType": "MATERIAL",
@@ -8840,6 +9616,38 @@
       "stackIconId": null,
       "sortId": 800049,
       "usage": "用于提升褐果的潜能。",
+      "obtainApproach": "干员入职的馈赠",
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "p_char_4062_totter": {
+      "itemId": "p_char_4062_totter",
+      "name": "铅踝的信物",
+      "description": "一段被冻得硬邦邦的木柴，被丢进炉子燃烧前还需简单烘烤以去除水分。",
+      "rarity": 3,
+      "iconId": "p_char_4062_totter",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 800050,
+      "usage": "用于提升铅踝的潜能。",
+      "obtainApproach": "干员入职的馈赠",
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "p_char_4063_quartz": {
+      "itemId": "p_char_4063_quartz",
+      "name": "石英的信物",
+      "description": "来自父亲的怀表。即便早已停止，却依旧能在无人的时候，听见“嘀嗒嘀嗒”催促的声音。",
+      "rarity": 3,
+      "iconId": "p_char_4063_quartz",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 800051,
+      "usage": "用于提升石英的潜能。",
       "obtainApproach": "干员入职的馈赠",
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
@@ -10574,6 +11382,118 @@
       "stageDropList": [],
       "buildingProductList": []
     },
+    "p_char_4066_highmo": {
+      "itemId": "p_char_4066_highmo",
+      "name": "海沫的信物",
+      "description": "一只洁白的贝螺。在寂静的夜晚将它捧起，靠在耳边，似乎能听到悠远的离歌。",
+      "rarity": 4,
+      "iconId": "p_char_4066_highmo",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 700108,
+      "usage": "用于提升海沫的潜能。",
+      "obtainApproach": "干员入职的馈赠",
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "p_char_4071_peper": {
+      "itemId": "p_char_4071_peper",
+      "name": "明椒的信物",
+      "description": "毛绒绒护耳罩。集美观、保暖、防护于一身的毛线耳罩，由女孩亲手编织而成。",
+      "rarity": 4,
+      "iconId": "p_char_4071_peper",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 700109,
+      "usage": "用于提升明椒的潜能。",
+      "obtainApproach": "干员入职的馈赠",
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "p_char_157_dagda": {
+      "itemId": "p_char_157_dagda",
+      "name": "达格达的信物",
+      "description": "《塔楼骑士之书》中的一页。写有伊莎贝尔·“达格达”·孟塔古的姓名，下方仍有大段空白，正在等待书写。",
+      "rarity": 4,
+      "iconId": "p_char_157_dagda",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 700110,
+      "usage": "用于提升达格达的潜能。",
+      "obtainApproach": "干员入职的馈赠",
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "p_char_466_qanik": {
+      "itemId": "p_char_466_qanik",
+      "name": "雪绒的信物",
+      "description": "一束美丽的干花，采自北方冷冽的荒野。花瓣上残余的香味，总能让雪绒想起故乡。",
+      "rarity": 4,
+      "iconId": "p_char_466_qanik",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 700111,
+      "usage": "用于提升雪绒的潜能。",
+      "obtainApproach": "干员入职的馈赠",
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "p_char_4014_lunacu": {
+      "itemId": "p_char_4014_lunacu",
+      "name": "子月的信物",
+      "description": "一枚骨制箭头，看样子是子月亲手打磨的。当被问及骨头的来源时，子月表示是在外面捡到的。",
+      "rarity": 4,
+      "iconId": "p_char_4014_lunacu",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 700112,
+      "usage": "用于提升子月的潜能。",
+      "obtainApproach": "干员入职的馈赠",
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "p_char_297_hamoni": {
+      "itemId": "p_char_297_hamoni",
+      "name": "和弦的信物",
+      "description": "一张某位大贵族的舞会邀请函。附带一份详尽的受邀者名单与介绍，当然，你不在其列。",
+      "rarity": 4,
+      "iconId": "p_char_297_hamoni",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 700113,
+      "usage": "用于提升和弦的潜能。",
+      "obtainApproach": "干员入职的馈赠",
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "p_char_4017_puzzle": {
+      "itemId": "p_char_4017_puzzle",
+      "name": "谜图的信物",
+      "description": "一幅纯白的拼图。追问他是谁或许没有意义，问问他追寻的秩序是什么吧。",
+      "rarity": 4,
+      "iconId": "p_char_4017_puzzle",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 700114,
+      "usage": "用于提升谜图的潜能。",
+      "obtainApproach": "干员入职的馈赠",
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
     "p_char_103_angel": {
       "itemId": "p_char_103_angel",
       "name": "能天使的信物",
@@ -11582,6 +12502,70 @@
       "stageDropList": [],
       "buildingProductList": []
     },
+    "p_char_4072_ironmn": {
+      "itemId": "p_char_4072_ironmn",
+      "name": "白铁的信物",
+      "description": "崭新的滑索装置。与人体接触的部分比一般的量产滑索更柔软，以防止高速运动过程中的摩擦伤。",
+      "rarity": 5,
+      "iconId": "p_char_4072_ironmn",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 600064,
+      "usage": "用于提升白铁的潜能。",
+      "obtainApproach": "干员入职的馈赠",
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "p_char_1028_texas2": {
+      "itemId": "p_char_1028_texas2",
+      "name": "缄默德克萨斯的信物",
+      "description": "一串颇有叙拉古风情的项链。根据德克萨斯的介绍，这是西西里夫人的信物，有了它，就可以见到西西里夫人。但愿不会有用到它的一天。",
+      "rarity": 5,
+      "iconId": "p_char_1028_texas2",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 600065,
+      "usage": "用于提升缄默德克萨斯的潜能。",
+      "obtainApproach": "干员入职的馈赠",
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "p_char_4065_judge": {
+      "itemId": "p_char_4065_judge",
+      "name": "斥罪的信物",
+      "description": "一柄实心木制法槌。越能感受到拿起它时之轻，越能感受到敲下它时之重。",
+      "rarity": 5,
+      "iconId": "p_char_4065_judge",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 600066,
+      "usage": "用于提升斥罪的潜能。",
+      "obtainApproach": "干员入职的馈赠",
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "p_char_1020_reed2": {
+      "itemId": "p_char_1020_reed2",
+      "name": "焰影苇草的信物",
+      "description": "一本用陌生语言抄下的诗歌集。她不求所有人都读懂，只希望想读这些诗歌的人有可以栖身的一隅。",
+      "rarity": 5,
+      "iconId": "p_char_1020_reed2",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 600067,
+      "usage": "用于提升焰影苇草的潜能。",
+      "obtainApproach": "干员入职的馈赠",
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
     "voucher_full_ceylon": {
       "itemId": "voucher_full_ceylon",
       "name": "锡兰的私人信件",
@@ -11736,6 +12720,38 @@
       "stackIconId": null,
       "sortId": 5000010,
       "usage": "发送给博士的私人信件，用于将特米米的潜能提升至满级。",
+      "obtainApproach": "记录修复获得",
+      "classifyType": "MATERIAL",
+      "itemType": "VOUCHER_FULL_POTENTIAL",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "voucher_full_sophia": {
+      "itemId": "voucher_full_sophia",
+      "name": "鞭刃的私人信件",
+      "description": "信中谈及了她多姿多彩的闲暇时光，另有对于干员培养流程的些许抱怨。随信还附了一张签过名但没有填写金额的支票。",
+      "rarity": 4,
+      "iconId": "voucher_full_sophia",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 5000011,
+      "usage": "发送给博士的私人信件，用于将鞭刃的潜能提升至满级。",
+      "obtainApproach": "记录修复获得",
+      "classifyType": "MATERIAL",
+      "itemType": "VOUCHER_FULL_POTENTIAL",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "voucher_full_bena": {
+      "itemId": "voucher_full_bena",
+      "name": "贝娜的私人信件",
+      "description": "信中谈及了她和安妮的亲密对话，还有几句不明意义的短诗。",
+      "rarity": 4,
+      "iconId": "voucher_full_bena",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 5000012,
+      "usage": "发送给博士的私人信件，用于将贝娜的潜能提升至满级。",
       "obtainApproach": "记录修复获得",
       "classifyType": "MATERIAL",
       "itemType": "VOUCHER_FULL_POTENTIAL",
@@ -14005,6 +15021,22 @@
       "obtainApproach": "活动关卡掉落、活动任务获得",
       "classifyType": "NONE",
       "itemType": "ACTIVITY_ITEM",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "act13side_token_model_rep_1": {
+      "itemId": "act13side_token_model_rep_1",
+      "name": "骑士领纪念模型",
+      "description": "人们用这些发光的灯管制伏了黑夜，点亮了卡西米尔的光芒。在文明里，吟游诗人唱出了金币的声响，远游的骑士只得与玻璃斗剑。冷漠是无声的浪潮，她乘着最后的扁舟，打捞荣耀。",
+      "rarity": 4,
+      "iconId": "act13side_token_model",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": -10000,
+      "usage": "骑士之国的缩影，常被摆放在会客室精巧的礼盒里。",
+      "obtainApproach": "活动关卡掉落、活动任务获得",
+      "classifyType": "NONE",
+      "itemType": "ACTIVITY_ITEM",
       "stageDropList": [
         {
           "stageId": "act13side_01",
@@ -14076,6 +15108,7 @@
       "sortId": -10000,
       "usage": "能够自由出入商业联合会的ID卡，意味着更多的权限将会向罗德岛开放。",
       "obtainApproach": "活动达到声望获得",
+      "hideInItemGet": true,
       "classifyType": "NONE",
       "itemType": "MATERIAL",
       "stageDropList": [],
@@ -14126,7 +15159,6 @@
       "sortId": -10000,
       "usage": null,
       "obtainApproach": null,
-      "hideInItemGet": true,
       "classifyType": "NONE",
       "itemType": "MATERIAL",
       "stageDropList": [],
@@ -14134,6 +15166,22 @@
     },
     "act14side_token_stone": {
       "itemId": "act14side_token_stone",
+      "name": "耶拉冈德之石",
+      "description": "耶拉冈德的意志寄宿其中，谢拉格人会向之祈祷，以求幸福安康。",
+      "rarity": 4,
+      "iconId": "act14side_token_stone",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": -10000,
+      "usage": "经过蔓珠院的修士祝福的圣石。收集一定数量可以和民众交换各种物资。",
+      "obtainApproach": "活动期间关卡限时掉落",
+      "classifyType": "NONE",
+      "itemType": "ACTIVITY_ITEM",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "act14side_token_stone_rep_1": {
+      "itemId": "act14side_token_stone_rep_1",
       "name": "耶拉冈德之石",
       "description": "耶拉冈德的意志寄宿其中，谢拉格人会向之祈祷，以求幸福安康。",
       "rarity": 4,
@@ -14799,6 +15847,7 @@
       "sortId": -10000,
       "usage": "用于对遏制单元进行数据迭代。",
       "obtainApproach": "活动关卡掉落",
+      "hideInItemGet": true,
       "classifyType": "NONE",
       "itemType": "ACTIVITY_ITEM",
       "stageDropList": [],
@@ -14866,7 +15915,6 @@
       "sortId": -10000,
       "usage": null,
       "obtainApproach": "活动任务获得",
-      "hideInItemGet": true,
       "classifyType": "NONE",
       "itemType": "ACTIVITY_ITEM",
       "stageDropList": [],
@@ -14965,6 +16013,167 @@
         },
         {
           "stageId": "act13mini_08",
+          "occPer": "ALWAYS"
+        }
+      ],
+      "buildingProductList": []
+    },
+    "rogue_2_token_bp": {
+      "itemId": "rogue_2_token_bp",
+      "name": "生机细胞",
+      "description": null,
+      "rarity": 4,
+      "iconId": "rogue_2_token_bp",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": -10000,
+      "usage": null,
+      "obtainApproach": "在集成战略模式中获得",
+      "classifyType": "NONE",
+      "itemType": "RL_COIN",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "rogue_2_token_grow": {
+      "itemId": "rogue_2_token_grow",
+      "name": "主观想象",
+      "description": null,
+      "rarity": 4,
+      "iconId": "rogue_2_token_grow",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": -10000,
+      "usage": null,
+      "obtainApproach": "在集成战略模式中获得",
+      "classifyType": "NONE",
+      "itemType": "RL_COIN",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "uni_set_fNearl": {
+      "itemId": "uni_set_fNearl",
+      "name": "玛莉娅·临光家具收藏包",
+      "description": "采购部重新联系供货商，补齐了当初限量的部分家具，感谢可露希尔吧！",
+      "rarity": 4,
+      "iconId": "uni_set_fNearl",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": -10000,
+      "usage": "获得所有尚未取得且仅可在玛莉娅·临光活动中得到的家具。",
+      "obtainApproach": "记录修复获得",
+      "classifyType": "NONE",
+      "itemType": "UNI_COLLECTION",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "uni_set_outdoor_1": {
+      "itemId": "uni_set_outdoor_1",
+      "name": "海滨印象家具收藏包一",
+      "description": "水月和同伴们搭建起的夏日海边印象房。或许这才是海洋应有的模样。",
+      "rarity": 4,
+      "iconId": "uni_set_outdoor_1",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": -10000,
+      "usage": "获得“海滨印象”系列家具中属于“冷饮派对”、“清凉核心”两个套件组的家具。",
+      "obtainApproach": "在集成战略模式中获得",
+      "classifyType": "NONE",
+      "itemType": "UNI_COLLECTION",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "uni_set_outdoor_2": {
+      "itemId": "uni_set_outdoor_2",
+      "name": "海滨印象家具收藏包二",
+      "description": "水月和同伴们搭建起的夏日海边印象房。或许这才是海洋应有的模样。",
+      "rarity": 4,
+      "iconId": "uni_set_outdoor_2",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": -10000,
+      "usage": "获得“海滨印象”系列家具中属于“夏日边角料”、“沙滩装饰”两个套件组的家具。",
+      "obtainApproach": "在集成战略模式中获得",
+      "classifyType": "NONE",
+      "itemType": "UNI_COLLECTION",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "act21side_token_permesso": {
+      "itemId": "act21side_token_permesso",
+      "name": "进货通行证",
+      "description": "令人满意的肉排、时蔬、鲜果，或者是一些别的东西。聪明人知道什么是家族想要的，并且会提前准备好它们，在合适的时间将其提供给家族。",
+      "rarity": 4,
+      "iconId": "act21side_token_permesso",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": -10000,
+      "usage": "食品安全部面向家族发行的通行证。家族成员可以凭此进入食品安全部并获取一些物资，尽管它们并不在“食品”的范畴。",
+      "obtainApproach": "活动关卡掉落、活动任务获得",
+      "classifyType": "NONE",
+      "itemType": "ACTIVITY_ITEM",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "voucher_vigil": {
+      "itemId": "voucher_vigil",
+      "name": "伺夜的文件夹",
+      "description": "随身手记记录着新沃尔西尼建设的相关思路，能看出书写者的用心和急迫。不过最后还夹杂着几张叙拉古的传统食谱。",
+      "rarity": 5,
+      "iconId": "voucher_vigil",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": -10000,
+      "usage": "存放着随身手记的文件夹，首次获得道具时获得伺夜，非首次获得后可提升伺夜的潜能。",
+      "obtainApproach": "活动获得",
+      "classifyType": "NONE",
+      "itemType": "ACTIVITY_POTENTIAL",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "act22side_token_manuscript": {
+      "itemId": "act22side_token_manuscript",
+      "name": "手抄歌谣集",
+      "description": "这些歌谣，记得它们的人很少能提笔书写，书写塔拉历史的人则几乎不会去听。但商人们说，总会有人致力于辑录散落的塔拉文明，这项生意已经持续数百年。",
+      "rarity": 4,
+      "iconId": "act22side_token_manuscript",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": -10000,
+      "usage": "随手抄下了塔拉歌谣与传说的纸页。收集到一定数量，可以向河谷巡回商队换取物资。",
+      "obtainApproach": "活动关卡掉落、活动任务获得",
+      "classifyType": "NONE",
+      "itemType": "ACTIVITY_ITEM",
+      "stageDropList": [
+        {
+          "stageId": "act22side_01",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act22side_02",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act22side_03",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act22side_04",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act22side_05",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act22side_06",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act22side_07",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "act22side_08",
           "occPer": "ALWAYS"
         }
       ],
@@ -15571,6 +16780,45 @@
     "furni_outdoor_chair_01": 1,
     "furni_outdoor_wallpaper_01": 1,
     "furni_outdoor_floor_01": 1,
+    "furni_court_ceilingLamp_01": 2,
+    "furni_court_ladder_01": 1,
+    "furni_court_carpet_01": 1,
+    "furni_court_column_01": 2,
+    "furni_court_hole_01": 1,
+    "furni_court_board_01": 1,
+    "furni_court_assistantChair_01": 2,
+    "furni_court_mainChair_01": 1,
+    "furni_court_table_01": 1,
+    "furni_court_enclosure_01": 2,
+    "furni_court_speaker_01": 1,
+    "furni_court_wallLamp_01": 1,
+    "furni_court_auditorium_01": 1,
+    "furni_court_ceiling_01": 2,
+    "furni_court_hanger_01": 1,
+    "furni_court_bookcase_01": 1,
+    "furni_court_wallpaper_01": 1,
+    "furni_court_floor_01": 1,
+    "furni_countryside_cabinet_01": 1,
+    "furni_countryside_handcart_01": 1,
+    "furni_countryside_ceilingLamp_01": 1,
+    "furni_countryside_chair_01": 4,
+    "furni_countryside_oven_01": 1,
+    "furni_countryside_table_01": 1,
+    "furni_countryside_basket_01": 1,
+    "furni_countryside_carpet_01": 1,
+    "furni_countryside_floorLamp_01": 1,
+    "furni_countryside_curtain_01": 1,
+    "furni_countryside_haystack_01": 1,
+    "furni_countryside_barrel_01": 1,
+    "furni_countryside_storage_01": 1,
+    "furni_countryside_partitionWall_01": 1,
+    "furni_countryside_suspendedCeiling_01": 1,
+    "furni_countryside_woodenWall_01": 1,
+    "furni_countryside_wallpaper_01": 1,
+    "furni_countryside_floor_01": 1,
+    "furni_oct1st_deckChair_01": 1,
+    "furni_animation_projector_01": 1,
+    "furni_animation_trophy_01": 1,
     "furni_MA2020_rabbit_01": 1,
     "furni_MA_teaTable_01": 1,
     "furni_MA_mooncake_S_01": 1,
@@ -15699,6 +16947,10 @@
     "furni_dropS026_pride_01": 1,
     "furni_dropS026_envy_01": 1,
     "furni_dropS026_wrath_01": 1,
+    "furni_dropS022_hamlet_01": 1,
+    "furni_dropS022_holmes_01": 1,
+    "furni_dropS033_hannibal_01": 1,
+    "furni_dropS034_traveler_01": 1,
     "furni_contract_s0_01": 1,
     "furni_contract_s1_01": 1,
     "furni_contract_s2_01": 1,
@@ -15710,6 +16962,7 @@
     "furni_contract_s8_01": 1,
     "furni_contract_s9_01": 1,
     "furni_contract_s10_01": 1,
+    "furni_contract_s11_01": 1,
     "furni_annihilation_s2_01": 1,
     "furni_annihilation_s4_01": 1,
     "furni_annihilation_s5_01": 1,
@@ -15720,6 +16973,7 @@
     "furni_annihilation_s10_01": 1,
     "furni_annihilation_s11_01": 1,
     "furni_annihilation_s12_01": 1,
+    "furni_annihilation_s13_01": 1,
     "furni_team001_blackSteel_target_01": 1,
     "furni_team001_followers_ceilingLight_01": 1,
     "furni_team001_ursus_baseballStand_01": 1,
@@ -15740,6 +16994,8 @@
     "char_002_amiya@test#1": 1,
     "char_250_phatom@sale#4": 1,
     "char_211_adnach@sale#5": 1,
+    "char_210_stward@sale#6": 1,
+    "char_437_mizuki@sale#7": 1,
     "char_208_melan@epoque#1": 1,
     "char_109_fmout@epoque#2": 1,
     "char_187_ccheal@epoque#2": 1,
@@ -15771,6 +17027,14 @@
     "char_337_utage@epoque#15": 1,
     "char_264_f12yin@epoque#15": 1,
     "char_475_akafyu@epoque#15": 1,
+    "char_496_wildmn@epoque#16": 1,
+    "char_472_pasngr@epoque#17": 1,
+    "char_1014_nearl2@epoque#17": 1,
+    "char_391_rosmon@epoque#17": 1,
+    "char_449_glider@epoque#17": 1,
+    "char_101_sora@epoque#17": 1,
+    "char_492_quercu@epoque#17": 1,
+    "char_4013_kjera@epoque#18": 1,
     "char_120_hibisc@nian#1": 1,
     "char_010_chen@nian#2": 1,
     "char_308_swire@nian#2": 1,
@@ -15791,6 +17055,7 @@
     "char_243_waaifu@whirlwind#2": 1,
     "char_347_jaksel@whirlwind#2": 1,
     "char_378_asbest@whirlwind#3": 1,
+    "char_366_acdrop@whirlwind#4": 1,
     "char_147_shining@summer#1": 1,
     "char_166_skfire@summer#1": 1,
     "char_290_vigna@summer#1": 1,
@@ -15837,6 +17102,9 @@
     "char_254_vodfox@witch#2": 1,
     "char_383_snsant@witch#2": 1,
     "char_328_cammou@witch#2": 1,
+    "char_322_lmlee@witch#3": 1,
+    "char_338_iris@witch#3": 1,
+    "char_4016_kazema@witch#3": 1,
     "char_102_texas@winter#1": 1,
     "char_143_ghost@winter#1": 1,
     "char_198_blackd@winter#1": 1,
@@ -15856,6 +17124,9 @@
     "char_373_lionhd@snow#3": 1,
     "char_214_kafka@snow#3": 1,
     "char_452_bstalk@snow#4": 1,
+    "char_377_gdglow@snow#5": 1,
+    "char_4043_erato@snow#5": 1,
+    "char_1027_greyy2@snow#5": 1,
     "char_103_angel@wild#1": 1,
     "char_173_slchan@wild#1": 1,
     "char_117_myrrh@wild#1": 1,
@@ -15936,7 +17207,9 @@
     "renamingCard_0_023": 180,
     "renamingCard_30_023": 180,
     "renamingCard_0_027": 180,
-    "renamingCard_30_027": 180
+    "renamingCard_30_027": 180,
+    "renamingCard_0_033": 180,
+    "renamingCard_30_033": 180
   },
   "uniCollectionInfo": {
     "uni_set_pizza": {
@@ -16364,6 +17637,81 @@
         }
       ]
     },
+    "uni_set_fNearl": {
+      "uniCollectionItemId": "uni_set_fNearl",
+      "uniqueItem": [
+        {
+          "id": "furni_fNearl_cabinet_H_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_fNearl_calendar_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_fNearl_sofaStool_R_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_fNearl_wallDecor_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_fNearl_banner_01",
+          "count": 2,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_fNearl_shelf_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_fNearl_branchDecor_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_fNearl_cabinet_L_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_fNearl_sink_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_fNearl_wateringCan_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_fNearl_ceilingLight_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_fNearl_ceilingLight2_01",
+          "count": 2,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_fNearl_wallpaper_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_fNearl_floor_01",
+          "count": 1,
+          "type": "FURN"
+        }
+      ]
+    },
     "uni_set_castle_2": {
       "uniCollectionItemId": "uni_set_castle_2",
       "uniqueItem": [
@@ -16464,6 +17812,116 @@
         }
       ]
     },
+    "uni_set_outdoor_2": {
+      "uniCollectionItemId": "uni_set_outdoor_2",
+      "uniqueItem": [
+        {
+          "id": "furni_outdoor_ceilingLamp_01",
+          "count": 2,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_outdoor_ceiling_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_outdoor_cabinet_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_outdoor_stoolKit_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_outdoor_ceilingLight_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_outdoor_bench_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_outdoor_soundSystem_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_outdoor_tent_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_outdoor_wallpaper_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_outdoor_floor_01",
+          "count": 1,
+          "type": "FURN"
+        }
+      ]
+    },
+    "uni_set_outdoor_1": {
+      "uniCollectionItemId": "uni_set_outdoor_1",
+      "uniqueItem": [
+        {
+          "id": "furni_outdoor_barrel_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_outdoor_bar_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_outdoor_carpet_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_outdoor_stool_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_outdoor_freezer_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_outdoor_bonfire_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_outdoor_hangingNet_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_outdoor_bar2_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_outdoor_carpet2_01",
+          "count": 1,
+          "type": "FURN"
+        },
+        {
+          "id": "furni_outdoor_chair_01",
+          "count": 1,
+          "type": "FURN"
+        }
+      ]
+    },
     "uni_set_act10d5": {
       "uniCollectionItemId": "uni_set_act10d5",
       "uniqueItem": [
@@ -16535,6 +17993,7 @@
       ]
     }
   },
+  "itemPackInfos": {},
   "fullPotentialCharacters": {
     "char_348_ceylon": {
       "itemId": "voucher_full_ceylon",
@@ -16575,6 +18034,19 @@
     "char_411_tomimi": {
       "itemId": "voucher_full_tomimi",
       "ts": 1661414400
+    },
+    "char_265_sophia": {
+      "itemId": "voucher_full_sophia",
+      "ts": 1666080000
+    },
+    "char_369_bena": {
+      "itemId": "voucher_full_bena",
+      "ts": 1669881600
+    }
+  },
+  "activityPotentialCharacters": {
+    "voucher_vigil": {
+      "charId": "char_427_vigil"
     }
   }
 }

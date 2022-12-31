@@ -8,11 +8,11 @@ const useCache = true;
 const cacheBeginTime = new Date(2019, 12, 10).getTime();
 
 window.AKDATA = {
-  akdata: "220911", // jsdelivr tag version
+  akdata: "221218", // jsdelivr tag version
 
   Data: {},
 
-  new_op: ["char_4064_mlynar", "char_4032_provs", "char_4067_lolxh" ],
+  new_op: ["char_1020_reed2", "char_297_hamoni", "char_4017_puzzle"],
 
   professionNames: {
     "PIONEER": "先锋",
@@ -98,7 +98,7 @@ window.AKDATA = {
     for( let i=0;i<paths.length;i++) {
       if ( paths[i].endsWith('.json') ){
         let name = paths[i].split('/').pop().replace('.json', '');
-        let path = `resources/gamedata/${paths[i].toLowerCase()}`;
+        let path = `resources/gamedata/${paths[i]}`;
         let isGamedata = (paths[i].includes("excel") || paths[i].includes("levels"));
 
         // mirrors

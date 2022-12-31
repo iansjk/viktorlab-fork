@@ -32,7 +32,12 @@
     "permanent_sidestory_8_zone2": "permanent_sidestory_8_Who_is_Real",
     "permanent_sidestory_9_zone1": "permanent_sidestory_9_Dossoles_Holiday",
     "permanent_sidestory_9_zone2": "permanent_sidestory_9_Dossoles_Holiday",
-    "permanent_sidestory_9_zone3": "permanent_sidestory_9_Dossoles_Holiday"
+    "permanent_sidestory_9_zone3": "permanent_sidestory_9_Dossoles_Holiday",
+    "permanent_sidestory_10_zone1": "permanent_sidestory_10_Near_Light",
+    "permanent_sidestory_10_zone2": "permanent_sidestory_10_Near_Light",
+    "permanent_sidestory_10_zone3": "permanent_sidestory_10_Near_Light",
+    "permanent_sidestory_11_zone1": "permanent_sidestory_11_Break_The_Ice",
+    "permanent_sidestory_11_zone2": "permanent_sidestory_11_Break_The_Ice"
   },
   "stageValidInfo": {
     "act9d0_01": {
@@ -1522,6 +1527,294 @@
     "act12side_mo01": {
       "startTs": 1659988800,
       "endTs": -1
+    },
+    "act13side_st01": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_tr01": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_01": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_02": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_03": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_04": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_st02": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_tr02": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_05": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_06": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_st03": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_07": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_08": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_09": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_10": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_st04": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_ex01": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_ex01#f#": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_ex02": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_ex02#f#": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_ex03": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_ex03#f#": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_ex04": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_ex04#f#": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_ex05": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_ex05#f#": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_ex06": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_ex06#f#": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_ex07": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_ex07#f#": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_ex08": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_ex08#f#": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_s01": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_s01#f#": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_s02": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_s02#f#": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_s03": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_s03#f#": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_s04": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_s04#f#": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_s05": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act13side_s05#f#": {
+      "startTs": 1665000000,
+      "endTs": -1
+    },
+    "act14side_tr01": {
+      "startTs": 1671048000,
+      "endTs": -1
+    },
+    "act14side_01": {
+      "startTs": 1671048000,
+      "endTs": -1
+    },
+    "act14side_st01": {
+      "startTs": 1671048000,
+      "endTs": -1
+    },
+    "act14side_02": {
+      "startTs": 1671048000,
+      "endTs": -1
+    },
+    "act14side_03": {
+      "startTs": 1671048000,
+      "endTs": -1
+    },
+    "act14side_st02": {
+      "startTs": 1671048000,
+      "endTs": -1
+    },
+    "act14side_04": {
+      "startTs": 1671048000,
+      "endTs": -1
+    },
+    "act14side_tr02": {
+      "startTs": 1671048000,
+      "endTs": -1
+    },
+    "act14side_05": {
+      "startTs": 1671048000,
+      "endTs": -1
+    },
+    "act14side_st03": {
+      "startTs": 1671048000,
+      "endTs": -1
+    },
+    "act14side_06": {
+      "startTs": 1671048000,
+      "endTs": -1
+    },
+    "act14side_07": {
+      "startTs": 1671048000,
+      "endTs": -1
+    },
+    "act14side_08": {
+      "startTs": 1671048000,
+      "endTs": -1
+    },
+    "act14side_st04": {
+      "startTs": 1671048000,
+      "endTs": -1
+    },
+    "act14side_ex01": {
+      "startTs": 1671048000,
+      "endTs": -1
+    },
+    "act14side_ex01#f#": {
+      "startTs": 1671048000,
+      "endTs": -1
+    },
+    "act14side_ex02": {
+      "startTs": 1671048000,
+      "endTs": -1
+    },
+    "act14side_ex02#f#": {
+      "startTs": 1671048000,
+      "endTs": -1
+    },
+    "act14side_ex03": {
+      "startTs": 1671048000,
+      "endTs": -1
+    },
+    "act14side_ex03#f#": {
+      "startTs": 1671048000,
+      "endTs": -1
+    },
+    "act14side_ex04": {
+      "startTs": 1671048000,
+      "endTs": -1
+    },
+    "act14side_ex04#f#": {
+      "startTs": 1671048000,
+      "endTs": -1
+    },
+    "act14side_ex05": {
+      "startTs": 1671048000,
+      "endTs": -1
+    },
+    "act14side_ex05#f#": {
+      "startTs": 1671048000,
+      "endTs": -1
+    },
+    "act14side_ex06": {
+      "startTs": 1671048000,
+      "endTs": -1
+    },
+    "act14side_ex06#f#": {
+      "startTs": 1671048000,
+      "endTs": -1
+    },
+    "act14side_ex07": {
+      "startTs": 1671048000,
+      "endTs": -1
+    },
+    "act14side_ex07#f#": {
+      "startTs": 1671048000,
+      "endTs": -1
+    },
+    "act14side_ex08": {
+      "startTs": 1671048000,
+      "endTs": -1
+    },
+    "act14side_ex08#f#": {
+      "startTs": 1671048000,
+      "endTs": -1
     }
   },
   "stages": null,
@@ -1677,11 +1970,11 @@
         "act7sre"
       ],
       "startTime": 1634241600,
-      "trailStartTime": -1,
+      "trailStartTime": 1666080000,
       "index": 6,
       "name": "玛莉娅·临光",
       "detail": "消费与娱乐充斥着当今的骑士之国，\n年轻的玛莉娅·临光为了保护家族地位，\n不得不踏上了骑士竞技的征程。\n然而少女尚不知道“骑士”一词在如今有着怎样的含义，\n卡西米尔的社会又究竟是如何运作……\n玛莉娅的征途注定充满艰难险阻。",
-      "haveTrail": false,
+      "haveTrail": true,
       "customActId": null,
       "customActType": "DEFAULT"
     },
@@ -1693,11 +1986,11 @@
         "act8sre"
       ],
       "startTime": 1640030400,
-      "trailStartTime": -1,
+      "trailStartTime": 1672560000,
       "index": 7,
       "name": "孤岛风云",
       "detail": "数年前，安东尼·西蒙被关押进了曼斯菲尔德监狱。\n他一直暗中谋划着越狱，找出当年的真相。\n然而，一场针对他的阴谋，也在悄然酝酿。\n偶然发现安东尼存在的赫默，早已暗中行动的塞雷娅，\n来意不明的缪尔赛思，海德兄弟与其背后的能量科。\n或许那场酒吧中的夜谈，可以揭开这场阴谋的真面目，\n以及莱茵生命神秘面纱的一角。",
-      "haveTrail": false,
+      "haveTrail": true,
       "customActId": null,
       "customActType": "DEFAULT"
     },
@@ -1732,6 +2025,38 @@
       "haveTrail": false,
       "customActId": null,
       "customActType": "TYPE_ACT12SIDE"
+    },
+    "permanent_sidestory_10_Near_Light": {
+      "retroId": "permanent_sidestory_10_Near_Light",
+      "type": 0,
+      "linkedActId": [
+        "act13side",
+        "act13sre"
+      ],
+      "startTime": 1665000000,
+      "trailStartTime": -1,
+      "index": 10,
+      "name": "长夜临光",
+      "detail": "耀骑士的归来，\n将这一届特别锦标赛推往了一个新的高潮。\n同时，在霓虹灯没有照到的角落，\n那些被消失的怒吼也即将冲破桎梏。\n舞台之上，骑士之路交错蔓延。\n舞台之下，城市之殇箭在弦上。\n他们终将交汇......",
+      "haveTrail": false,
+      "customActId": null,
+      "customActType": "DEFAULT"
+    },
+    "permanent_sidestory_11_Break_The_Ice": {
+      "retroId": "permanent_sidestory_11_Break_The_Ice",
+      "type": 0,
+      "linkedActId": [
+        "act14side",
+        "act14sre"
+      ],
+      "startTime": 1671048000,
+      "trailStartTime": -1,
+      "index": 11,
+      "name": "风雪过境",
+      "detail": "在这片雪境中，\n重重山峦保卫的，是亘古的虔诚信仰，\n厚厚积雪掩盖的，是积年的庞大危机。\n在罕有人及的山巅之上，\n神明无言，守护千年。\n在炊烟袅袅的祥和之境，\n铁路长驱，冲破藩篱。",
+      "haveTrail": false,
+      "customActId": null,
+      "customActType": "DEFAULT"
     }
   },
   "retroTrailList": {
@@ -2225,6 +2550,96 @@
       "relatedFullPotentialItemId": null,
       "themeColor": "00ffba",
       "fullPotentialItemId": "voucher_full_tomimi"
+    },
+    "permanent_sidestory_6_Maria_Nearl": {
+      "retroId": "permanent_sidestory_6_Maria_Nearl",
+      "trailStartTime": 1666080000,
+      "trailRewardList": [
+        {
+          "trailRewardId": "trailReward_sidestory_6_1",
+          "starCount": 12,
+          "rewardItem": {
+            "id": "char_265_sophia",
+            "count": 1,
+            "type": "CHAR"
+          }
+        },
+        {
+          "trailRewardId": "trailReward_sidestory_6_2",
+          "starCount": 24,
+          "rewardItem": {
+            "id": "voucher_full_sophia",
+            "count": 1,
+            "type": "VOUCHER_FULL_POTENTIAL"
+          }
+        },
+        {
+          "trailRewardId": "trailReward_sidestory_6_3",
+          "starCount": 32,
+          "rewardItem": {
+            "id": "char_277_sqrrel@ghost#1",
+            "count": 1,
+            "type": "CHAR_SKIN"
+          }
+        },
+        {
+          "trailRewardId": "trailReward_sidestory_6_4",
+          "starCount": 40,
+          "rewardItem": {
+            "id": "uni_set_fNearl",
+            "count": 1,
+            "type": "UNI_COLLECTION"
+          }
+        },
+        {
+          "trailRewardId": "trailReward_sidestory_6_5",
+          "starCount": 48,
+          "rewardItem": {
+            "id": "furni_dropS009_etudeOp10No12_01",
+            "count": 1,
+            "type": "FURN"
+          }
+        },
+        {
+          "trailRewardId": "trailReward_sidestory_6_6",
+          "starCount": 56,
+          "rewardItem": {
+            "id": "avatar_activity_MN",
+            "count": 1,
+            "type": "PLAYER_AVATAR"
+          }
+        }
+      ],
+      "stageList": [
+        "act13d5_01",
+        "act13d5_02",
+        "act13d5_03",
+        "act13d5_04",
+        "act13d5_05",
+        "act13d5_06",
+        "act13d5_07",
+        "act13d5_08",
+        "act13d5_ex01",
+        "act13d5_ex01#f#",
+        "act13d5_ex02",
+        "act13d5_ex02#f#",
+        "act13d5_ex03",
+        "act13d5_ex03#f#",
+        "act13d5_ex04",
+        "act13d5_ex04#f#",
+        "act13d5_ex05",
+        "act13d5_ex05#f#",
+        "act13d5_ex06",
+        "act13d5_ex06#f#",
+        "act13d5_ex07",
+        "act13d5_ex07#f#",
+        "act13d5_ex08",
+        "act13d5_ex08#f#"
+      ],
+      "relatedChar": "char_265_sophia",
+      "relatedFullPotentialItemId": null,
+      "themeColor": "bb9b67",
+      "fullPotentialItemId": "voucher_full_sophia"
     }
   },
   "stageList": {
@@ -18317,7 +18732,7 @@
       "zoneId": "permanent_sidestory_3_zone2",
       "code": "CB-EX5",
       "name": "十字路口",
-      "description": "<@lv.fs>附加条件：</>\\n术士干员部署费用增加至3倍",
+      "description": "<@lv.fs>附加条件：</>\\n术师干员部署费用增加至3倍",
       "hardStagedId": null,
       "dangerLevel": "精英2 LV.20",
       "dangerPoint": -1.0,
@@ -39574,6 +39989,5291 @@
       "startButtonOverrideId": null,
       "isStagePatch": false,
       "mainStageId": "act13side_s01"
+    },
+    "act14side_tr01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_01-10",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act14side_tr01",
+      "levelId": "Activities/ACT14SIDE/level_act14side_tr01",
+      "zoneId": "permanent_sidestory_11_zone1",
+      "code": "BI-TR-1",
+      "name": "小心地滑",
+      "description": "冰块之间的摩擦系数非常小，让你的对手切身体会这一点。\\n<@lv.item><冰面></>对其上的单位施加“寒冷”，增加被冻结敌人在其上的位移距离\\n<@lv.item><降雪></>周期性对所有单位施加寒冷",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_BI",
+      "canPractice": false,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": -1,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": true,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 3,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act14side_tr01"
+    },
+    "act14side_01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act14side_tr01",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act14side_01",
+      "levelId": "Activities/ACT14SIDE/level_act14side_01",
+      "zoneId": "permanent_sidestory_11_zone1",
+      "code": "BI-1",
+      "name": "不欢而聚",
+      "description": "山野间的爪兽，树影中的无人机，雪地上的战士。可以肯定他们不是为参加某种野餐聚会而来的。\\n<@lv.item><冰面></>对其上的单位施加“寒冷”，增加被冻结敌人在其上的位移距离\\n<@lv.item>",
+      "hardStagedId": null,
+      "dangerLevel": "LV.20",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_BI",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 9,
+      "apFailReturn": 8,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 90,
+      "goldGain": 90,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 8,
+      "completeFavor": 9,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "30062",
+            "dropType": 2
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 2,
+            "type": "MATERIAL",
+            "id": "30062",
+            "dropType": 2
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30021",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30051",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "3003",
+            "dropType": 4
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act14side_tr01"
+    },
+    "act14side_st01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act14side_01",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act14side_st01",
+      "levelId": null,
+      "zoneId": "permanent_sidestory_11_zone1",
+      "code": "BI-ST-1",
+      "name": "入乡随俗",
+      "description": "这多少有些盛情难却，但何不就势及时行乐。",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_BI",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": true,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act14side_tr01"
+    },
+    "act14side_02": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act14side_st01",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act14side_02",
+      "levelId": "Activities/ACT14SIDE/level_act14side_02",
+      "zoneId": "permanent_sidestory_11_zone1",
+      "code": "BI-2",
+      "name": "息事宁人",
+      "description": "受冲动情绪驱使的人们往往拒绝沟通，给他们一点冷静下来的空间。\\n<@lv.item><冰面></>对其上的单位施加“寒冷”，增加被冻结敌人在其上的位移距离\\n<@lv.item><降雪></>周期性对所有单位施加寒冷",
+      "hardStagedId": null,
+      "dangerLevel": "LV.35",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_BI",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 9,
+      "apFailReturn": 8,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 90,
+      "goldGain": 90,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 8,
+      "completeFavor": 9,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "30042",
+            "dropType": 2
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 2,
+            "type": "MATERIAL",
+            "id": "30042",
+            "dropType": 2
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30021",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30051",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "3003",
+            "dropType": 4
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act14side_tr01"
+    },
+    "act14side_03": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act14side_02",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act14side_03",
+      "levelId": "Activities/ACT14SIDE/level_act14side_03",
+      "zoneId": "permanent_sidestory_11_zone1",
+      "code": "BI-3",
+      "name": "人心难测",
+      "description": "不同于一根筋的爪兽，人类为了实现自己的目的会权衡更适合自己的路径。\\n<@lv.item><冰面></>对其上的单位施加“寒冷”，增加被冻结敌人在其上的位移距离\\n<@lv.item><降雪></>周期性对所有单位施加寒冷",
+      "hardStagedId": null,
+      "dangerLevel": "精英1 LV.1",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_BI",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 9,
+      "apFailReturn": 8,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 90,
+      "goldGain": 90,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 8,
+      "completeFavor": 9,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "30032",
+            "dropType": 2
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 1,
+            "type": "MATERIAL",
+            "id": "30032",
+            "dropType": 2
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30021",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30051",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "3003",
+            "dropType": 4
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act14side_tr01"
+    },
+    "act14side_st02": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act14side_03",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act14side_st02",
+      "levelId": null,
+      "zoneId": "permanent_sidestory_11_zone1",
+      "code": "BI-ST-2",
+      "name": "山雪欲来",
+      "description": "现实比传说更可怕，人祸比天灾更难测。",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_BI",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": true,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act14side_tr01"
+    },
+    "act14side_04": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act14side_st02",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act14side_04",
+      "levelId": "Activities/ACT14SIDE/level_act14side_04",
+      "zoneId": "permanent_sidestory_11_zone1",
+      "code": "BI-4",
+      "name": "立雪求道",
+      "description": "在成就自己的道路上没有捷径可走，希瓦艾什家的人无不深知这个道理。\\n<@lv.item><冰面></>对其上的单位施加“寒冷”，增加被冻结敌人在其上的位移距离\\n<@lv.item><降雪></>周期性对所有单位施加寒冷",
+      "hardStagedId": null,
+      "dangerLevel": "精英1 LV.20",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_BI",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 12,
+      "apFailReturn": 11,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 120,
+      "goldGain": 120,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 11,
+      "completeFavor": 12,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "30021",
+            "dropType": 2
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "MATERIAL",
+            "id": "30021",
+            "dropType": 2
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": 4
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "3003",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30012",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30032",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30062",
+            "dropType": 4
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act14side_tr01"
+    },
+    "act14side_tr02": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act14side_04",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act14side_tr02",
+      "levelId": "Activities/ACT14SIDE/level_act14side_tr02",
+      "zoneId": "permanent_sidestory_11_zone1",
+      "code": "BI-TR-2",
+      "name": "用冰之道",
+      "description": "天时、地利、人和，让它们全都站在你这一边。\\n<@lv.item><拐角冰面></>对其上的单位施加“寒冷”，改变被位移敌人的移动方向\\n<@lv.item><刺骨寒风></>降雪时，向特定方向推动所有敌人",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_BI",
+      "canPractice": false,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": -1,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": true,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 3,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act14side_tr01"
+    },
+    "act14side_05": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act14side_tr02",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act14side_05",
+      "levelId": "Activities/ACT14SIDE/level_act14side_05",
+      "zoneId": "permanent_sidestory_11_zone1",
+      "code": "BI-5",
+      "name": "猎场",
+      "description": "老练的猎手不会只依赖纯粹的力量制胜，就连他们在狩猎中流下的鲜血都会成为致命的陷阱。\\n<@lv.item><拐角冰面></>对其上的单位施加“寒冷”，改变被位移敌人的移动方向\\n<@lv.item><刺骨寒风></>降雪时，向特定方向推动所有敌人",
+      "hardStagedId": null,
+      "dangerLevel": "精英1 LV.30",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_BI",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 12,
+      "apFailReturn": 11,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 120,
+      "goldGain": 120,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 11,
+      "completeFavor": 12,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "30051",
+            "dropType": 2
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "MATERIAL",
+            "id": "30051",
+            "dropType": 2
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30021",
+            "dropType": 4
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": 4
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30051",
+            "dropType": 4
+          },
+          {
+            "occPercent": 3,
+            "type": "CARD_EXP",
+            "id": "2001",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30022",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30042",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30052",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "CARD_EXP",
+            "id": "2002",
+            "dropType": 4
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act14side_tr01"
+    },
+    "act14side_st03": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act14side_05",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act14side_st03",
+      "levelId": null,
+      "zoneId": "permanent_sidestory_11_zone1",
+      "code": "BI-ST-3",
+      "name": "一着不慎",
+      "description": "许多人都以为，自己只输在某一手败着上，却浑然不知，之前的每一步都在把自己逼向败着。",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_BI",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": true,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act14side_tr01"
+    },
+    "act14side_06": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act14side_st03",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act14side_06",
+      "levelId": "Activities/ACT14SIDE/level_act14side_06",
+      "zoneId": "permanent_sidestory_11_zone1",
+      "code": "BI-6",
+      "name": "歧路",
+      "description": "并非所有人都愿意走在他人为自己铺设的平坦道路上。\\n<@lv.item><拐角冰面></>对其上的单位施加“寒冷”，改变被位移敌人的移动方向\\n<@lv.item><刺骨寒风></>降雪时，向特定方向推动所有敌人",
+      "hardStagedId": null,
+      "dangerLevel": "精英1 LV.40",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_BI",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 14,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 14,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "31023",
+            "dropType": 2
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "31023",
+            "dropType": 2
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "3003",
+            "dropType": 4
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30012",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30032",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30062",
+            "dropType": 4
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act14side_tr01"
+    },
+    "act14side_07": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act14side_06",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act14side_07",
+      "levelId": "Activities/ACT14SIDE/level_act14side_07",
+      "zoneId": "permanent_sidestory_11_zone1",
+      "code": "BI-7",
+      "name": "破冰",
+      "description": "有人渴望制造永恒的凝滞，就会有人渴望打破现状。\\n<@lv.item><冰面></>对其上的单位施加“寒冷”，增加被冻结敌人在其上的位移距离\\n<@lv.item><降雪></>周期性对所有单位施加寒冷",
+      "hardStagedId": null,
+      "dangerLevel": "精英1 LV.55",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_BI",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 18,
+      "apFailReturn": 17,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 180,
+      "goldGain": 180,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 17,
+      "completeFavor": 18,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "30033",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30034",
+            "dropType": 3
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30033",
+            "dropType": 2
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30034",
+            "dropType": 3
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": 4
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30051",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30032",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30052",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30033",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30053",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30093",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "31033",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30103",
+            "dropType": 4
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act14side_tr01"
+    },
+    "act14side_08": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act14side_07",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act14side_08",
+      "levelId": "Activities/ACT14SIDE/level_act14side_08",
+      "zoneId": "permanent_sidestory_11_zone1",
+      "code": "BI-8",
+      "name": "将军",
+      "description": "在决定胜负的一手中毫不留情地喊出这个词并使出杀手锏，这是一种尊重。\\n<@lv.item><冰面></>对其上的单位施加“寒冷”，增加被冻结敌人在其上的位移距离\\n<@lv.item><降雪></>周期性对所有单位施加寒冷",
+      "hardStagedId": null,
+      "dangerLevel": "精英1 LV.70",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_BI",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 18,
+      "apFailReturn": 17,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 180,
+      "goldGain": 180,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 17,
+      "completeFavor": 18,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "30093",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30094",
+            "dropType": 3
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30093",
+            "dropType": 2
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30094",
+            "dropType": 3
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": 4
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30012",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30062",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30013",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30063",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30073",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "31013",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "3003",
+            "dropType": 4
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act14side_tr01"
+    },
+    "act14side_st04": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act14side_08",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act14side_st04",
+      "levelId": null,
+      "zoneId": "permanent_sidestory_11_zone1",
+      "code": "BI-ST-4",
+      "name": "封盘",
+      "description": "人命不是棋子，不必为分胜负而不死不休，你向他提供了接受这一提议的机会。",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_BI",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": true,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act14side_tr01"
+    },
+    "act14side_ex01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act14side_08",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act14side_ex01",
+      "levelId": "Activities/ACT14SIDE/level_act14side_ex01",
+      "zoneId": "permanent_sidestory_11_zone2",
+      "code": "BI-EX-1",
+      "name": "孤兵",
+      "description": "你受邀参与一场模拟围猎“山雪鬼”的演习，但其中显然掺杂了一些对手的个人兴趣。\\n<@lv.item><冰面></>对其上的单位施加“寒冷”，增加被冻结敌人在其上的位移距离\\n<@lv.item><降雪></>周期性对所有单位施加寒冷",
+      "hardStagedId": "act14side_ex01#f#",
+      "dangerLevel": "精英1 LV.40",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_BI",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 10,
+      "apFailReturn": 9,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 9,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act14side_ex01"
+    },
+    "act14side_ex01#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act14side_ex01",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act14side_ex01#f#",
+      "levelId": "Activities/ACT14SIDE/level_act14side_ex01",
+      "zoneId": "permanent_sidestory_11_zone2",
+      "code": "BI-EX-1",
+      "name": "孤兵",
+      "description": "<@lv.fs>附加条件：</>\\n冰原猎人队长的攻击力提升，攻击速度降低",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_BI",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 10,
+      "apFailReturn": 5,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 5,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act14side_ex01"
+    },
+    "act14side_ex02": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act14side_ex01",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act14side_ex02",
+      "levelId": "Activities/ACT14SIDE/level_act14side_ex02",
+      "zoneId": "permanent_sidestory_11_zone2",
+      "code": "BI-EX-2",
+      "name": "过度扩张",
+      "description": "局势的风向与你最初的想象或许有一些小小的区别，但这种小把戏瞒不过你。\\n<@lv.item><冰面></>对其上的单位施加“寒冷”，增加被冻结敌人在其上的位移距离\\n<@lv.item><刺骨寒风></>降雪时，向特定方向推动所有敌人",
+      "hardStagedId": "act14side_ex02#f#",
+      "dangerLevel": "精英1 LV.55",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_BI",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 10,
+      "apFailReturn": 9,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 9,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act14side_ex01"
+    },
+    "act14side_ex02#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act14side_ex02",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act14side_ex02#f#",
+      "levelId": "Activities/ACT14SIDE/level_act14side_ex02",
+      "zoneId": "permanent_sidestory_11_zone2",
+      "code": "BI-EX-2",
+      "name": "过度扩张",
+      "description": "<@lv.fs>附加条件：</>\\n冰原御法者被击倒时的范围伤害大幅提升",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_BI",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 10,
+      "apFailReturn": 5,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 5,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act14side_ex01"
+    },
+    "act14side_ex03": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act14side_ex02",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act14side_ex03",
+      "levelId": "Activities/ACT14SIDE/level_act14side_ex03",
+      "zoneId": "permanent_sidestory_11_zone2",
+      "code": "BI-EX-3",
+      "name": "吃过路兵",
+      "description": "弃兵的意义在于用利益干扰对手的布置，并借机打开局面。识破意图，并将其化作单纯的优势。\\n<@lv.item><冰面></>对其上的单位施加“寒冷”，增加被冻结敌人在其上的位移距离\\n<@lv.item><刺骨寒风></>降雪时，向特定方向推动所有敌人",
+      "hardStagedId": "act14side_ex03#f#",
+      "dangerLevel": "精英1 LV.55",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_BI",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 14,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 14,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act14side_ex01"
+    },
+    "act14side_ex03#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act14side_ex03",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act14side_ex03#f#",
+      "levelId": "Activities/ACT14SIDE/level_act14side_ex03",
+      "zoneId": "permanent_sidestory_11_zone2",
+      "code": "BI-EX-3",
+      "name": "吃过路兵",
+      "description": "<@lv.fs>附加条件：</>\\n所有敌人的攻击速度提升",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_BI",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 7,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 7,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act14side_ex01"
+    },
+    "act14side_ex04": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act14side_ex03",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act14side_ex04",
+      "levelId": "Activities/ACT14SIDE/level_act14side_ex04",
+      "zoneId": "permanent_sidestory_11_zone2",
+      "code": "BI-EX-4",
+      "name": "叠兵",
+      "description": "这种结构相当坚实，或者说......笨重。试着在对手的攻势真正产生威胁之前，化解它。\\n<@lv.item><冰面></>对其上的单位施加“寒冷”，增加被冻结敌人在其上的位移距离\\n<@lv.item><刺骨寒风></>降雪时，向特定方向推动所有敌人",
+      "hardStagedId": "act14side_ex04#f#",
+      "dangerLevel": "精英2 LV.1",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_BI",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 14,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 14,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act14side_ex01"
+    },
+    "act14side_ex04#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act14side_ex04",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act14side_ex04#f#",
+      "levelId": "Activities/ACT14SIDE/level_act14side_ex04",
+      "zoneId": "permanent_sidestory_11_zone2",
+      "code": "BI-EX-4",
+      "name": "叠兵",
+      "description": "<@lv.fs>附加条件：</>\\n冰原术师队长的重量增加，生命值提升，且免疫冻结",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_BI",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 7,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 7,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act14side_ex01"
+    },
+    "act14side_ex05": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act14side_ex04",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act14side_ex05",
+      "levelId": "Activities/ACT14SIDE/level_act14side_ex05",
+      "zoneId": "permanent_sidestory_11_zone2",
+      "code": "BI-EX-5",
+      "name": "闪将",
+      "description": "看似漫不经心的虚招之中早已暗藏杀机，别眨眼，对手把棋子从眼前移开的瞬间正意味着将军。\\n<@lv.item><冰面></>对其上的单位施加“寒冷”，增加被冻结敌人在其上的位移距离\\n<@lv.item><刺骨寒风></>降雪时，向特定方向推动所有敌人",
+      "hardStagedId": "act14side_ex05#f#",
+      "dangerLevel": "精英2 LV.10",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_BI",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 14,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 14,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act14side_ex01"
+    },
+    "act14side_ex05#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act14side_ex05",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act14side_ex05#f#",
+      "levelId": "Activities/ACT14SIDE/level_act14side_ex05",
+      "zoneId": "permanent_sidestory_11_zone2",
+      "code": "BI-EX-5",
+      "name": "闪将",
+      "description": "<@lv.fs>附加条件：</>\\n出现更多的冰原御法者，冰原御法者生命提升",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_BI",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 7,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 7,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act14side_ex01"
+    },
+    "act14side_ex06": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act14side_ex05",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act14side_ex06",
+      "levelId": "Activities/ACT14SIDE/level_act14side_ex06",
+      "zoneId": "permanent_sidestory_11_zone2",
+      "code": "BI-EX-6",
+      "name": "落后兵",
+      "description": "如果在多线攻防中疏于防范，对手的落后兵也会成为令人措手不及的奇兵。\\n<@lv.item><冰面></>对其上的单位施加“寒冷”，增加被冻结敌人在其上的位移距离\\n<@lv.item><拐角冰面></>对其上的单位施加“寒冷”，改变被位移敌人的移动方向",
+      "hardStagedId": "act14side_ex06#f#",
+      "dangerLevel": "精英2 LV.20",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_BI",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 14,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 14,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act14side_ex01"
+    },
+    "act14side_ex06#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act14side_ex06",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act14side_ex06#f#",
+      "levelId": "Activities/ACT14SIDE/level_act14side_ex06",
+      "zoneId": "permanent_sidestory_11_zone2",
+      "code": "BI-EX-6",
+      "name": "落后兵",
+      "description": "<@lv.fs>附加条件：</>\\n部署费用回复速度降低",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_BI",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 7,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 7,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act14side_ex01"
+    },
+    "act14side_ex07": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act14side_ex06",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act14side_ex07",
+      "levelId": "Activities/ACT14SIDE/level_act14side_ex07",
+      "zoneId": "permanent_sidestory_11_zone2",
+      "code": "BI-EX-7",
+      "name": "闷杀",
+      "description": "巧妙地诱导和堵截对手的路线，再凌厉的攻势也会在你的设计下逐一消弭。\\n<@lv.item><冰面></>对其上的单位施加“寒冷”，增加被冻结敌人在其上的位移距离\\n<@lv.item><降雪></>周期性对所有单位施加寒冷\\n<@lv.item><障碍物></>部署以后可以阻挡敌人的行进路线",
+      "hardStagedId": "act14side_ex07#f#",
+      "dangerLevel": "精英2 LV.25",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_BI",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 20,
+      "apFailReturn": 19,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 19,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act14side_ex01"
+    },
+    "act14side_ex07#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act14side_ex07",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act14side_ex07#f#",
+      "levelId": "Activities/ACT14SIDE/level_act14side_ex07",
+      "zoneId": "permanent_sidestory_11_zone2",
+      "code": "BI-EX-7",
+      "name": "闷杀",
+      "description": "<@lv.fs>附加条件：</>\\n战场中的8个位置无法部署我方单位",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_BI",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 20,
+      "apFailReturn": 10,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 10,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act14side_ex01"
+    },
+    "act14side_ex08": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act14side_ex07",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act14side_ex08",
+      "levelId": "Activities/ACT14SIDE/level_act14side_ex08",
+      "zoneId": "permanent_sidestory_11_zone2",
+      "code": "BI-EX-8",
+      "name": "后翼弃兵",
+      "description": "对手已经为其最强的棋子打开通路。面对极致的力量与战斗技巧，你将如何还以颜色？\\n<@lv.item><冰面></>对其上的单位施加“寒冷”，增加被冻结敌人在其上的位移距离\\n<@lv.item><降雪></>周期性对所有单位施加寒冷",
+      "hardStagedId": "act14side_ex08#f#",
+      "dangerLevel": "精英2 LV.30",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_BI",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 20,
+      "apFailReturn": 19,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 19,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act14side_ex01"
+    },
+    "act14side_ex08#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act14side_ex08",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act14side_ex08#f#",
+      "levelId": "Activities/ACT14SIDE/level_act14side_ex08",
+      "zoneId": "permanent_sidestory_11_zone2",
+      "code": "BI-EX-8",
+      "name": "后翼弃兵",
+      "description": "<@lv.fs>附加条件：</>\\n锏的【速杀】移动距离和伤害提升，冷却时间降低",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_BI",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 20,
+      "apFailReturn": 10,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 10,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act14side_ex01"
+    },
+    "act15side_st01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_01-10",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act15side_st01",
+      "levelId": null,
+      "zoneId": "permanent_sidestory_12_zone1",
+      "code": "IW-ST-1",
+      "name": "客将至",
+      "description": "客方入蜀，酒已启窖，这是一场注定的相遇。",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_IW_Town",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": true,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act15side_st01"
+    },
+    "act15side_01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act15side_st01",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act15side_01",
+      "levelId": "Activities/ACT15side/level_act15side_01",
+      "zoneId": "permanent_sidestory_12_zone1",
+      "code": "IW-1",
+      "name": "化物",
+      "description": "涂墨为灵，化物成伥，人间弹指千年，那对姐妹总有自己的乐趣。",
+      "hardStagedId": null,
+      "dangerLevel": "LV.20",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_IW_Town",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 9,
+      "apFailReturn": 8,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 90,
+      "goldGain": 90,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 8,
+      "completeFavor": 9,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "30012",
+            "dropType": 2
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "MATERIAL",
+            "id": "30012",
+            "dropType": 2
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30021",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30051",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "3003",
+            "dropType": 4
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act15side_st01"
+    },
+    "act15side_02": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act15side_01",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act15side_02",
+      "levelId": "Activities/ACT15side/level_act15side_02",
+      "zoneId": "permanent_sidestory_12_zone1",
+      "code": "IW-2",
+      "name": "无寻处",
+      "description": "所寻之人，身在云外山间某一峰，还是，竟在自己的梦里？",
+      "hardStagedId": null,
+      "dangerLevel": "LV.35",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_IW_Town",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 9,
+      "apFailReturn": 8,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 90,
+      "goldGain": 90,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 8,
+      "completeFavor": 9,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "30052",
+            "dropType": 2
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 2,
+            "type": "MATERIAL",
+            "id": "30052",
+            "dropType": 2
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30021",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30051",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "3003",
+            "dropType": 4
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act15side_st01"
+    },
+    "act15side_03": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act15side_02",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act15side_03",
+      "levelId": "Activities/ACT15side/level_act15side_03",
+      "zoneId": "permanent_sidestory_12_zone1",
+      "code": "IW-3",
+      "name": "光与影",
+      "description": "先有光还是先有影，真是个无意义的难题。",
+      "hardStagedId": null,
+      "dangerLevel": "精英1 LV.1",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_IW_Town",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 9,
+      "apFailReturn": 8,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 90,
+      "goldGain": 90,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 8,
+      "completeFavor": 9,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "30022",
+            "dropType": 2
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 1,
+            "type": "MATERIAL",
+            "id": "30022",
+            "dropType": 2
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30021",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30051",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "3003",
+            "dropType": 4
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act15side_st01"
+    },
+    "act15side_04": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act15side_03",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act15side_04",
+      "levelId": "Activities/ACT15side/level_act15side_04",
+      "zoneId": "permanent_sidestory_12_zone1",
+      "code": "IW-4",
+      "name": "秉烛",
+      "description": "潜于文明下的巨大阴影，如若复来，自当有人为这天地持灯秉烛。",
+      "hardStagedId": null,
+      "dangerLevel": "精英1 LV.20",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_IW_Town",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 12,
+      "apFailReturn": 11,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 120,
+      "goldGain": 120,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 11,
+      "completeFavor": 12,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": 2
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": 2
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": 4
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "3003",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30012",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30032",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30062",
+            "dropType": 4
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act15side_st01"
+    },
+    "act15side_st02": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act15side_04",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act15side_st02",
+      "levelId": null,
+      "zoneId": "permanent_sidestory_12_zone1",
+      "code": "IW-ST-2",
+      "name": "万物有灵",
+      "description": "白日无梦，也见生灵。",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_IW_Mountain",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": true,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act15side_st01"
+    },
+    "act15side_05": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act15side_st02",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act15side_05",
+      "levelId": "Activities/ACT15side/level_act15side_05",
+      "zoneId": "permanent_sidestory_12_zone1",
+      "code": "IW-5",
+      "name": "货与人",
+      "description": "规矩就是规矩，说不清好或坏。正是曾因此遗恨半生，才要将这规矩接着守下去。",
+      "hardStagedId": null,
+      "dangerLevel": "精英1 LV.30",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_IW_Mountain",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 12,
+      "apFailReturn": 11,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 120,
+      "goldGain": 120,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 11,
+      "completeFavor": 12,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": 2
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": 2
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30021",
+            "dropType": 4
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": 4
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30051",
+            "dropType": 4
+          },
+          {
+            "occPercent": 3,
+            "type": "CARD_EXP",
+            "id": "2001",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30022",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30042",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30052",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "CARD_EXP",
+            "id": "2002",
+            "dropType": 4
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act15side_st01"
+    },
+    "act15side_06": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act15side_05",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act15side_06",
+      "levelId": "Activities/ACT15side/level_act15side_06",
+      "zoneId": "permanent_sidestory_12_zone1",
+      "code": "IW-6",
+      "name": "传说",
+      "description": "消失的山峰、压城的黑云，不可考据的传说是一座城市的魅力，只要有人记得，它便不可断绝。",
+      "hardStagedId": null,
+      "dangerLevel": "精英1 LV.40",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_IW_Mountain",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 18,
+      "apFailReturn": 17,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 180,
+      "goldGain": 180,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 17,
+      "completeFavor": 18,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "30063",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30064",
+            "dropType": 3
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30063",
+            "dropType": 2
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30064",
+            "dropType": 3
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": 4
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30012",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30062",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30013",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30063",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30073",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "31013",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "3003",
+            "dropType": 4
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act15side_st01"
+    },
+    "act15side_07": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act15side_06",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act15side_07",
+      "levelId": "Activities/ACT15side/level_act15side_07",
+      "zoneId": "permanent_sidestory_12_zone1",
+      "code": "IW-7",
+      "name": "乱局",
+      "description": "棋子碰撞，可除了弈手之外，无人知道棋局的真正走向。",
+      "hardStagedId": null,
+      "dangerLevel": "精英1 LV.55",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_IW_Mountain",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 21,
+      "apFailReturn": 20,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 210,
+      "goldGain": 210,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 21,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "30013",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30014",
+            "dropType": 3
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 2,
+            "type": "MATERIAL",
+            "id": "30013",
+            "dropType": 2
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30014",
+            "dropType": 3
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": 4
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30012",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30062",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30013",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30063",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30073",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "31013",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "3003",
+            "dropType": 4
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act15side_st01"
+    },
+    "act15side_08": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act15side_07",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act15side_08",
+      "levelId": "Activities/ACT15side/level_act15side_08",
+      "zoneId": "permanent_sidestory_12_zone1",
+      "code": "IW-8",
+      "name": "执念",
+      "description": "入局者众，人们究竟是受困于棋局，还是自己的执念。",
+      "hardStagedId": null,
+      "dangerLevel": "精英1 LV.70",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_IW_Mountain",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 21,
+      "apFailReturn": 20,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 210,
+      "goldGain": 210,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 21,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "30103",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30104",
+            "dropType": 3
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30103",
+            "dropType": 2
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30104",
+            "dropType": 3
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30021",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "CARD_EXP",
+            "id": "2001",
+            "dropType": 4
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30022",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30042",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "CARD_EXP",
+            "id": "2002",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30023",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30043",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30083",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "31023",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "CARD_EXP",
+            "id": "2003",
+            "dropType": 4
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act15side_st01"
+    },
+    "act15side_09": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act15side_08",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act15side_09",
+      "levelId": "Activities/ACT15side/level_act15side_09",
+      "zoneId": "permanent_sidestory_12_zone1",
+      "code": "IW-9",
+      "name": "岁相",
+      "description": "它正在审视这片土地，忽而怀恋，忽而悲愤，忽而怜悯。\\n<@lv.rem>本次行动中远程干员可部署于近战位</>",
+      "hardStagedId": null,
+      "dangerLevel": "精英2 LV.10",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_IW_Mountain",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 10,
+      "apFailReturn": 9,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 9,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": true,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act15side_st01"
+    },
+    "act15side_st03": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act15side_09",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act15side_st03",
+      "levelId": null,
+      "zoneId": "permanent_sidestory_12_zone1",
+      "code": "IW-ST-3",
+      "name": "再弈",
+      "description": "此局之终，他局之始。既是以天下为棋局，弈手又怎会有止息的时刻？",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_IW_Mountain",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": true,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act15side_st01"
+    },
+    "act15side_ex01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act15side_09",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act15side_ex01",
+      "levelId": "Activities/ACT15side/level_act15side_ex01",
+      "zoneId": "permanent_sidestory_12_zone2",
+      "code": "IW-EX-1",
+      "name": "入蜀",
+      "description": "出灰齐，入尚蜀。只是这山城的欢迎仪式，似乎有些特别。\\n<@lv.rem>本次行动中干员布置不受近远程限制</>",
+      "hardStagedId": "act15side_ex01#f#",
+      "dangerLevel": "精英1 LV.40",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_IW_Town",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 10,
+      "apFailReturn": 9,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 9,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act15side_ex01"
+    },
+    "act15side_ex01#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act15side_ex01",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act15side_ex01#f#",
+      "levelId": "Activities/ACT15side/level_act15side_ex01",
+      "zoneId": "permanent_sidestory_12_zone2",
+      "code": "IW-EX-1",
+      "name": "入蜀",
+      "description": "<@lv.fs>附加条件：</>\\n磨砻被击倒后出现的木制瑞印数量提升",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_IW_Town",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 10,
+      "apFailReturn": 5,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 5,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act15side_ex01"
+    },
+    "act15side_ex02": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act15side_ex01",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act15side_ex02",
+      "levelId": "Activities/ACT15side/level_act15side_ex02",
+      "zoneId": "permanent_sidestory_12_zone2",
+      "code": "IW-EX-2",
+      "name": "蜀道难",
+      "description": "蜀道难，蜀道难。百折回环，高不可攀。",
+      "hardStagedId": "act15side_ex02#f#",
+      "dangerLevel": "精英1 LV.55",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_IW_Town",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 10,
+      "apFailReturn": 9,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 9,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act15side_ex01"
+    },
+    "act15side_ex02#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act15side_ex02",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act15side_ex02#f#",
+      "levelId": "Activities/ACT15side/level_act15side_ex02",
+      "zoneId": "permanent_sidestory_12_zone2",
+      "code": "IW-EX-2",
+      "name": "蜀道难",
+      "description": "<@lv.fs>附加条件：</>\\n敌人的生命值大幅提升（不包括器伥的本体）",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_IW_Town",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 10,
+      "apFailReturn": 5,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 5,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act15side_ex01"
+    },
+    "act15side_ex03": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act15side_ex02",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act15side_ex03",
+      "levelId": "Activities/ACT15side/level_act15side_ex03",
+      "zoneId": "permanent_sidestory_12_zone2",
+      "code": "IW-EX-3",
+      "name": "老店",
+      "description": "文明跃迁，世道变了，这样一座守着老规矩的客栈，无疑会招来麻烦。",
+      "hardStagedId": "act15side_ex03#f#",
+      "dangerLevel": "精英1 LV.55",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_IW_Town",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 14,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 14,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act15side_ex01"
+    },
+    "act15side_ex03#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act15side_ex03",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act15side_ex03#f#",
+      "levelId": "Activities/ACT15side/level_act15side_ex03",
+      "zoneId": "permanent_sidestory_12_zone2",
+      "code": "IW-EX-3",
+      "name": "老店",
+      "description": "<@lv.fs>附加条件：</>\\n击倒器伥的本体所需的伤害次数增加",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_IW_Town",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 7,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 7,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act15side_ex01"
+    },
+    "act15side_ex04": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act15side_ex03",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act15side_ex04",
+      "levelId": "Activities/ACT15side/level_act15side_ex04",
+      "zoneId": "permanent_sidestory_12_zone2",
+      "code": "IW-EX-4",
+      "name": "茶棚",
+      "description": "知府安民，凡挑山客均可在山腰茶棚饮两顿茶水。只是当心，这些杯盏碗碟似乎都是......活物！",
+      "hardStagedId": "act15side_ex04#f#",
+      "dangerLevel": "精英2 LV.1",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_IW_Town",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 14,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 14,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act15side_ex01"
+    },
+    "act15side_ex04#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act15side_ex04",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act15side_ex04#f#",
+      "levelId": "Activities/ACT15side/level_act15side_ex04",
+      "zoneId": "permanent_sidestory_12_zone2",
+      "code": "IW-EX-4",
+      "name": "茶棚",
+      "description": "<@lv.fs>附加条件：</>\\n我方最大生命值下降",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_IW_Town",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 7,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 7,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act15side_ex01"
+    },
+    "act15side_ex05": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act15side_ex04",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act15side_ex05",
+      "levelId": "Activities/ACT15side/level_act15side_ex05",
+      "zoneId": "permanent_sidestory_12_zone2",
+      "code": "IW-EX-5",
+      "name": "梁府",
+      "description": "这一室的飞灯走印，是远客从龙门带来的伴礼，还是山城本地的特产？",
+      "hardStagedId": "act15side_ex05#f#",
+      "dangerLevel": "精英2 LV.10",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_IW_Mountain",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 14,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 14,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act15side_ex01"
+    },
+    "act15side_ex05#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act15side_ex05",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act15side_ex05#f#",
+      "levelId": "Activities/ACT15side/level_act15side_ex05",
+      "zoneId": "permanent_sidestory_12_zone2",
+      "code": "IW-EX-5",
+      "name": "梁府",
+      "description": "<@lv.fs>附加条件：</>\\n战场中的8个位置无法部署我方单位",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_IW_Mountain",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 7,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 7,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act15side_ex01"
+    },
+    "act15side_ex06": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act15side_ex05",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act15side_ex06",
+      "levelId": "Activities/ACT15side/level_act15side_ex06",
+      "zoneId": "permanent_sidestory_12_zone2",
+      "code": "IW-EX-6",
+      "name": "边塞",
+      "description": "亲历过大漠，便再难忘征人望乡，吹角连营的场景。即使身处尚蜀，兵戈杀伐仍会在醉后随风吹入梦来。",
+      "hardStagedId": "act15side_ex06#f#",
+      "dangerLevel": "精英2 LV.20",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_IW_Mountain",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 14,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 14,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act15side_ex01"
+    },
+    "act15side_ex06#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act15side_ex06",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act15side_ex06#f#",
+      "levelId": "Activities/ACT15side/level_act15side_ex06",
+      "zoneId": "permanent_sidestory_12_zone2",
+      "code": "IW-EX-6",
+      "name": "边塞",
+      "description": "<@lv.fs>附加条件：</>\\n近卫与术师的部署费用提升",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_IW_Mountain",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 7,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 7,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act15side_ex01"
+    },
+    "act15side_ex07": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act15side_ex06",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act15side_ex07",
+      "levelId": "Activities/ACT15side/level_act15side_ex07",
+      "zoneId": "permanent_sidestory_12_zone2",
+      "code": "IW-EX-7",
+      "name": "寻日峰",
+      "description": "传说有龙来栖，故而万物生灵。",
+      "hardStagedId": "act15side_ex07#f#",
+      "dangerLevel": "精英2 LV.25",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_IW_Mountain",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 20,
+      "apFailReturn": 19,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 19,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act15side_ex01"
+    },
+    "act15side_ex07#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act15side_ex07",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act15side_ex07#f#",
+      "levelId": "Activities/ACT15side/level_act15side_ex07",
+      "zoneId": "permanent_sidestory_12_zone2",
+      "code": "IW-EX-7",
+      "name": "寻日峰",
+      "description": "<@lv.fs>附加条件：</>\\n出现额外敌人",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_IW_Mountain",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 20,
+      "apFailReturn": 10,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 10,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act15side_ex01"
+    },
+    "act15side_ex08": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act15side_ex07",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act15side_ex08",
+      "levelId": "Activities/ACT15side/level_act15side_ex08",
+      "zoneId": "permanent_sidestory_12_zone2",
+      "code": "IW-EX-8",
+      "name": "忘水坪",
+      "description": "岁相轰鸣，这绝非第一次见它，或惧或惊，皆由心生，直面它，便是直面自己。\\n<@lv.rem>本次行动中远程干员可部署于近战位</>",
+      "hardStagedId": "act15side_ex08#f#",
+      "dangerLevel": "精英2 LV.30",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_IW_Mountain",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 20,
+      "apFailReturn": 19,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 19,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act15side_ex01"
+    },
+    "act15side_ex08#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act15side_ex08",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act15side_ex08#f#",
+      "levelId": "Activities/ACT15side/level_act15side_ex08",
+      "zoneId": "permanent_sidestory_12_zone2",
+      "code": "IW-EX-8",
+      "name": "忘水坪",
+      "description": "<@lv.fs>附加条件：</>\\n击杀磷火所需伤害次数提升",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_IW_Mountain",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 20,
+      "apFailReturn": 10,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 10,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act15side_ex01"
     }
   },
   "ruleData": {
