@@ -24,7 +24,7 @@
         "ling_fusion": { "type": "bool", "displaytext": "Higher Form", "explain": "Ling - Calculate the DPS of a fused \"Higher Form\" summon", "off": true },
         "od_trigger": { "type": "bool", "displaytext": "End Overload Immediately", "explain": "End a skill's Overload immediately when checked", "off": true },
         "melee": { "type": "bool", "displaytext": "Melee attack", "explain": "When checked, use melee attacks", "off": true },
-        "short_mode": { "type": "bool", "displaytext": "Shorter Infinite Skills (180s)", "explain": "Infitite duration skills' duration is calculated as 180s when checked, otherwise 1800s", "off": true },
+        "short_mode": { "type": "bool", "displaytext": "Shorter Infinite Skills (180s)", "explain": "Infinite duration skills' duration is calculated as 180s when checked, otherwise 1800s", "off": true },
         "reed2_fast": { "type": "bool", "displaytext": "Fireballs Detonate Immediately", "explain": "Reed Alter S2 - Fireballs detonate immediately (in ideal circumstances - disregards fireball spin time)", "off": true }
     },
     "cond_info": {
