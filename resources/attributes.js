@@ -1,9 +1,8 @@
-import dpsAnim from "./customdata/dps_anim.json" assert { type: 'json' };
-import dpsSpecialTags from "./customdata/dps_specialtags.json" assert { type: 'json' };
-import characterTable from "./gamedata/excel/character_table.json" assert { type: 'json' };
-import skillTable from "./gamedata/excel/skill_table.json" assert { type: 'json' };
-import uniequipTable from "./gamedata/excel/uniequip_table.json" assert { type: 'json' };
-import battleEquipTable from "./gamedata/excel/battle_equip_table.json" assert { type: 'json' };
+import dpsAnim from "./customdata/dps_anim.json";
+import dpsSpecialTags from "./customdata/dps_specialtags.json";
+import operatorsJson from "../../../data/operators.json";
+import battleEquipTable from "../../../ArknightsGameData/zh_CN/gamedata/excel/battle_equip_table.json";
+import uniequipTable from "../../../ArknightsGameData/zh_CN/gamedata/excel/uniequip_table.json";
 
 // 获取技能特判标记，存放在dps_specialtags.json中
 function checkSpecs(tag, spec) {
@@ -27,10 +26,12 @@ var displayNames = {};
 
 function getTokenAtkHp(charAttr, tokenId, log) {
   var id = charAttr.char.charId;
+  const summoningOperator = operatorsJson[id];
+  const summon = summoningOperator.summons.find((summon) => summon.charId === tokenId);
   let oldChar = {...charAttr.basic};
-  let tokenName = characterTable[tokenId].name;
+  let tokenName = summon.name;
   charAttr.char.charId = tokenId;
-  var token = getAttributes(charAttr.char, log);
+  var token = getAttributes(charAttr.char, log, summoningOperator.charId);
   charAttr.basic.atk = token.basic.atk;
   charAttr.basic.def = token.basic.def;
   charAttr.basic.maxHp = token.basic.maxHp;
@@ -42,7 +43,7 @@ function getTokenAtkHp(charAttr, tokenId, log) {
   if (tokenId == "token_10027_ironmn_pile3") {
     charAttr.basic.atk = oldChar.atk;
     // 加入召唤物技能
-    let skillData = skillTable["sktok_ironmn_pile3"];
+    let skillData = summon.skillData.find((sk) => sk.skillId === "sktok_ironmn_pile3");
     let levelData = skillData.levels[charAttr.char.skillLevel];
     let blackboard = getBlackboard(levelData.blackboard) || {};
     charAttr.buffList["sktok_ironmn_pile3"] = blackboard;
@@ -112,8 +113,8 @@ function getTokenAtkHp(charAttr, tokenId, log) {
 }
 
 function checkChar(char) {
-  let charData = characterTable[char.charId];
-  let skillData = char.skillId ? skillTable[char.skillId] : null;
+  let charData = operatorsJson[char.charId];
+  let skillData = char.skillId ? charData.skillData.find((sk) => sk.skillId === char.skillId) : null;
   // 默认最大属性
   let attr = {  
     phase: charData.phases.length - 1,
@@ -203,8 +204,8 @@ function calculateDps(char, enemy, raidBuff) {
   displayNames["raidBuff"] = "团辅";
 
   let charId = char.charId;
-  let charData = characterTable[charId];
-  let skillData = skillTable[char.skillId];
+  let charData = operatorsJson[charId];
+  let skillData = charData.skillData.find((sk) => sk.skillId === char.skillId);
   let equipData = {};
   if (char.equipId && char.equipId.length > 0) {
     equipData = uniequipTable["equipDict"][char.equipId];
@@ -350,8 +351,8 @@ function calculateDpsSeries(char, enemy, raidBuff, key, series) {
   displayNames["raidBuff"] = "";
 
   let charId = char.charId;
-  let charData = characterTable[charId];
-  let skillData = skillTable[char.skillId];
+  let charData = operatorsJson[charId];
+  let skillData = operatorsJson.skillData.find((sk) => sk.skillId === char.skillId);
   if (char.skillLevel == -1) char.skillLevel = skillData.levels.length - 1;
 
   let levelData = skillData.levels[char.skillLevel];
@@ -2306,7 +2307,7 @@ function calcDurations(isSkill, attackTime, attackSpeed, levelData, buffList, bu
   let prepDuration = 0;
   let startSp = 0;
   let rst = checkResetAttack(skillId, blackboard, options);
-  let subProf = characterTable[charId].subProfessionId;
+  let subProf = operatorsJson[charId].subProfessionId;
 
   log.write("\n**【循环计算】**");
 
@@ -4649,7 +4650,7 @@ function calculateGradDamage(_) { // _ -> args
   var ret = 0;
   var dmg_table = [];
   var _seq = [...Array(_.dur.attackCount).keys()];  // [0, 1, ..., attackCount-1]
-  var subProf = characterTable[_.charId].subProfessionId;
+  var subProf = operatorsJson[_.charId].subProfessionId;
 
   if (subProf == "funnel") {
     // 驭蟹术士
@@ -4838,8 +4839,8 @@ function initBuffFrame() {
   };
 }
 
-function getAttributes(char, log) { //charId, phase = -1, level = -1
-  let charData = characterTable[char.charId];
+function getAttributes(char, log, summoningOperatorId = undefined) { //charId, phase = -1, level = -1
+  let charData = summoningOperatorId == null ? operatorsJson[char.charId] : operatorsJson[summoningOperatorId].summons.find((summon) => summon.charId === char.charId);
   let phaseData = charData.phases[char.phase];
   let attributesKeyFrames = {};
   let buffs = initBuffFrame();
@@ -5074,7 +5075,7 @@ function applyEquip(char, basic, log) {
 
 function calculateAnimation(charId, skillId, isSkill, attackTime, attackSpeed, log) {
   var _fps = 30;
-  var charData = characterTable[charId];
+  var charData = operatorsJson[charId];
   var animData = dpsAnim[charId] || {};
   var animKey = "Attack";
   var attackKey = checkSpecs(charId, "anim_key");
