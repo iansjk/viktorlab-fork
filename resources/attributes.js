@@ -1,8 +1,8 @@
 import dpsAnim from "./customdata/dps_anim.json";
 import dpsSpecialTags from "./customdata/dps_specialtags.json";
-import operatorsJson from "../../../data/operators.json";
-import battleEquipTable from "../../../ArknightsGameData/zh_CN/gamedata/excel/battle_equip_table.json";
-import uniequipTable from "../../../ArknightsGameData/zh_CN/gamedata/excel/uniequip_table.json";
+import operatorsJson from "../../data/operators.json";
+import battleEquipTable from "../../ArknightsGameData/zh_CN/gamedata/excel/battle_equip_table.json";
+import uniequipTable from "../../ArknightsGameData/zh_CN/gamedata/excel/uniequip_table.json";
 
 // 获取技能特判标记，存放在dps_specialtags.json中
 function checkSpecs(tag, spec) {
