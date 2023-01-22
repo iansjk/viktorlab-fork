@@ -2,7 +2,6 @@ import dpsAnim from "./customdata/dps_anim.json";
 import dpsSpecialTags from "./customdata/dps_specialtags.json";
 import operatorsJson from "../../data/operators.json";
 import battleEquipTable from "../../ArknightsGameData/zh_CN/gamedata/excel/battle_equip_table.json";
-import uniequipTable from "../../ArknightsGameData/zh_CN/gamedata/excel/uniequip_table.json";
 
 // 获取技能特判标记，存放在dps_specialtags.json中
 function checkSpecs(tag, spec) {
@@ -125,8 +124,8 @@ function checkChar(char) {
     potentialRank: charData.potentialRanks.length
   };
   // 默认模组
-  let elist = uniequipTable["charEquip"][char.charId];
-  if (elist) {
+  let elist = charData.modules;
+  if (elist.length) {
     attr.equipId = elist[elist.length-1];
     attr.equipLevel = 3;
   }
@@ -208,8 +207,8 @@ function calculateDps(char, enemy, raidBuff) {
   let skillData = charData.skillData.find((sk) => sk.skillId === char.skillId);
   let equipData = {};
   if (char.equipId && char.equipId.length > 0) {
-    equipData = uniequipTable["equipDict"][char.equipId];
-    displayNames[char.equipId] = equipData.uniEquipName;
+    equipData = charData.modules.find((module) => module.moduleId === char.equipId);
+    displayNames[char.equipId] = equipData.moduleName;
   }
   if (char.skillLevel == -1) char.skillLevel = skillData.levels.length - 1;
 
@@ -219,7 +218,7 @@ function calculateDps(char, enemy, raidBuff) {
   console.log(charData.name, levelData.name);
   log.write(`| 角色 | 等级 | 技能 | 模组 |`);
   log.write(`| :--: | :--: | :--: | :--: |`);
-  log.write(`| **${charData.name}**<br>~${charId}~ | 潜能 ${char.potentialRank+1}<br>精英 ${char.phase}, 等级 ${char.level} | **${levelData.name}**<br>等级 ${char.skillLevel+1} | **${equipData.uniEquipName}**<br>等级 ${char.equipLevel} |`);
+  log.write(`| **${charData.name}**<br>~${charId}~ | 潜能 ${char.potentialRank+1}<br>精英 ${char.phase}, 等级 ${char.level} | **${levelData.name}**<br>等级 ${char.skillLevel+1} | **${equipData.moduleName}**<br>等级 ${char.equipLevel} |`);
   log.write('');
   log.write("----");
   displayNames[charId] = charData.name;
