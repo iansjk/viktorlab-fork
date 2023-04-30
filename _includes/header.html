@@ -12,10 +12,10 @@
 <header class="l-layout__header l-header">
   <div class="l-header__body">
     <div class="l-header__logo">
-      <a href="{{ gameHome | default: "/" | relative_url }}">
-          <div style="width:30%; float:left"><img src="/akdata/penguin.gif" alt="{{ site.logo }}"></div>
-          <div style="width:70%; float:left;"><img src="/akdata/logo.png" style="width:100%; margin-top: 5px;"></div>
-  		</a>
+      <a class="d-flex" href="{{ gameHome | default: "/" | relative_url }}">
+          <img src="/akdata/penguin.gif" alt="{{ site.logo }}">
+          <img src="/akdata/logo.jpg">
+        </a>
     </div>
     <div class="l-header__left">
       <ul class="l-navbar">
@@ -25,6 +25,7 @@
       </ul>
     </div>
     <nav class="l-header__navbar">
+      
       <ul class="l-navbar">
       </ul>
     </nav>

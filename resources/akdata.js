@@ -2,17 +2,19 @@ const stringRegex = /<[@\$](.+?)>(.+?)<\/>/g;
 const variableRegex = /{(\-)*(.+?)(?:\:(.+?))?}/g;
 
 let CacheList = null;
-let _use_local = true;
+let _use_local = false;
+let _use_todo_list = true;
 
 const useCache = true;
 const cacheBeginTime = new Date(2019, 12, 10).getTime();
 
 window.AKDATA = {
-  akdata: "230120", // jsdelivr tag version
+  akdata: "230410", // jsdelivr tag version
 
   Data: {},
 
-  new_op: ["char_2024_chyue", "char_4080_lin", "char_4078_bdhkgt", "char_493_firwhl"],
+  new_op: ["char_4087_ines", "char_464_cement", "char_154_morgan", "char_491_humus"],
+  todo_list: [],
 
   professionNames: {
     "PIONEER": "先锋",
@@ -100,6 +102,7 @@ window.AKDATA = {
         let name = paths[i].split('/').pop().replace('.json', '');
         let path = `resources/gamedata/${paths[i]}`;
         let isGamedata = (paths[i].includes("excel") || paths[i].includes("levels"));
+        let isCustomData = (paths[i].includes("customdata") || paths[i].includes("version"));
 
         // mirrors
         let jsdelivr = `https://cdn.jsdelivr.net/gh/xulai1001/akdata@${window.AKDATA.akdata}/` + path;
@@ -108,7 +111,7 @@ window.AKDATA = {
         let aliyun = "https://akdata-site.oss-cn-guangzhou.aliyuncs.com/" + path;
 
         let urlList = [];
-        if (_use_local)
+        if (_use_local || isCustomData)
           urlList = [local];
         else if (isGamedata)
           urlList = [aliyun, github, local];
@@ -175,7 +178,7 @@ window.AKDATA = {
       let data = AKDATA.Data.item_table.items[id];
       text = data.name;
       rarity = data.rarity;
-      if (id == "30145") rarity = "crystal";
+      if (id == "30145" || id == "30155") rarity = "crystal";
     }
     let s = createBadge('item', text, rarity);
     if ( count !== null ) s += createBadge('count', '×' + count);
@@ -280,9 +283,21 @@ window.AKDATA = {
   },
 
   selectChar: function(id) {
-    AKDATA.selChar = id;
     $("#select_char_dialog").modal("hide");
-    if (AKDATA.selectCharCallback) AKDATA.selectCharCallback(id);
+    if (_use_todo_list && AKDATA.todo_list.includes(id)) {
+      let charName = AKDATA.Data.character_table[id].name;
+      pmBase.component.create({
+        type: 'modal',
+        id: "error_dialog",
+        content: "计算结果调整中，敬请期待",
+        width: 600,
+        title: `施工中 - ${charName}`,
+        show: true,
+      });
+    } else {
+      AKDATA.selChar = id;
+      if (AKDATA.selectCharCallback) AKDATA.selectCharCallback(id);
+    }
   },
   selectCharCallback: null,
 

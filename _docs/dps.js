@@ -270,10 +270,15 @@ function load() {
   
 }
 
+window.hashChangedBySelect = false; // 防止重入
+
 window.onhashchange = function () {
-  var charId_hash = window.location.hash.replace(/\#/g, "");
-  //console.log(charId_hash);
-  if (charId_hash.length > 0) selectChar(charId_hash, 0);  
+    var charId_hash = window.location.hash.replace(/\#/g, "");
+    //console.log("hash: ", charId_hash);
+    if (charId_hash.length > 0 && !window.hashChangedBySelect) {
+      selectChar(charId_hash, 0);
+    }
+    setTimeout(() => { window.hashChangedBySelect = false;}, 500);
 }
 
 function selectChar(charId, i) {
@@ -281,7 +286,11 @@ function selectChar(charId, i) {
   if (charId && charId != "-") {
     var name = AKDATA.Data.character_table[charId].name;
     $(`.txt_char:eq(${i})`).text(name);
-    $(`.img_char:eq(${i})`).attr("src", `/akdata/assets/images/char/${charId}.png`);
+    $(`.img_char:eq(${i})`).attr("src", `https://akdata-site.oss-cn-guangzhou.aliyuncs.com/assets/images/char/${charId}.png`);
+    
+    window.hashChangedBySelect = true;
+    setTimeout((x) => { console.log(x); location.hash = "#" + x; }, 500, charId);
+
     updateChar(charId, i);
   }
 }
@@ -291,6 +300,22 @@ function showSelectChar() {
   let index = ~~__this.data("index");
   AKDATA.selectCharCallback = function (id) { selectChar(id, index); }
   AKDATA.showSelectCharDialog(excludeChars, Characters[0] ? Characters[0].charId : null);
+}
+
+function showOptionDialog() {
+  let __this=$(this);
+  let index = ~~__this.data("index");
+  let tag = __this.data("tag");
+  switch (tag) {
+    case "char_dialog":
+      AKDATA.selectCharCallback = function (id) { 
+        Characters[index].options[tag] = id;
+        calculateColumn();
+      }
+      AKDATA.showSelectCharDialog(excludeChars, null);
+      break;
+  }
+
 }
 
 function goto() {
@@ -478,14 +503,6 @@ ${table}
 function setSelectValue(name, index, value) {
   let $e = getElement(name, index);
   $e.val(value);
-  //if ( $e.val() === null ) {
-  //  let last = $e.find('option:last-child').val();
-  //  $e.val( last );
-  //}
-  //if (index > 0) {
-  //  let $prev = getElement(name, index - 1);
-  //  value = Math.min( $e[0].length, $prev.val() );
-  //}
 }
 
 function updateChar(charId, index) {
@@ -519,7 +536,6 @@ function updateChar(charId, index) {
   $skillLevel.html(skillLevelHtml);
   setSelectValue('skilllevel', index, skillLevel);
 
-  updateOptions(charId, index);
   $(`.dps__row-prts td:nth-child(${index+2})`).html(`<a href="http://prts.wiki/w/${charData.name}#.E6.8A.80.E8.83.BD" target="_blank">点击打开</a>`);
 
   // equip
@@ -550,14 +566,17 @@ function updateChar(charId, index) {
     skillId,
     skillLevel,
     equipId,
-    equipLevel
+    equipLevel,
+    options: {}
   };
+  updateOptions(charId, index);
   $phase.change();
 }
 
 function updateOptions(charId, index) {
   let opts = AKDATA.Data.dps_options;
   let charData = AKDATA.Data.character_table[charId];
+  let scroll_evts = [];
   let html = `    
   <div class="form-check">
     <label class="form-check-label" data-toggle="tooltip" data-placement="right" title="${opts.tags['buff'].explain}">
@@ -566,7 +585,10 @@ function updateOptions(charId, index) {
     </label> </div>`;   // 默认计算团辅
     
   if (opts.char[charId]) {
+    let optIndex = 0; // 选项顺序号，用于对象ID
     for (var t of opts.char[charId]) {
+      ++optIndex;
+
       let u = (t.startsWith("cond") ? "cond" : t);  // wildcard cond
       let checked = opts.tags[u].off ? "" : "checked";
       let disabled = (u == "crit" ? "disabled" : "");
@@ -601,20 +623,70 @@ function updateOptions(charId, index) {
           }
         } else tooltip = `触发条件${suffix}`;
       } // if
-      let html_bool = `
-      <div class="form-check">
-        <label class="form-check-label" data-toggle="tooltip" data-placement="right" title="${tooltip}">
-          <input class="form-check-input dps__${t}" type="checkbox" value="" data-index="${index}" ${checked} ${disabled}>
-            ${text}
-        </label> </div>`;
-      html += html_bool;
+
+      switch (opts.tags[u].type) {
+        case "bool":
+          let html_bool = `
+          <div class="form-check">
+            <label class="form-check-label" data-toggle="tooltip" data-placement="right" title="${tooltip}">
+              <input class="form-check-input dps__${t}" type="checkbox" value="" data-index="${index}" ${checked} ${disabled}>
+                ${text}
+            </label> </div>`;
+          html += html_bool;
+          break;
+        case "scroll":
+          let optId = `scr_${index}_${optIndex}`;
+          scroll_evts.push({
+            optId,  // 滚动条ID
+            index,  // 第几排
+            tag: t  // 选项名称
+          }); // 对应 Characters[index].options[tag] = parseInt($(optId).val())
+          let html_scr = pmBase.component.create({
+            type: 'scroll',
+            id: optId,
+            attr: `data-index="${index}" data-tag="${t}"`,
+            label: opts.tags[u].displaytext || "",
+            min: opts.tags[u].min || 0,
+            max: opts.tags[u].max || 3,
+            value: opts.tags[u].value || opts.tags[u].max,
+            step: opts.tags[u].step || 1,
+            style: "width: 40%"
+          });
+          html += html_scr;
+          Characters[index].options[t] = opts.tags[u].value || opts.tags[u].max;
+          break;
+        case "dialog":
+          // 将index和tag保存在data字段，从而在公共的点击事件中定位到具体的Characters[index].options[tag]
+          let html_link = `<a href="#" class="opt_dialog" data-index="${index}" data-tag="${t}">
+                            ${opts.tags[u].displaytext}
+                           </a>`;
+          html += html_link;
+          // 设置选项的默认值
+          Characters[index].options[t] = opts.tags[u].default;
+          break;
+      }
     } // for
   } // if
   $(`.dps__row-option td:nth-child(${index+2})`).html(html);
+  // 绑定scroll事件
+  scroll_evts.forEach(x => {
+    pmBase.component.create({
+      type: 'scroll-event',
+      id: x.optId,
+      callback: function (value) {
+        Characters[index].options[x.tag] = parseInt(value);
+        calculateColumn();
+      }
+    });
+  });
+  // 绑定dialog事件
+  $(".opt_dialog").click(showOptionDialog);
+
   getElement("buff", index).change(calculateColumn);
   if (opts.char[charId])
     for (var t of opts.char[charId]) {
-      getElement(t, index).change(calculateColumn);
+      if (opts.tags[t].type == "bool")
+        getElement(t, index).change(calculateColumn);
     }
   $('[data-toggle="tooltip"]').tooltip(); 
 }
@@ -673,9 +745,8 @@ function chooseLevel() {
     pot_elem.val(max_pot);
 
   Characters[index].level = level;
-  Characters[index].potentialRank = ~~(pot_elem.val());
+  Characters[index].potentialRank = parseInt(pot_elem.val());
   Characters[index].favor = ~~(getElement('favor', index).val());
-
   calculate(index);
 }
 
@@ -696,6 +767,10 @@ function chooseEquip() {
 }
 
 const DamageColors = ['black','blue','limegreen','gold','aqua'];
+
+function _fmt(x) {
+  return isFinite(x) ? Math.round(x) : "-";
+}
 
 function calculate(index) {
   let char = Characters[index];
@@ -718,15 +793,20 @@ function calculate(index) {
 
   // get option info
   let opts = AKDATA.Data.dps_options;
-  char.options = {};
+
   if (opts.char[char.charId]) {
     for (var t of opts.char[char.charId]) {
-      char.options[t] = getElement(t, index).is(':checked');
+      let u = (t.startsWith("cond") ? "cond" : t);  // wildcard cond
+      switch (opts.tags[u].type) {
+        case "bool":
+          char.options[t] = getElement(t, index).is(':checked');
+          break;
+      }
     }
   }
   // 团辅
   char.options["buff"] = getElement("buff", index).is(':checked');
-  //console.log(char.options);
+  console.log(char.options);
 
   // calc dps
   let dps = AKDATA.attributes.calculateDps(char, enemy, raidBuff);
@@ -785,28 +865,28 @@ function calculate(index) {
   // skill dps
   var color = (s.dps == 0) ? DamageColors[2] : DamageColors[s.damageType];  
   if (s.hps == 0 || s.dps == 0) {                       
-    getElement('s_dps', index).html(Math.round(s.dps || s.hps)).css("color", color);
+    getElement('s_dps', index).html(Math.round(s.dps || s.hps || "-")).css("color", color);
   } else {
-    getElement('s_dps', index).html(`DPS: ${Math.round(s.dps)}, HPS: ${Math.round(s.hps)}`).css("color", color);
+    getElement('s_dps', index).html(`DPS: ${_fmt(s.dps)}, HPS: ${_fmt(s.hps)}`).css("color", color);
   }
   // attack dps
   if (s.attackTime > 0) {
-    getElement('a_dps', index).html(Math.round(s.hitDamage / s.attackTime)).css("color", color);
+    getElement('a_dps', index).html(_fmt(s.hitDamage / s.attackTime)).css("color", color);
   } else {
     getElement('a_dps', index).text("瞬发");
   }
   // normal dps
   if (dps.normal.hps == 0 || dps.normal.dps == 0) {
     color = (dps.normal.dps == 0) ? DamageColors[2] : DamageColors[dps.normal.damageType];
-    getElement('n_dps', index).html(Math.round(dps.normal.dps || dps.normal.hps)).css("color", color);
+    getElement('n_dps', index).html(_fmt(dps.normal.dps || dps.normal.hps)).css("color", color);
   } else {
-    getElement('n_dps', index).html(`DPS: ${Math.round(dps.normal.dps)}, HPS: ${Math.round(dps.normal.hps)}`).css("color", color);
+    getElement('n_dps', index).html(`DPS: ${_fmt(dps.normal.dps)}, HPS: ${_fmt(dps.normal.hps)}`).css("color", color);
   }
   // period
   if (dps.normal.dur.stunDuration > 0)
     getElement('period', index).html(`眩晕${dps.normal.dur.stunDuration}s + ${Math.round(dps.normal.dur.duration*100)/100}s + ${Math.round(s.dur.duration*100)/100}s`);
   else if (dps.skill.dur.prepDuration > 0)
-    getElement('period', index).html(`${Math.round(dps.normal.dur.duration*100)/100}s + 准备${dps.skill.dur.prepDuration}s + ${Math.round(s.dur.duration*100)/100}s`);
+    getElement('period', index).html(`${Math.round(dps.normal.dur.duration*100)/100}s + 准备${dps.skill.dur.prepDuration.toFixed(3)}s + ${Math.round(s.dur.duration*100)/100}s`);
   else
     getElement('period', index).html(`${Math.round(dps.normal.dur.duration*100)/100}s + ${Math.round(s.dur.duration*100)/100}s`);
 
@@ -815,6 +895,8 @@ function calculate(index) {
     getElement('period', index).html(`${Math.round(dps.normal.dur.duration*100)/100}s + 持续时间无限(记为${Math.floor(dps.skill.dur.duration)}s)`);
   if (s.dur.tags.includes("instant"))
     getElement('s_dps', index).append(" / 瞬发");
+  if (s.dur.tags.includes("diff"))
+    getElement('s_dps', index).append(` / 持续 ${s.dur.dpsDuration.toFixed(3)}s`);
   if (s.dur.tags.includes("passive")) {
     getElement('s_damage', index).html("-");
     getElement('g_dps', index).html("-");
@@ -869,7 +951,7 @@ function chooseSkill() {
   let max_pot = AKDATA.Data.character_table[Characters[index].charId].maxPotentialLevel;
   if (pot_elem.val() > max_pot)
     pot_elem.val(max_pot);
-  Characters[index].potentialRank = pot_elem.val();
+  Characters[index].potentialRank = parseInt(pot_elem.val());
 
   Characters[index].favor = ~~(getElement('favor', index).val());
   if (index == 0) calculateAll();

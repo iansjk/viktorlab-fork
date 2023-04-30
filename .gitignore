@@ -14,3 +14,5 @@ assets/images/relic/
 resources/gamedata/story
 npm/node_modules
 .history
+a.exe
+*.zip
